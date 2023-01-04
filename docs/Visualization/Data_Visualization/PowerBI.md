@@ -1,5 +1,5 @@
 ---
 title: PowerBI
-icon: 
+icon: code
 article: false
 ---

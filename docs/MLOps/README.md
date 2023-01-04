@@ -1,5 +1,5 @@
 ---
 title: MLOps
-icon: 
+icon: code
 article: false
 ---

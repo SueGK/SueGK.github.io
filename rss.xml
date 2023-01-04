@@ -6,16 +6,1081 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 04 Jan 2023 04:58:07 GMT</pubDate>
-    <lastBuildDate>Wed, 04 Jan 2023 04:58:07 GMT</lastBuildDate>
+    <pubDate>Wed, 04 Jan 2023 05:29:17 GMT</pubDate>
+    <lastBuildDate>Wed, 04 Jan 2023 05:29:17 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>工具</category>
     <category>系统</category>
-    <category>网络</category>
-    <category>服务器</category>
-    <category>自动化</category>
-    <category>健康</category>
+    <item>
+      <title>Tools</title>
+      <link>https://newzone.top/Algorithm/Academics/Conference-Workshop.html</link>
+      <guid>https://newzone.top/Algorithm/Academics/Conference-Workshop.html</guid>
+      <source url="https://newzone.top/rss.xml">Tools</source>
+      <description>Tools AMiner 🌟 AMiner (aminer.org) aims to provide comprehensive search and mining services for researcher social networks. In this system, we focus on: (1) creating a semantic-based profile for each researcher by extracting information from the distributed Web; (2) integrating academic data (e.g., the bibliographic data and the researcher profiles) from multiple sources; (3) accurately searching the heterogeneous network; (4) analyzing and discovering interesting patterns from the built researcher social network. The main search and analysis functions in AMiner include:</description>
+      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Tools</h1>
+<h2> <a href="https://www.aminer.cn/introduction" target="_blank" rel="noopener noreferrer">AMiner</a> 🌟</h2>
+<blockquote>
+<p><a href="http://aminer.org/" target="_blank" rel="noopener noreferrer">AMiner  </a>(<a href="http://aminer.org" target="_blank" rel="noopener noreferrer">aminer.org</a>) aims to provide comprehensive search and mining services for researcher social networks. In this system, we focus on:</p>
+<p>(1) creating a semantic-based profile for each researcher by extracting information from the distributed Web;</p>
+<p>(2) integrating academic data (e.g., the bibliographic data and the researcher profiles) from multiple sources;</p>
+<p>(3) accurately searching the heterogeneous network;</p>
+<p>(4) analyzing and discovering interesting patterns from the built researcher social network. The main search and analysis functions in AMiner include:</p>
+</blockquote>
+<ul>
+<li><a href="http://aminer.org/" target="_blank" rel="noopener noreferrer">Profile search</a>: input a researcher name (e.g.,<a href="http://aminer.org/profile/jie-tang/53f46a3edabfaee43ed05f08" target="_blank" rel="noopener noreferrer">Jie Tang</a>), the system will return the semantic-based profile created for the researcher using information extraction techniques. In the profile page, the extracted and integrated information include: contact information, photo, citation statistics, academic achievement evaluation, (temporal) research interest, educational history, personal social graph, research funding (currently only US and CN), and publication records (including citation information, and the papers are automatically assigned to several different domains).</li>
+<li><a href="http://aminer.org/" target="_blank" rel="noopener noreferrer">Expert finding</a>: input a query (e.g., data mining), the system will return experts on this topic. In addition, the system will suggest the top conference and the top ranked papers on this topic. There are two ranking algorithms, VSM and ACT. The former is similar to the conventional language model and the latter is based on our Author-Conference-Topic (ACT) model. Users can also provide feedbacks to the search results.</li>
+<li><a href="https://cn.aminer.org/ranks/conf" target="_blank" rel="noopener noreferrer">Conference analysis</a>: input a conference name (e.g., KDD), the system returns who are the most active researchers on this conference, and the top-ranked papers.</li>
+<li><a href="https://www.aminer.cn/#" target="_blank" rel="noopener noreferrer">Course search</a>: input a query (e.g., data mining), the system will tell you who are teaching courses relevant to the query.</li>
+<li><a href="https://www.aminer.cn/#" target="_blank" rel="noopener noreferrer">Sub-graph search</a>: input a query (e.g., data mining), the system first tells you what topics are relevant to the query (e.g., five topics "Data mining", "XML Data", "Data Mining / Query Processing", "Web Data / Database design", "Web Mining" are relevant), and then display the most important sub-graph discovered on each relevant topic, augmented with a summary for the sub-graph.</li>
+<li><a href="https://www.aminer.cn/#" target="_blank" rel="noopener noreferrer">Topic browser</a>: based on our Author-Conference-Topic (ACT) model, we automatically discover 200 hot topics from the publications. For each topic, we automatically assign a label to represent its meanings. Furthermore, the browser presents the most active researchers, the most relevant conferences/papers, and the evolution trend of the topic is discovered.</li>
+<li><a href="https://cn.aminer.org/academicstatistics" target="_blank" rel="noopener noreferrer">Academic ranks</a>: we define 8  <a href="http://aminer.org/AcademicStatistics" target="_blank" rel="noopener noreferrer">measures  </a>to evaluate the researcher's achievement. The  <a href="http://aminer.org/AcademicStatistics" target="_blank" rel="noopener noreferrer">measures  </a>include "h -index", "Citation", "Uptrend, "Activity", "Longevity", "Diversity, "Sociability", "New Star". For each measure, we output a ranking list in different domains. For example, one can search who have the highest citation number in the "data mining" domain.</li>
+<li><a href="https://www.aminer.cn/#" target="_blank" rel="noopener noreferrer">User management</a>: one can register as a user to: (1) modify the extracted profile information; (2) provide feedback on the search results; (3) follow researchers in AMiner; (4) create an AMiner page (which can be used to advertise confs/workshops, or recruit students).</li>
+</ul>
+<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/X64Hh3.png" alt="X64Hh3" tabindex="0" loading="lazy"><figcaption>X64Hh3</figcaption></figure>
+<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/HXLtQX.png" alt="HXLtQX" tabindex="0" loading="lazy"><figcaption>HXLtQX</figcaption></figure>
+<p>Keep you updated with state-of-the-art technology is really important in the Machine learning and deep learning field.</p>
+<p>There are some tips from Andre NG on how to read research papers. <a href="https://www.youtube.com/watch?v=733m6qBH-jI" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=733m6qBH-jI</a></p>
+<p>So, where can we find the popular papers?</p>
+<h2> Paperswithcode — <a href="https://paperswithcode.com/sota" target="_blank" rel="noopener noreferrer">Browse State-of-the-Art</a></h2>
+<p>The papers are well categorized so you can follow what Andre said, choose an area of interest like semantic segmentation, and read 15–20 papers to get a good understanding of this field. More importantly, you can find the paper’s code.</p>
+<p><img src="https://miro.medium.com/max/1368/1*tGqJ4kOcwBtYH8qZf5oowQ.png" alt="" loading="lazy"><img src="https://miro.medium.com/max/1048/1*GFD5JPhEEXzp7vwMmKfpjw.png" alt="" loading="lazy"></p>
+<h2> <a href="https://nn.labml.ai/index.html" target="_blank" rel="noopener noreferrer">labml.ai Deep Learning Paper Implementations</a></h2>
+<p>59 Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, …), optimizers (adam, adabelief, …), gans(cyclegan, stylegan2, …), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, … 🧠</p>
+<p>This is a collection of simple PyTorch implementations of neural networks and related algorithms. These implementations are documented with explanations. So you are able to read the paper while understanding how to implement it by Pytorch.</p>
+<figure><img src="https://miro.medium.com/max/1400/1*QI_S19lNihupZgpJj7eMfg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> <a href="http://labml.ai" target="_blank" rel="noopener noreferrer">labml.ai</a> — <a href="https://papers.labml.ai/" target="_blank" rel="noopener noreferrer">Trending Research Papers</a></h2>
+<p>The most popular research papers on social media like Twitter. You can easily find links to download papers, paper summaries, explanation videos, and discussions.</p>
+<p><img src="https://miro.medium.com/max/1400/1*7pr_Bk_Sh38aNgmzOPgb1A.png" alt="" loading="lazy"><img src="https://miro.medium.com/max/1400/1*XJkaJCU4qvndNY1pUV5VZw.png" alt="" loading="lazy"><img src="https://miro.medium.com/max/1400/1*MxxeMhbirfw3CcN9Vs4eRg.png" alt="" loading="lazy"></p>
+<p>The chrome extension is really helpful as well.</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>This extension shows you the following details about research papers:
+✨ 2-line summary
+✨ Availability source code, videos, and discussions
+✨ Popularity on Twitter
+✨ Conferences
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> <a href="https://aman.ai/papers/#noise-contrastive-estimation-a-new-estimation-principle-for-unnormalized-statistical-models" target="_blank" rel="noopener noreferrer">Paper lists made by Aman</a></h2>
+<p>A summary of key papers in Computer Vision, NLP, and Speech recognition.</p>
+<figure><img src="https://miro.medium.com/max/1400/1*BdkxFnegXS0g0sHUNW-Akw.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> <a href="https://deeplearn.org/" target="_blank" rel="noopener noreferrer">Deep Learning Monitor</a></h2>
+<p>Another website where you can find the hot papers on social media.</p>
+<p>The great feature is that you can create some monitors with the keywords related to the topic of interest and check new updates every one or two weeks. Once you find a good paper and you log in Mendeley on this website, you can directly send it to your Mendeley account.</p>
+<p><img src="https://miro.medium.com/max/1400/1*3HtQpm1hSI6ApIAIOl3YvQ.png" alt="" loading="lazy"><img src="https://miro.medium.com/max/1400/1*cz1BAvWn42uztuayw0dm-w.png" alt="" loading="lazy"></p>
+]]></content:encoded>
+      <enclosure url="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/X64Hh3.png" type="image/png"/>
+    </item>
+    <item>
+      <title></title>
+      <link>https://newzone.top/MLOps/AWS/02-Endpoint%20Demo.html</link>
+      <guid>https://newzone.top/MLOps/AWS/02-Endpoint%20Demo.html</guid>
+      <source url="https://newzone.top/rss.xml"></source>
+      <description>title: 02-Endpoint Demo article: false In this demo, we demonstrate how to create an endpoint&amp;nbsp;in the following two ways: AWS Console SDK Then, we will also talk about how to make predictions using an endpoint.</description>
+      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
+      <content:encoded><![CDATA[<hr>
+<h2> title: 02-Endpoint Demo
+article: false</h2>
+<p>In this demo, we demonstrate how to create an endpoint&nbsp;in the following two ways:</p>
+<ul>
+<li><strong>AWS Console</strong></li>
+<li><strong>SDK</strong></li>
+</ul>
+<p>Then, we will also talk about how to make predictions using an endpoint.</p>
+<h3> AWS Console</h3>
+<p>To create the endpoint using the console, we first create an&nbsp;<strong>endpoint configuration.</strong>&nbsp;Then, we’re already basically done. We can then use this endpoint configuration via&nbsp;<strong>create endpoint</strong>. We can confirm the health of our endpoint in the SageMaker Console under 'Endpoints', which is under 'Inference.'</p>
+<p>Quick heads-up: if you’re doing this through a personal account, there’s a limit of 2 instances across your endpoints. Contact AWS support if you want to increase this number.</p>
+<h3> SDK</h3>
+<p>Reminder: all the code demonstrated here can be found in the course&nbsp;<a href="https://github.com/udacity/udacity-nd009t-C2-Developing-ML-Workflow/tree/master" target="_blank" rel="noopener noreferrer">Github repo</a>&nbsp;in&nbsp;<code>Lesson 2, Lecture 2 Demo - Endpoint.ipynb</code>.</p>
+<p>Through the SDK, we will first initiate a&nbsp;<strong>boto3 client</strong>. Then, we obtain the&nbsp;<strong>model image uri</strong>, the&nbsp;<strong>model artifact</strong>, and an&nbsp;<strong>execution role</strong>. This is used to initiate a&nbsp;<code>Model</code>&nbsp;object. Then, we call the&nbsp;<code>deploy</code>&nbsp;method, specifying what kind of instance we want and how many.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>role <span class="token operator">=</span> get_execution_role<span class="token punctuation">(</span><span class="token punctuation">)</span>
+image_uri <span class="token operator">=</span> image_uris<span class="token punctuation">.</span>retrieve<span class="token punctuation">(</span>framework<span class="token operator">=</span><span class="token string">'xgboost'</span><span class="token punctuation">,</span>region<span class="token operator">=</span><span class="token string">'us-west-2'</span><span class="token punctuation">,</span> version<span class="token operator">=</span><span class="token string">'latest'</span><span class="token punctuation">)</span>
+model_data <span class="token operator">=</span> <span class="token string">"s3://sagemaker-us-west-2-565094796913/boston-xgboost-HL/output/xgboost-2021-08-31-23-02-30-970/output/model.tar.gz"</span>
+
+model <span class="token operator">=</span> Model<span class="token punctuation">(</span>image_uri<span class="token operator">=</span>image_uri<span class="token punctuation">,</span> model_data<span class="token operator">=</span>model_data<span class="token punctuation">,</span> role<span class="token operator">=</span>role<span class="token punctuation">)</span>
+
+predictor <span class="token operator">=</span> model<span class="token punctuation">.</span>deploy<span class="token punctuation">(</span>initial_instance_count<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span> instance_type<span class="token operator">=</span><span class="token string">"ml.m5.large"</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Using endpoint through SDK</h3>
+<p>To utilize this endpoint, you can do it programmatically through the SDK's&nbsp;<code>Predictor</code>&nbsp;interface. You pass in the&nbsp;<strong>endpoint name</strong>&nbsp;and your&nbsp;<strong>Boto3 session</strong>. Depending on the type of data, you may need to&nbsp;<strong>serialize</strong>&nbsp;the data.&nbsp;<strong>Serializing</strong>&nbsp;the data breaks the data down in such a way that it can be recreated later. An example of a predictor object and serialization is shown below.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code><span class="token comment">#deploy the model</span>
+deployment <span class="token operator">=</span> model<span class="token punctuation">.</span>deploy<span class="token punctuation">(</span>
+    initial_instance_count<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>
+    instance_type<span class="token operator">=</span><span class="token string">'ml.m5.xlarge'</span><span class="token punctuation">,</span>
+    <span class="token punctuation">)</span>
+<span class="token comment">#get the endpoint name</span>
+endpoint <span class="token operator">=</span> deployment<span class="token punctuation">.</span>endpoint_name
+
+<span class="token comment">#instantiate a Predictor</span>
+predictor <span class="token operator">=</span> sagemaker<span class="token punctuation">.</span>predictor<span class="token punctuation">.</span>Predictor<span class="token punctuation">(</span>
+    endpoint<span class="token punctuation">,</span>
+    sagemaker_session<span class="token operator">=</span>sagemaker<span class="token punctuation">.</span>Session<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">)</span>
+
+<span class="token comment">#prepare one image for prediction</span>
+predictor<span class="token punctuation">.</span>serializer <span class="token operator">=</span> IdentitySerializer<span class="token punctuation">(</span><span class="token string">"image/png"</span><span class="token punctuation">)</span>
+<span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"test_image.png"</span><span class="token punctuation">,</span> <span class="token string">"rb"</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
+    payload <span class="token operator">=</span> f<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment">#use the predictor to make a prediction</span>
+inference <span class="token operator">=</span> predictor<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>payload<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Make sure you delete the endpoint and other instances once you complete the demo to avoid cost!</h3>
+]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://newzone.top/MLOps/AWS/02-Endpoint.html</link>
+      <guid>https://newzone.top/MLOps/AWS/02-Endpoint.html</guid>
+      <source url="https://newzone.top/rss.xml"></source>
+      <description>title: 02-Endpoint article: false RESTful API jHkgox An&amp;nbsp;interface&amp;nbsp;is a shared methodology through which you can interact with different objects in computing. An&amp;nbsp;Application Programming Interface (API)&amp;nbsp;is an interface between a user and a backend of an application. A&amp;nbsp;RESTful API&amp;nbsp;is an API that follows specific architectural boundaries, which is called the REST architectural style.</description>
+      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
+      <content:encoded><![CDATA[<hr>
+<h2> title: 02-Endpoint
+article: false</h2>
+<h3> RESTful API</h3>
+<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/jHkgox.png" alt="jHkgox" tabindex="0" loading="lazy"><figcaption>jHkgox</figcaption></figure>
+<p>An&nbsp;<strong>interface</strong>&nbsp;is a shared methodology through which you can interact with different objects in computing. An&nbsp;<strong>Application Programming Interface (API)</strong>&nbsp;is an interface between a user and a backend of an application. A&nbsp;<strong>RESTful API</strong>&nbsp;is an API that follows specific architectural boundaries, which is called the REST architectural style.</p>
+<p>4 HTTP operations that are supported are:</p>
+<ul>
+<li>GET - Used to retrieve resources</li>
+<li>PUT - Used to update existing resources</li>
+<li>POST - Used to create a new resource</li>
+<li>DELETE - Used to delete a resource</li>
+</ul>
+<h3> Endpoint</h3>
+<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/Ayfe3b.png" alt="Ayfe3b" tabindex="0" loading="lazy"><figcaption>Ayfe3b</figcaption></figure>
+<p>In SageMaker, an&nbsp;<strong>endpoint</strong>&nbsp;is an interface to a model in production. The endpoint allows us to send user data to the model and receives predictions back from the model-based upon that user data.</p>
+<p>SageMaker endpoints support the POST definition. Within this POST definition, you can provide a sample that you wish to be processed by your model. The POST request is asking for the ‘creation’ of inference.</p>
+<p>The configuration for an endpoint includes:</p>
+<ul>
+<li>A model artifact stored in S3</li>
+<li>A configuration for how data is formatted</li>
+<li>Metadata (Version data/Tags)</li>
+<li>Specified computing resources. (Machine type and # of machines)</li>
+</ul>
+<h3> Deploying on AWS</h3>
+<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/XPhgWk.png" alt="XPhgWk" tabindex="0" loading="lazy"><figcaption>XPhgWk</figcaption></figure>
+<p><strong>Production</strong>&nbsp;is a general term used to describe the stage of ML development when your trained model is evaluated against new data.&nbsp;<strong>Deployment</strong>&nbsp;is the practice of configuring and establishing computing resources to serve your model on a wider scale.</p>
+<p><strong>Multi-Availablity Zone (Multi-AZ) Deployment</strong>&nbsp;is deploying the same endpoint on different machines that are geographically isolated from each other. This increases the&nbsp;<strong>availability</strong>&nbsp;of your endpoint.</p>
+<p><strong>Autoscaling</strong>&nbsp;is the configuration of additional machines to serve your endpoint to meet demand. Enabling autoscaling increases the&nbsp;<strong>scalability</strong>&nbsp;of your endpoint. This is also sometimes referred to as&nbsp;<strong>elasticity</strong>.</p>
+<p>Availability and scalability are possible in AWS because model artifacts that are generated during training jobs are stored in S3. This simple, secure storage allows AWS to copy what is necessary across machines as needed.</p>
+<h3> Endpoint Configuration Requirements</h3>
+<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/804vfd.png" alt="804vfd" tabindex="0" loading="lazy"><figcaption>804vfd</figcaption></figure>
+<h3> [[02-Endpoint Demo]]</h3>
+<h3> New Terms</h3>
+<ul>
+<li><strong>Interface -</strong>&nbsp;A shared methodology through which you can interact with different objects in computing.</li>
+<li><strong>API -</strong>&nbsp;An interface between a user and a backend of an application.</li>
+<li><strong>RESTful API -</strong>&nbsp;An API that utilizes the REST framework.</li>
+<li><strong>Endpoint</strong>&nbsp;- A model in production in SageMaker</li>
+<li><strong>Production</strong>&nbsp;- The stage when a trained model is evaluated against new data.</li>
+<li><strong>Deployment -</strong>&nbsp;The practice of configuring and establishing computing resources to serve your model on a wider scale.</li>
+<li><strong>Multi-Availablity Zone (Multi-AZ) Deployment</strong>&nbsp;- The deployment of the same resources on different machines that are geographically isolated from each other.</li>
+<li><strong>Availability -</strong>&nbsp;Redundancy that ensures the availability of resources</li>
+<li><strong>Autoscaling</strong>&nbsp;- The deployment of new resources to meet demand</li>
+<li><strong>Scalability/Elasticity</strong>&nbsp;- The ability to acquire resources as you need them and release them as you don't.</li>
+</ul>
+<h3> Additional Resources</h3>
+]]></content:encoded>
+      <enclosure url="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/jHkgox.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Batch Transform Demo</title>
+      <link>https://newzone.top/MLOps/AWS/03-Batch%20Transform.html</link>
+      <guid>https://newzone.top/MLOps/AWS/03-Batch%20Transform.html</guid>
+      <source url="https://newzone.top/rss.xml">Batch Transform Demo</source>
+      <description>title: 03-Batch Transform article: false Batch Transform Use batch transform when you need to do the following: Preprocess datasets to remove noise or bias that interferes with training or inference from your dataset. Get inferences from large datasets. Run inference when you don't need a persistent endpoint. Associate input records with inferences to assist the interpretation of results.</description>
+      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
+      <content:encoded><![CDATA[<hr>
+<h2> title: 03-Batch Transform
+article: false</h2>
+<h3> Batch Transform</h3>
+<p>Use batch transform when you need to do the following:</p>
+<ul>
+<li>Preprocess datasets to remove noise or bias that interferes with training or inference from your dataset.</li>
+<li>Get inferences from large datasets.</li>
+<li>Run inference when you don't need a persistent endpoint.</li>
+<li>Associate input records with inferences to assist the interpretation of results.</li>
+</ul>
+<p><strong>Batch Transform</strong>&nbsp;is a compute job that performs inference on a dataset. To invoke Batch Transform, you will need the following:</p>
+<ul>
+<li>Input path in S3 to the bucket containing the datasets.</li>
+<li>Output path in S3 for the result of the inference.</li>
+<li>Description of computing resources</li>
+<li>S3 URI of the model artifact.</li>
+</ul>
+<p><strong>A Batch Transformation job is only possible on models created through the AWS Console or through the “CreateModel” operation on the CLI or SDK.</strong></p>
+<p>This differs from an endpoint in that endpoints service individual user requests for inference over time.</p>
+<h3> Batch Transform (in parallel)</h3>
+<p>The size of data can be a bottleneck for a transform job. By default, a separate compute resource will be spun up for each individual file in the S3 bucket that you specify. If you wish to split the size of the job even further, you can set the&nbsp;<code>SplitType</code>&nbsp;parameter to&nbsp;<code>"Line"</code>. To assemble these split jobs back to a single output file, set <code>AssembleWith</code>&nbsp;parameters to&nbsp;<code>"Line"</code>.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code><span class="token keyword">import</span> boto3
+client <span class="token operator">=</span> boto3<span class="token punctuation">.</span>client<span class="token punctuation">(</span>‘sagemaker’<span class="token punctuation">)</span>
+response <span class="token operator">=</span> client<span class="token punctuation">.</span>create_transform_job<span class="token punctuation">(</span>
+    TransformJobName<span class="token operator">=</span>‘my_job’<span class="token punctuation">,</span>
+    ModelName<span class="token operator">=</span>‘target_model_for_inference’<span class="token punctuation">,</span>
+    TransformInput<span class="token operator">=</span><span class="token punctuation">{</span>
+        ‘DataSource’<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            ‘S3DataSource’<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            ‘S3DataType’<span class="token punctuation">:</span> ‘S3Prefix’<span class="token punctuation">,</span>
+            ‘S3Uri’<span class="token punctuation">:</span> ‘s3<span class="token punctuation">:</span><span class="token operator">//</span>mybucket<span class="token operator">/</span>inputfolder<span class="token operator">/</span>’
+         <span class="token punctuation">}</span>
+     <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    ‘SplitType’<span class="token punctuation">:</span> ‘Line’
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    TransformInput<span class="token operator">=</span><span class="token punctuation">{</span>
+        ‘S3OutputPath’<span class="token punctuation">:</span> ‘s3<span class="token punctuation">:</span><span class="token operator">//</span>mybucket<span class="token operator">/</span>outputpath’<span class="token punctuation">,</span>
+        ‘AssembleWith’<span class="token punctuation">:</span> ‘Line’
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    TransformResources<span class="token operator">=</span><span class="token punctuation">{</span>
+    'InstanceType’<span class="token punctuation">:</span> ‘ml<span class="token punctuation">.</span>m4<span class="token punctuation">.</span>xlarge’<span class="token punctuation">,</span>
+    ‘InstanceCount’<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> New Terms</h3>
+<ul>
+<li><strong>Batch Transform</strong>&nbsp;- A compute job that performs inference on a dataset.</li>
+</ul>
+<h3> Additional Resources</h3>
+<ul>
+<li>If you want to learn more about batch transform, we recommend&nbsp;<a href="https://docs.aws.amazon.com/sagemaker/latest/dg/batch-transform.html" target="_blank" rel="noopener noreferrer">Use Batch Transform</a></li>
+</ul>
+<h1> Batch Transform Demo</h1>
+<h2> SDK</h2>
+<p>Programmatically, we do this operation in a similar pattern to what we’re used to. First, we’ll create a&nbsp;<strong>boto3 session.</strong>&nbsp;Then, similar to our operations on endpoints, we create a model object utilizing the i<strong>mage uri</strong>&nbsp;of Amazon’s XGBoost, our&nbsp;<strong>model artifact</strong>, and an&nbsp;<strong>execution role</strong>.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>role <span class="token operator">=</span> get_execution_role<span class="token punctuation">(</span><span class="token punctuation">)</span>
+image_uri <span class="token operator">=</span> image_uris<span class="token punctuation">.</span>retrieve<span class="token punctuation">(</span>framework<span class="token operator">=</span><span class="token string">'xgboost'</span><span class="token punctuation">,</span>region<span class="token operator">=</span><span class="token string">'us-west-2'</span><span class="token punctuation">,</span> version<span class="token operator">=</span><span class="token string">'latest'</span><span class="token punctuation">)</span>
+model_data <span class="token operator">=</span> <span class="token string">"s3://sagemaker-us-west-2-565094796913/boston-xgboost-HL/output/xgboost-2021-08-31-23-02-30-970/output/model.tar.gz"</span>
+
+model <span class="token operator">=</span> Model<span class="token punctuation">(</span>image_uri<span class="token operator">=</span>image_uri<span class="token punctuation">,</span> model_data<span class="token operator">=</span>model_data<span class="token punctuation">,</span> role<span class="token operator">=</span>role<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Using this model object, we create a&nbsp;<strong>transformer</strong>&nbsp;object. This is used to perform operations on data, which in this case would be inference. We specify machine type, # of machines, and the output of where we want our transformations to go.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>transformer <span class="token operator">=</span> model<span class="token punctuation">.</span>transformer<span class="token punctuation">(</span>
+    instance_count <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    instance_type <span class="token operator">=</span> <span class="token string">'ml.m4.xlarge'</span><span class="token punctuation">,</span>
+    output_path <span class="token operator">=</span> batch_transform_output_path
+<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Then, you call the transform method to do the job.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>transformer<span class="token punctuation">.</span>transform<span class="token punctuation">(</span>
+    data<span class="token operator">=</span>data_s3_path<span class="token punctuation">,</span>
+    data_type<span class="token operator">=</span><span class="token string">'S3Prefix'</span><span class="token punctuation">,</span>
+    content_type<span class="token operator">=</span><span class="token string">'text/csv'</span><span class="token punctuation">,</span>
+    split_type<span class="token operator">=</span><span class="token string">'Line'</span>
+<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> AWS Console</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Scenario #1</title>
+      <link>https://newzone.top/code/git/Version%20Control%20scenario.html</link>
+      <guid>https://newzone.top/code/git/Version%20Control%20scenario.html</guid>
+      <source url="https://newzone.top/rss.xml">Scenario #1</source>
+      <description>Scenario #1 Let's walk through the Git commands that go along with each step in the scenario you just observed in the video. Step 1: You have a local version of this repository on your laptop, and to get the latest stable version, you pull from the develop branch. Switch to the develop branch git checkout develop</description>
+      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Scenario #1</h1>
+<p>Let's walk through the Git commands that go along with each step in the scenario you just observed in the video.</p>
+<h4> Step 1: You have a local version of this repository on your laptop, and to get the latest stable version, you pull from the develop branch.</h4>
+<blockquote>
+<h5> Switch to the develop branch</h5>
+<p><code>git checkout develop</code></p>
+</blockquote>
+<blockquote>
+<h5> Pull the latest changes in the develop branch</h5>
+<p><code>git pull</code></p>
+</blockquote>
+<h4> Step 2: When you start working on this demographic feature, you create a new branch called demographic, and start working on your code in this branch.</h4>
+<blockquote>
+<h5> Create and switch to a new branch called demographic from the develop branch</h5>
+<p><code>git checkout -b demographic</code></p>
+</blockquote>
+<blockquote>
+<h5> Work on this new feature and commit as you go</h5>
+<p><code>git commit -m 'added gender recommendations'</code><br>
+<code>git commit -m 'added location specific recommendations'</code><br>
+<code>...</code></p>
+</blockquote>
+<h4> Step 3: However, in the middle of your work, you need to work on another feature. So you commit your changes on this demographic branch, and switch back to the develop branch.</h4>
+<blockquote>
+<h5> Commit your changes before switching</h5>
+<p><code>git commit -m 'refactored demographic gender and location recommendations '</code></p>
+</blockquote>
+<blockquote>
+<h5> Switch to the develop branch</h5>
+<p><code>git checkout develop</code></p>
+</blockquote>
+<h4> Step 4: From this stable develop branch, you create another branch for a new feature called friend_groups.</h4>
+<blockquote>
+<h5> Create and switch to a new branch called friend_groups from the develop branch</h5>
+<p><code>git checkout -b friend_groups</code></p>
+</blockquote>
+<h4> Step 5: After you finish your work on the friend_groups branch, you commit your changes, switch back to the development branch, merge it back to the develop branch, and push this to the remote repository’s develop branch.</h4>
+<blockquote>
+<h5> Commit your changes before switching</h5>
+<p><code>git commit -m 'finalized friend_groups recommendations '</code></p>
+</blockquote>
+<blockquote>
+<h5> Switch to the develop branch</h5>
+<p><code>git checkout develop</code></p>
+</blockquote>
+<blockquote>
+<h5> Merge the friend_groups branch into the develop branch</h5>
+<p><code>git merge --no-ff friends_groups</code></p>
+</blockquote>
+<blockquote>
+<h5> Push to the remote repository</h5>
+<p><code>git push origin develop</code></p>
+</blockquote>
+<h4> Step 6: Now, you can switch back to the demographic branch to continue your progress on that feature.</h4>
+<blockquote>
+<h5> Switch to the demographic branch</h5>
+<p><code>git checkout demographic</code></p>
+</blockquote>
+<h1> Scenario #2</h1>
+<p>Let's walk through the Git commands that go along with each step in the scenario you just observed in the video.</p>
+<h4> Step 1: You check your commit history, seeing messages about the changes you made and how well the code performed.</h4>
+<blockquote>
+<h5> View the log history</h5>
+<p><code>git log</code></p>
+</blockquote>
+<h4> Step 2: The model at this commit seemed to score the highest, so you decide to take a look.</h4>
+<blockquote>
+<h5> Check out a commit</h5>
+<p><code>git checkout bc90f2cbc9dc4e802b46e7a153aa106dc9a88560</code></p>
+</blockquote>
+<p>After inspecting your code, you realize what modifications made it perform well, and use those for your model.</p>
+<h4> Step 3: Now, you're confident merging your changes back into the development branch and pushing the updated recommendation engine.</h4>
+<blockquote>
+<h5> Switch to the develop branch</h5>
+<p><code>git checkout develop</code></p>
+</blockquote>
+<blockquote>
+<h5> Merge the friend_groups branch into the develop branch</h5>
+<p><code>git merge --no-ff friend_groups</code></p>
+</blockquote>
+<blockquote>
+<h5> Push your changes to the remote repository</h5>
+<p><code>git push origin develop</code></p>
+</blockquote>
+<h1> Scenario #3</h1>
+<p>Let's walk through the Git commands that go along with each step in the scenario you just observed in the video.</p>
+<h4> Step 1: Andrew commits his changes to the documentation branch, switches to the development branch, and pulls down the latest changes from the cloud on this development branch, including the change I merged previously for the friends group feature.</h4>
+<blockquote>
+<h5> Commit the changes on the documentation branch</h5>
+<p><code>git commit -m "standardized all docstrings in process.py"</code></p>
+</blockquote>
+<blockquote>
+<h5> Switch to the develop branch</h5>
+<p><code>git checkout develop</code></p>
+</blockquote>
+<blockquote>
+<h5> Pull the latest changes on the develop branch down</h5>
+<p><code>git pull</code></p>
+</blockquote>
+<h4> Step 2: Andrew merges his documentation branch into the develop branch on his local repository, and then pushes his changes up to update the develop branch on the remote repository.</h4>
+<blockquote>
+<h5> Merge the documentation branch into the develop branch</h5>
+<p><code>git merge --no-ff documentation</code></p>
+</blockquote>
+<blockquote>
+<h5> Push the changes up to the remote repository</h5>
+<p><code>git push origin develop</code></p>
+</blockquote>
+<h4> Step 3: After the team reviews your work and Andrew's work, they merge the updates from the development branch into the master branch. Then, they push the changes to the master branch on the remote repository. These changes are now in production.</h4>
+<blockquote>
+<h5> Merge the develop branch into the master branch</h5>
+<p><code>git merge --no-ff develop</code></p>
+</blockquote>
+<blockquote>
+<h5> Push the changes up to the remote repository</h5>
+<p><code>git push origin master</code></p>
+</blockquote>
+<h3> Resources</h3>
+<p>Read&nbsp;<a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="noopener noreferrer">this great article</a>&nbsp;on a successful Git branching strategy.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Undo changes</title>
+      <link>https://newzone.top/code/git/git.html</link>
+      <guid>https://newzone.top/code/git/git.html</guid>
+      <source url="https://newzone.top/rss.xml">Undo changes</source>
+      <description>$ git add -h usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;... -n, --dry-run dry run -v, --verbose be verbose -i, --interactive interactive picking -p, --patch select hunks interactively -e, --edit edit current diff and apply -f, --force allow adding otherwise ignored files -u, --update update tracked files --renormalize renormalize EOL of tracked files (implies -u) -N, --intent-to-add record only the fact that the path will be added later -A, --all add changes from all tracked and untracked files --ignore-removal ignore paths removed in the working tree (same as --no-all) --refresh don't add, only refresh the index --ignore-errors just skip files which cannot be added because of errors --ignore-missing check if - even missing - files are ignored in dry run --chmod (+|-)x override the executable bit of the listed files</description>
+      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="language-console line-numbers-mode" data-ext="console"><pre class="language-console"><code>$ git add -h
+usage: git add [&lt;options&gt;] [--] &lt;pathspec&gt;...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-console line-numbers-mode" data-ext="console"><pre class="language-console"><code>mkdircd() { #Make path for each argument and cd into the last path mkdir -p "$@" &amp;&amp; cd "$_" }
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> git init</h2>
+<p>Use the&nbsp;<code>git init</code>&nbsp;command to create a new, empty repository in the current directory.</p>
+<h3> .Git Directory Contents</h3>
+<p><em>We're about to take a look at the&nbsp;<code>.git</code>&nbsp;directory...it's not vital for this course, though, so don't worry about memorizing anything, it's here if you want to dig a little deeper into how Git works under the hood.</em></p>
+<p>Here's a brief synopsis on each of the items in the&nbsp;<code>.git</code>&nbsp;directory:</p>
+<ul>
+<li>
+<p><strong>config file</strong>&nbsp;- where all&nbsp;<em>project specific</em>&nbsp;configuration settings are stored.<br>
+From the&nbsp;<a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration" target="_blank" rel="noopener noreferrer">Git Book</a>:</p>
+<blockquote>
+<p>Git looks for configuration values in the configuration file in the Git directory (.git/config) of whatever repository you’re currently using. These values are specific to that single repository.</p>
+</blockquote>
+<p>For example, let's say you set that the global configuration for Git uses your personal email address. If you want your work email to be used for a specific project rather than your personal email, that change would be added to this file.</p>
+</li>
+<li>
+<p><strong>description file</strong>&nbsp;- this file is only used by the GitWeb program, so we can ignore it</p>
+</li>
+<li>
+<p><strong>hooks directory</strong>&nbsp;- this is where we could place client-side or server-side scripts that we can use to hook into Git's different lifecycle events</p>
+</li>
+<li>
+<p><strong>info directory</strong>&nbsp;- contains the global excludes file</p>
+</li>
+<li>
+<p><strong>objects directory</strong>&nbsp;- this directory will store all of the commits we make</p>
+</li>
+<li>
+<p><strong>refs directory</strong>&nbsp;- this directory holds pointers to commits (basically the "branches" and "tags")</p>
+</li>
+</ul>
+<p>Remember, other than the "hooks" directory, you shouldn't mess with pretty much any of the content in here. The "hooks" directory&nbsp;<em>can</em>&nbsp;be used to hook into different parts or events of Git's workflow, but that's a more advanced topic that we won't be getting into in this course.</p>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain" target="_blank" rel="noopener noreferrer">Git Internals - Plumbing and Porcelain</a>&nbsp;(advanced - bookmark this and check it out later)</li>
+<li><a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks" target="_blank" rel="noopener noreferrer">Customizing Git - Git Hooks</a></li>
+</ul>
+<h2> git clone</h2>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git clone https://github.com/udacity/course-git-blog-project
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>rename clone repository, you can specify the new directory name as an additional argument:</p>
+<div class="language-console line-numbers-mode" data-ext="console"><pre class="language-console"><code>$ git clone https://github.com/udacity/course-git-blog-project new-name
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>Verify Terminal Location</strong>
+TIP: Now before you clone anything, make sure you are located in the correct directory on the command line. Cloning a project creates a new directory and places the cloned Git repository in it. The problem is that you can't have nested Git repositories. So make sure the terminal's current working directory isn't located in a Git repository. If your current working directory is not in your shell's prompt, type pwd to print the working directory.</p>
+<h3> Git Clone Recap</h3>
+<p>The&nbsp;<code>git clone</code>&nbsp;command is used to create an identical copy of an existing repository.</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git clone &lt;path-to-repository-to-clone&gt;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>This command:</p>
+<ul>
+<li>takes the path to an existing repository</li>
+<li>by default will create a directory with the same name as the repository that's being cloned</li>
+<li>can be given a second argument that will be used as the name of the directory</li>
+<li>will create the new repository inside of the current working directory</li>
+</ul>
+<h3> Helpful Links</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository" target="_blank" rel="noopener noreferrer">Cloning an Existing Repository</a></li>
+<li><a href="https://git-scm.com/docs/git-clone" target="_blank" rel="noopener noreferrer">git clone docs</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/setting-up-a-repository" target="_blank" rel="noopener noreferrer">git clone Tutorial</a></li>
+</ul>
+<h2> git status</h2>
+<p>As you can see in the GIF above, running&nbsp;<code>git status</code>&nbsp;in the&nbsp;<code>course-git-blog-project</code>&nbsp;project produces the following output:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Explanation</h3>
+<p>The output tells us two things:</p>
+<ol>
+<li><code>On branch master</code>&nbsp;– this tells us that Git is on the&nbsp;<code>master</code>&nbsp;branch. You've got a description of a branch on your terms sheet so this is the "master" branch (which is the default branch). We'll be looking more at branches in lesson 5</li>
+<li><code>Your branch is up-to-date with 'origin/master'.</code>&nbsp;– Because&nbsp;<code>git clone</code>&nbsp;was used to copy this repository from another computer, this is telling us if our project is in sync with the one we copied from. We won't be dealing with the project on the other computer, so this line can be ignored.</li>
+<li><code>nothing to commit, working directory clean</code>&nbsp;– this is saying that there are no pending changes.</li>
+</ol>
+<h3> Helpful Links</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Checking-the-Status-of-Your-Files" target="_blank" rel="noopener noreferrer">Checking the Status of Your Files</a></li>
+<li><a href="https://git-scm.com/docs/git-status" target="_blank" rel="noopener noreferrer">git status docs</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-status" target="_blank" rel="noopener noreferrer">git status Tutorial</a></li>
+</ul>
+<h2> git log</h2>
+<p>By&nbsp;<em>default</em>, this command displays:</p>
+<ul>
+<li>the SHA</li>
+<li>the author</li>
+<li>the date</li>
+<li>and the message</li>
+</ul>
+<h3> Navigating The Log</h3>
+<p>If you're not used to a pager on the command line, navigating in&nbsp;<a href="https://en.wikipedia.org/wiki/Less_(Unix)" target="_blank" rel="noopener noreferrer">Less</a>&nbsp;can be a bit odd. Here are some helpful keys:</p>
+<ul>
+<li>to scroll&nbsp;<strong>down</strong>, press
+<ul>
+<li><code>j</code>&nbsp;or&nbsp;&nbsp;<code>↓</code>&nbsp;to move&nbsp;<em>down</em>&nbsp;one line at a time</li>
+<li><code>d</code>&nbsp;to move by half the page screen</li>
+<li><code>f</code>&nbsp;to move by a whole page screen</li>
+</ul>
+</li>
+<li>to scroll&nbsp;<strong>up</strong>, press
+<ul>
+<li><code>k</code>&nbsp;or&nbsp;<code>↑</code>&nbsp;to move <em>up</em> one line at a time</li>
+<li><code>u</code>&nbsp;to move by half the page screen</li>
+<li><code>b</code>&nbsp;to move by a whole page screen</li>
+</ul>
+</li>
+<li>press&nbsp;<code>q</code>&nbsp;to&nbsp;<strong>quit</strong>&nbsp;out of the log (returns to the regular command prompt)</li>
+</ul>
+<p>What could we do here to not waste a lot of space and make the output smaller? We can use a&nbsp;<strong>flag</strong>.</p>
+<p>Flags can be used to alter how a program functions and/or what is displayed. To learn more about command line programs and flags, check out our course&nbsp;<a href="https://www.udacity.com/course/linux-command-line-basics--ud595" target="_blank" rel="noopener noreferrer">Linux Command Line Basics</a>.</p>
+<h2> git log --oneline</h2>
+<p>The&nbsp;<code>git log</code>&nbsp;command has a flag that can be used to alter how it displays the repository's information. That flag is&nbsp;<code>--oneline</code>:
+<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/kmISzO.png" alt="kmISzO" loading="lazy">
+This command:</p>
+<ul>
+<li>lists one commit per line</li>
+<li>shows the first 7 characters of the commit's SHA</li>
+<li>shows the commit's message</li>
+</ul>
+<h2> git log --stat</h2>
+<ul>
+<li>displays the file(s) that have been modified</li>
+<li>displays the number of lines that have been added/removed</li>
+<li>displays a summary line with the total number of modified files and lines that have been added/removed</li>
+</ul>
+<p>PREVIOUSNEXT
+<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/CRzpxt.png" alt="CRzpxt" loading="lazy"></p>
+<h2> git log -p</h2>
+<ul>
+<li>displays the files that have been modified</li>
+<li>displays the location of the lines that have been added/removed</li>
+<li>displays the actual changes that have been made</li>
+</ul>
+<p>The&nbsp;<code>git log</code>&nbsp;command has a flag that can be used to display the actual changes made to a file. The flag is&nbsp;<code>--patch</code>&nbsp;which can be shortened to just&nbsp;<code>-p</code>:</p>
+<h3> Annotated&nbsp;<code>git log -p</code>&nbsp;Output</h3>
+<p>Using the image above, let's do a quick recap of the&nbsp;<code>git log -p</code>&nbsp;output:
+<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/po7H0E.png" alt="po7H0E" loading="lazy"></p>
+<ul>
+<li>🔵 - the file that is being displayed</li>
+<li>🔶 - the hash of the first version of the file and the hash of the second version of the file
+<ul>
+<li>not usually important, so it's safe to ignore</li>
+</ul>
+</li>
+<li>❤️ - the old version and current version of the file</li>
+<li>🔍 - the lines where the file is added and how many lines there are
+<ul>
+<li><code>-15,83</code>&nbsp;indicates that the old version (represented by the&nbsp;<code>-</code>) started at line 15 and that the file had 83 lines</li>
+<li><code>+15,85</code>&nbsp;indicates that the current version (represented by the&nbsp;<code>+</code>) starts at line 15 and that there are now 85 lines...these 85 lines are shown in the patch below</li>
+</ul>
+</li>
+<li>✏️ - the actual changes made in the commit
+<ul>
+<li>lines that are red and start with a minus (<code>-</code>) were in the original version of the file but have been removed by the commit</li>
+<li>lines that are green and start with a plus (<code>+</code>) are new lines that have been added in the commit</li>
+</ul>
+</li>
+</ul>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/docs/git-diff#_generating_patches_with_p" target="_blank" rel="noopener noreferrer">Generating patches with -p</a>&nbsp;from the Git docs</li>
+</ul>
+<h2> git log -p --stat</h2>
+<p>you can combine flags!&nbsp;<code>git log -p --stat</code>will display the stats info above the patch info. Actually, the order doesn't matter;&nbsp;<code>git log --stat -p</code>&nbsp;will also show the stats info above the patch info.</p>
+<h2> git log -p -w</h2>
+<p>show the patch information, but will not highlight lines where&nbsp;_only_whitespace changes have occurred.</p>
+<p>-w
+--ignore-all-space
+Ignore whitespace when comparing lines. This ignores differences even if one line has whitespace where the other line has none.</p>
+<p>--ignore-blank-lines
+Ignore changes whose lines are all blank.</p>
+<h2> git log -p SHA / git show SHA</h2>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git log -p fdf5493
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>By supplying a SHA, the&nbsp;<code>git log -p</code>&nbsp;command will&nbsp;<em>start at that commit</em>! No need to scroll through everything! Keep in mind that it will&nbsp;<em>also</em>&nbsp;show all of the commits that were made&nbsp;<em>prior</em>&nbsp;to the supplied SHA.</p>
+<p><code>$ git show fdf5493</code></p>
+<p>The&nbsp;<code>git show</code>&nbsp;command will show&nbsp;<em>only one commit</em>. So don't get alarmed when you can't find any other commits - it only shows one. The output of the&nbsp;<code>git show</code>&nbsp;command is exactly the same as the&nbsp;<code>git log -p</code>&nbsp;command. So by default,&nbsp;<code>git show</code>&nbsp;displays:</p>
+<ul>
+<li>the commit</li>
+<li>the author</li>
+<li>the date</li>
+<li>the commit message</li>
+<li>the patch information</li>
+</ul>
+<p>However,&nbsp;<code>git show</code>&nbsp;can be combined with most of the other flags we've looked at:</p>
+<ul>
+<li><code>--stat</code>&nbsp;- to show the how many files were changed and the number of lines that were added/removed</li>
+<li><code>-p</code>&nbsp;or&nbsp;<code>--patch</code>&nbsp;- this the default, but if&nbsp;<code>--stat</code>&nbsp;is used, the patch won't display, so pass&nbsp;<code>-p</code>&nbsp;to add it again</li>
+<li><code>-w</code>&nbsp;- to ignore changes to whitespace</li>
+</ul>
+<h2> git log --oneline --graph --all</h2>
+<p>The&nbsp;<code>--graph</code>&nbsp;flag adds the bullets and lines to the leftmost part of the output. This shows the actual&nbsp;<em>branching</em>&nbsp;that's happening. The&nbsp;<code>--all</code>&nbsp;flag is what displays&nbsp;<em>all</em>&nbsp;of the branches in the repository.</p>
+<h2> git add</h2>
+<p>The&nbsp;<code>git add</code>&nbsp;command is used to move files from the Working Directory to the Staging Index.</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git add &lt;file1&gt; &lt;file2&gt; … &lt;fileN&gt;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>This command:</p>
+<ul>
+<li>takes a space-separated list of file names</li>
+<li>alternatively, the period&nbsp;<code>.</code>&nbsp;can be used in place of a list of files to tell Git to add the current directory (and all nested files)</li>
+</ul>
+<blockquote>
+<p>TIP: Did you also notice the helpful text that's located just beneath "Changes to be committed"? It says&nbsp;<code>(use "git rm --cached &lt;file&gt;..." to unstage)</code>&nbsp;This is a hint of what you should do if you accidentally ran&nbsp;<code>git add</code>&nbsp;and gave it the wrong file.</p>
+</blockquote>
+<blockquote>
+<p>As a side note,&nbsp;<code>git rm --cached</code>&nbsp;is not like the shell's&nbsp;<code>rm</code>&nbsp;command.&nbsp;<code>git rm --cached</code>&nbsp;will not destroy any of your work; it just removes it from the Staging Index.</p>
+</blockquote>
+<blockquote>
+<p>Also, this used the word "unstage". The act of moving a file from the Working Directory to the Staging Index is called "staging". If a file has been moved, then it has been "staged". Moving a file from the Staging Index&nbsp;_back_to the Working Directory will unstage the file. If you read documentation that says "stage the following files" that means you should use the&nbsp;<code>git add</code>&nbsp;command.</p>
+</blockquote>
+<h3> Stage Remaining Files</h3>
+<p>The&nbsp;<code>index.html</code>&nbsp;file has been staged. Let's stage the other two files. Now we&nbsp;<em>could</em>&nbsp;run the following:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git add css/app.css js/app.js
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>...but that's a lot of extra typing. We could use a special command line character to help:</p>
+<h3> The Period&nbsp;<code>.</code></h3>
+<p>The period refers to the current directory and can be used as a shortcut to refer to all files and directories (including all nested files and directories!).</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git add css/app.css js/app.js
+# would become
+$ git add .
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>The only thing to be careful of is that you might accidentally include more files than you meant to. Right now we&nbsp;<em>want</em>&nbsp;both&nbsp;<code>css/app.css</code>&nbsp;and&nbsp;<code>js/app.js</code>&nbsp;to be staged, so running this command is fine right now. But let's say you added some images to an&nbsp;<code>img</code>&nbsp;directory but didn't want to stage them just yet. Running&nbsp;<code>git add .</code>&nbsp;<em>will</em>&nbsp;stage them. If you do stage files that you didn't mean to, remember that&nbsp;<code>git status</code>&nbsp;will tell you the command to use to "unstage" files.</p>
+<h2> git commit</h2>
+<p>The&nbsp;<code>git commit</code>&nbsp;command takes files from the Staging Index and saves them in the repository.</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git commit
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>This command:</p>
+<ul>
+<li>will open the code editor that is specified in your configuration
+<ul>
+<li>(check out the Git configuration step from the first lesson to configure your editor)</li>
+</ul>
+</li>
+</ul>
+<p>Inside the code editor:</p>
+<ul>
+<li>a commit message must be supplied</li>
+<li>lines that start with a&nbsp;<code>#</code>&nbsp;are comments and will not be recorded</li>
+<li>save the file after adding a commit message</li>
+<li>close the editor to make the commit</li>
+</ul>
+<p>Then, use&nbsp;<code>git log</code>&nbsp;to review the commit you just made!</p>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://help.github.com/articles/associating-text-editors-with-git/" target="_blank" rel="noopener noreferrer">Associating text editors with Git</a>&nbsp;from GitHub Help Docs</li>
+<li><a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" target="_blank" rel="noopener noreferrer">Getting Started - First-Time Git Setup</a>&nbsp;from Git book</li>
+</ul>
+<h3> Bypass The Editor With The&nbsp;<code>-m</code>&nbsp;Flag</h3>
+<blockquote>
+<p>TIP: If the commit message you're writing is short and you don't want to wait for your code editor to open up to type it out, you can pass your message directly on the command line with the&nbsp;<code>-m</code>&nbsp;flag:
+<code>$ git commit -m "Initial commit"</code></p>
+</blockquote>
+<h3> Good commit message</h3>
+<p>Now, what makes a "good" commit message? That's a great question and has been&nbsp;<a href="https://chris.beams.io/posts/git-commit/" target="_blank" rel="noopener noreferrer">written about</a>&nbsp;<a href="https://medium.com/@preslavrachev/what-s-with-the-50-72-rule-8a906f61f09c#.jwprsco0n" target="_blank" rel="noopener noreferrer">a number</a>&nbsp;<a href="http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html" target="_blank" rel="noopener noreferrer">of times</a>. Here are some important things to think about when crafting a good commit message:</p>
+<p><strong>Do</strong></p>
+<ul>
+<li>do keep the message short (less than 60-ish characters)</li>
+<li>do explain&nbsp;<em>what</em>&nbsp;the commit does (not&nbsp;<em>how</em>&nbsp;or&nbsp;<em>why</em>!)</li>
+</ul>
+<p><strong>Do not</strong></p>
+<ul>
+<li>do not explain&nbsp;<em>why</em>&nbsp;the changes are made (more on this below)</li>
+<li>do not explain&nbsp;<em>how</em>&nbsp;the changes are made (that's what&nbsp;<code>git log -p</code>&nbsp;is for!)</li>
+<li>do not use the word "and"
+<ul>
+<li>if you have to use "and", your commit message is probably doing too many changes - break the changes into separate commits</li>
+<li>e.g. "make the background color pink&nbsp;<em>and</em>&nbsp;increase the size of the sidebar"</li>
+</ul>
+</li>
+</ul>
+<p>The best way that I've found to come up with a commit message is to finish this phrase, "This commit will...". However, you finish that phrase, use&nbsp;<em>that</em>&nbsp;as your commit message.</p>
+<p>Above all,&nbsp;<em><strong>be consistent</strong></em>&nbsp;in how you write your commit messages!</p>
+<h3> Explain the&nbsp;Why</h3>
+<p>If you need to explain&nbsp;<em>why</em>&nbsp;a commit needs to be made, you can!</p>
+<p>When you're writing the commit message, the first line is the message itself. After the message, leave a blank line, and then type out the body or explanation including details about why the commit is needed (e.g. URL links).</p>
+<p>Here's what a commit message edit screen might look like:
+<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/pID4IX.png" alt="pID4IX" loading="lazy"></p>
+<h2> git diff</h2>
+<p>To recap, the&nbsp;<code>git diff</code>&nbsp;command is used to see changes that have been made but haven't been committed, yet:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git diff
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>This command displays:</p>
+<ul>
+<li>the files that have been modified</li>
+<li>the location of the lines that have been added/removed</li>
+<li>the actual changes that have been made</li>
+</ul>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/docs/git-diff" target="_blank" rel="noopener noreferrer">git diff</a>&nbsp;from the Git Docs</li>
+</ul>
+<h2> git ignore</h2>
+<p>If you want to keep a file in your project's directory structure but make sure it isn't accidentally committed to the project, you can use the specially named file,&nbsp;<code>.gitignore</code>&nbsp;(note the dot at the front, it's important!). Add this file to your project in the same directory that the hidden&nbsp;<code>.git</code>&nbsp;directory is located. All you have to do is list the&nbsp;<em>names</em>&nbsp;of files that you want Git to ignore (not track) and it will ignore them.</p>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files" target="_blank" rel="noopener noreferrer">Ignoring files</a>&nbsp;from the Git Book</li>
+<li><a href="https://git-scm.com/docs/gitignore#_pattern_format" target="_blank" rel="noopener noreferrer">gitignore</a>&nbsp;from the Git Docs</li>
+<li><a href="https://help.github.com/articles/ignoring-files/" target="_blank" rel="noopener noreferrer">Ignoring files</a>&nbsp;from the GitHub Docs</li>
+<li><a href="https://www.gitignore.io/" target="_blank" rel="noopener noreferrer">gitignore.io</a></li>
+</ul>
+<h2> Globbing Crash Course</h2>
+<p>Let's say that you add 50 images to your project, but want Git to ignore all of them. Does this mean you have to list each and every filename in the&nbsp;<code>.gitignore</code>&nbsp;file? Oh gosh no, that would be crazy! Instead, you can use a concept called&nbsp;[globbing](<a href="https://en.wikipedia.org/wiki/Glob_(programming)" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Glob_(programming)</a>.</p>
+<p>Globbing lets you use special characters to match patterns/characters. In the&nbsp;<code>.gitignore</code>&nbsp;file, you can use the following:</p>
+<ul>
+<li>blank lines can be used for spacing</li>
+<li><code>#</code>&nbsp;- marks line as a comment</li>
+<li><code>*</code>&nbsp;- matches 0 or more characters</li>
+<li><code>?</code>&nbsp;- matches 1 character</li>
+<li><code>[abc]</code>&nbsp;- matches a, b, <em>or</em> c</li>
+<li><code>**</code>&nbsp;- matches nested directories -&nbsp;<code>a/**/z</code>&nbsp;matches
+<ul>
+<li>a/z</li>
+<li>a/b/z</li>
+<li>a/b/c/z</li>
+</ul>
+</li>
+</ul>
+<p>So if all of the 50 images are JPEG images in the "samples" folder, we could add the following line to&nbsp;<code>.gitignore</code>&nbsp;to have Git ignore all 50 images.</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>samples/*.jpg
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> git tag</h2>
+<h3> tag the most recent commit</h3>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git tag -a v1.0
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>CAREFUL: In the command above (<code>git tag -a v1.0</code>) the&nbsp;<code>-a</code>&nbsp;flag is used. This flag tells Git to create an&nbsp;<em>annotated</em>&nbsp;flag. If you don't provide the flag (i.e.&nbsp;<code>git tag v1.0</code>) then it'll create what's called a&nbsp;<em>lightweight</em>&nbsp;tag.</p>
+</blockquote>
+<blockquote>
+<p>Annotated tags are recommended because they include a lot of extra information such as:</p>
+<ul>
+<li>the person who made the tag</li>
+<li>the date the tag was made</li>
+<li>a message for the tag</li>
+</ul>
+</blockquote>
+<h3> Adding A Tag To A Past Commit</h3>
+<p>Running&nbsp;<code>git tag -a v1.0</code>&nbsp;will . But what if you wanted to tag a commit that occurred farther back in the repo's history?</p>
+<p>All you have to do is provide the SHA of the commit you want to tag!</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git tag -a v1.0 a87984
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging" target="_blank" rel="noopener noreferrer">Git Basics - Tagging</a>&nbsp;from the Git Book</li>
+<li><a href="https://git-scm.com/docs/git-tag" target="_blank" rel="noopener noreferrer">Git Tag</a>&nbsp;from the Git Docs</li>
+</ul>
+<h2> git tag -d</h2>
+<p>A Git tag can be deleted with the&nbsp;<code>-d</code>&nbsp;flag (for&nbsp;<em>delete</em>!) and the name of the tag:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git tag -d v1.0
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/QwBmPt.png" alt="QwBmPt" tabindex="0" loading="lazy"><figcaption>QwBmPt</figcaption></figure>
+<h2> git branch</h2>
+<p>It can be used to:</p>
+<ul>
+<li>list all branch names in the repository</li>
+<li>create new branches <code>git branch sidebar</code></li>
+<li>delete branches</li>
+</ul>
+<p>If we type out just&nbsp;<code>git branch</code>&nbsp;it will list out the branches in a repository</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>git branch alt-sidebar-loc 42a69f
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>It creates a new branch called&nbsp;<code>alt-sidebar-loc</code>&nbsp;and has it pointing at the commit with the SHA&nbsp;<code>42a69f</code></p>
+<p>Deleting something can be quite nerve-wracking. Don't worry, though. Git won't let you delete a branch if it has commits on it that aren't on any other branch (meaning the commits are unique to the branch that's about to be deleted). If you created the&nbsp;<code>sidebar</code>&nbsp;branch, added commits to it, and then tried to delete it with the&nbsp;<code>git branch -d sidebar</code>, Git wouldn't let you delete the branch because you can't delete a branch that you're currently on. If you switched to the&nbsp;<code>master</code>&nbsp;branch and tried to delete the&nbsp;<code>sidebar</code>&nbsp;branch, Git&nbsp;<em>also</em>&nbsp;wouldn't let you do that because those new commits on the&nbsp;<code>sidebar</code>&nbsp;branch would be lost! To force deletion, you need to use a capital D flag -&nbsp;<code>git branch -D sidebar</code>.</p>
+<h3> change branch name</h3>
+<p>`$ git branch-m &amp;NEWBRANCHNAME&gt;</p>
+<h2> Git Branch Recap</h2>
+<p>To recap, the&nbsp;<code>git branch</code>&nbsp;command is used to manage branches in Git:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code># to list all branches
+$ git branch
+
+# to create a new "footer-fix" branch
+$ git branch footer-fix
+
+# to delete the "footer-fix" branch
+$ git branch -d footer-fix
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>This command is used to:</p>
+<ul>
+<li>list out local branches</li>
+<li>create new branches</li>
+<li>remove branches</li>
+</ul>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging" target="_blank" rel="noopener noreferrer">Git Branching - Basic Branching and Merging</a>&nbsp;from the Git Docs</li>
+<li><a href="http://learngitbranching.js.org/" target="_blank" rel="noopener noreferrer">Learn Git Branching</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank" rel="noopener noreferrer">Git Branching Tutorial</a>&nbsp;from the Atlassian Blog</li>
+</ul>
+<p>PREVIOUSNEXT</p>
+<h2> git checkout</h2>
+<p>It's important to understand how this command works. Running this command will:</p>
+<ul>
+<li>remove all files and directories from the Working Directory that Git is tracking
+<ul>
+<li>(files that Git tracks are stored in the repository, so nothing is lost)</li>
+</ul>
+</li>
+<li>go into the repository and pull out all of the files and directories of the commit that the branch points to</li>
+</ul>
+<p>So this will remove all of the files that are referenced by commits in the master branch. It will replace them with the files that are referenced by the commits in the sidebar branch.</p>
+<h3> git checkout -b</h3>
+<p><code>git checkout</code>&nbsp;command can actually create a new branch, too? If you provide the&nbsp;<code>-b</code>&nbsp;flag, you can create a branch&nbsp;<em>and</em>&nbsp;switch to it all in one command.</p>
+<h2> merging</h2>
+<p>Combining branches together is called&nbsp;<strong>merging</strong>. Pay attention to the two main types of merges in Git, a regular&nbsp;<strong>merge</strong>&nbsp;and a&nbsp;<strong>Fast-forward merge</strong>.
+Remember that making a merge makes a commit.</p>
+<h2> git merge</h2>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge &lt;name-of-branch-to-merge-in&gt;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>When a merge happens, Git will:</p>
+<ul>
+<li>look at the branches that it's going to merge</li>
+<li>look back along the branch's history to find a single commit that&nbsp;<em>both</em>&nbsp;branches have in their commit history</li>
+<li>combine the lines of code that were changed on the separate branches together</li>
+<li>makes a commit to record the merge</li>
+<li>When we merge, we're merging some other branch into the current (checked-out) branch. We're not merging two branches into a new branch. We're not merging the current branch into the other branch.</li>
+</ul>
+<h3> Fast-forward Merge</h3>
+<p>Now, since&nbsp;<code>footer</code>&nbsp;is directly ahead of&nbsp;<code>master</code>, this merge is one of the easiest merges to do. Merging&nbsp;<code>footer</code>&nbsp;into&nbsp;<code>master</code>&nbsp;will cause a&nbsp;<strong>Fast-forward merge</strong>. A Fast-forward merge will just move the currently checked out branch&nbsp;<em>forward</em>&nbsp;until it points to the same commit that the other branch (in this case,&nbsp;<code>footer</code>) is pointing to.</p>
+<p>To merge in the&nbsp;<code>footer</code>&nbsp;branch, run command in <code>master</code> branch:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge footer
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/T1DGyH.png" alt="T1DGyH" tabindex="0" loading="lazy"><figcaption>T1DGyH</figcaption></figure>
+<p>After merge
+<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/wlryRx.png" alt="wlryRx" loading="lazy"></p>
+<h3> Regular merge</h3>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge sidebar
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>Because this combines two divergent branches, a commit is going to be made.
+Since this is a&nbsp;<em>merge commit</em>&nbsp;a default message is already supplied. You can change the message if you want, but it's common practice to use the default merge commit message. So when your code editor opens with the message, just close it again and accept that commit message.
+<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/cQGACU.png" alt="cQGACU" loading="lazy">
+<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/Fo29vZ.png" alt="Fo29vZ" loading="lazy"></p>
+<h3> Merge Recap</h3>
+<p>To recap, the&nbsp;<code>git merge</code>&nbsp;command is used to combine branches in Git:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge &lt;other-branch&gt;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>There are two types of merges:</p>
+<ul>
+<li>Fast-forward merge – the branch being merged in must be&nbsp;<em>ahead</em>&nbsp;of the checked out branch. The checked out branch's pointer will just be moved forward to point to the same commit as the other branch.</li>
+<li>the regular type of merge
+<ul>
+<li>two divergent branches are combined</li>
+<li>a merge commit is created</li>
+</ul>
+</li>
+</ul>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merging" target="_blank" rel="noopener noreferrer">Basic Merging</a>&nbsp;from Git Book</li>
+<li><a href="https://git-scm.com/docs/git-merge" target="_blank" rel="noopener noreferrer">git-merge</a>&nbsp;from Git Docs</li>
+<li><a href="https://www.atlassian.com/git/tutorials/git-merge" target="_blank" rel="noopener noreferrer">git merge</a>&nbsp;from Atlassian blog</li>
+</ul>
+<h2> merge conflicts</h2>
+<h3> Merge Conflict Output Explained</h3>
+<p>The output that shows in the Terminal is:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge heading-update 
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Merge Conflict Indicators Explanation</h3>
+<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/8aGJEi.png" alt="8aGJEi" tabindex="0" loading="lazy"><figcaption>8aGJEi</figcaption></figure>
+<p>The editor has the following merge conflict indicators:</p>
+<ul>
+<li><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code>&nbsp;everything below this line (until the next indicator) shows you what's on the current branch</li>
+<li><code>||||||| merged common ancestors</code>&nbsp;everything below this line (until the next indicator) shows you what the original lines were</li>
+<li><code>=======</code>&nbsp;is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in</li>
+<li><code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; heading-update</code>&nbsp;is the ending indicator of what's on the branch that's being merged in (in this case, the&nbsp;<code>heading-update</code>&nbsp;branch)</li>
+</ul>
+<h3> Resolving A Merge Conflict</h3>
+<p>Git is using the merge conflict indicators to show you what lines caused the merge conflict on the two different branches as well as what the original line used to have. So to resolve a merge conflict, you need to:</p>
+<ol>
+<li>choose which line(s) to keep</li>
+<li>remove all lines with indicators</li>
+</ol>
+<figure><img src="https://video.udacity-data.com/topher/2017/February/58a74ced_ud123-l5-resolve-merge-conflict/ud123-l5-resolve-merge-conflict.gif" alt="Code editor where showing the merge conflict indicators being removed and the page heading being updated." tabindex="0" loading="lazy"><figcaption>Code editor where showing the merge conflict indicators being removed and the page heading being updated.</figcaption></figure>
+<p>Once you've removed all lines with merge conflict indicators and have selected what heading you want to use, just save the file, add it to the staging index, and commit it!</p>
+<h3> Merge Conflict Recap</h3>
+<p>A merge conflict happens when the same line or lines have been changed on different branches that are being merged. Git will pause mid-merge telling you that there is a conflict and will tell you in what file or files the conflict occurred. To resolve the conflict in a file:</p>
+<ul>
+<li>locate and remove all lines with merge conflict indicators</li>
+<li>determine what to keep</li>
+<li>save the file(s)</li>
+<li>stage the file(s)</li>
+<li>make a commit</li>
+</ul>
+<p>Be careful that a file might have merge conflicts in multiple parts of the file, so make sure you check the entire file for merge conflict indicators - a quick search for&nbsp;<code>&lt;&lt;&lt;</code>&nbsp;should help you locate all of them.</p>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts" target="_blank" rel="noopener noreferrer">Basic Merge Conflicts</a>&nbsp;from the Git book</li>
+<li><a href="https://git-scm.com/docs/git-merge#_how_conflicts_are_presented" target="_blank" rel="noopener noreferrer">How Conflicts Are Presented</a>&nbsp;from the Git docs</li>
+</ul>
+<h1> Undo changes</h1>
+<h2> Changing The Last Commit  git commit --amend</h2>
+<p>If your Working Directory is clean (<strong>meaning there aren't any uncommitted changes in the repository</strong>), then running&nbsp;<code>git commit --amend</code>&nbsp;will let you provide a new commit message. Your code editor will open up and display the original commit message. Just fix a misspelling or completely reword it! Then save it and close the editor to lock in the new commit message.</p>
+<h3> Add Forgotten Files To Commit</h3>
+<p>To do get the forgotten link included, just:</p>
+<ul>
+<li>edit the file(s)</li>
+<li>save the file(s)</li>
+<li>stage the file(s)</li>
+<li>and run&nbsp;<code>git commit --amend</code></li>
+</ul>
+<h2> Reverse previous commit git revert  SHA</h2>
+<p>To recap, the&nbsp;<code>git revert</code>&nbsp;command is used to reverse a previously made commit:</p>
+<p><code>$ git revert  SHA-of-commit-to-revert</code></p>
+<p>This command:</p>
+<ul>
+<li>will undo the changes that were made by the provided commit</li>
+<li>creates a new commit to record the change
+<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/tDT6ft.png" alt="tDT6ft" loading="lazy"></li>
+</ul>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/docs/git-revert" target="_blank" rel="noopener noreferrer">git-revert</a>&nbsp;from Git Docs</li>
+<li><a href="https://www.atlassian.com/git/tutorials/undoing-changes" target="_blank" rel="noopener noreferrer">git revert</a>&nbsp;Atlassian tutorial</li>
+</ul>
+<h2> Reset(erase) commit</h2>
+<blockquote>
+<h2> ⚠️ Resetting Is Dangerous ⚠️</h2>
+</blockquote>
+<blockquote>
+<p>You've got to be careful with Git's resetting capabilities. This is one of the few commands that lets you erase commits from the repository. If a commit is no longer in the repository, then its content is gone.</p>
+</blockquote>
+<blockquote>
+<p>To alleviate the stress a bit, Git&nbsp;<em>does</em>&nbsp;keep track of everything for about 30 days before it completely erases anything. To access this content, you'll need to use the&nbsp;<code>git reflog</code>&nbsp;command. Check out these links for more info:</p>
+</blockquote>
+<blockquote>
+<ul>
+<li><a href="https://git-scm.com/docs/git-reflog" target="_blank" rel="noopener noreferrer">git-reflog</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/rewriting-history" target="_blank" rel="noopener noreferrer">Rewriting History</a></li>
+<li><a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html" target="_blank" rel="noopener noreferrer">reflog, your safety net</a></li>
+</ul>
+</blockquote>
+<h3> Relative Commit References</h3>
+<p>Here's how we can refer to previous commits:</p>
+<ul>
+<li>
+<p><code>^</code>&nbsp;– indicates the parent commit</p>
+</li>
+<li>
+<p><code>~</code>&nbsp;– indicates the&nbsp;<em>first</em>&nbsp;parent commit</p>
+</li>
+<li>
+<p>the parent commit – the following indicate the parent commit of the current commit</p>
+<ul>
+<li>HEAD^</li>
+<li>HEAD~</li>
+<li>HEAD~1</li>
+</ul>
+</li>
+<li>
+<p>the grandparent commit – the following indicate the grandparent commit of the current commit</p>
+<ul>
+<li>HEAD^^</li>
+<li>HEAD~2</li>
+</ul>
+</li>
+<li>
+<p>the great-grandparent commit – the following indicate the great-grandparent commit of the current commit</p>
+<ul>
+<li>HEAD^^^</li>
+<li>HEAD~3</li>
+</ul>
+</li>
+</ul>
+<p>The main difference between the&nbsp;<code>^</code>&nbsp;and the&nbsp;<code>~</code>&nbsp;is when a commit is created&nbsp;<em>from a merge</em>. A merge commit has&nbsp;<em>two</em>&nbsp;parents. With a merge commit, the&nbsp;<code>^</code>&nbsp;reference is used to indicate the&nbsp;<em>first</em>&nbsp;parent of the commit while&nbsp;<code>^2</code>&nbsp;indicates the&nbsp;<em>second</em>&nbsp;parent. The first parent is the branch you were on when you ran&nbsp;<code>git merge</code>&nbsp;while the second parent is the branch that was merged in.</p>
+<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/4pUk4r.png" alt="4pUk4r" tabindex="0" loading="lazy"><figcaption>4pUk4r</figcaption></figure>
+<p>which commit is referenced by&nbsp;<code>HEAD~4^2</code>? ---f69811c
+Which commit is referenced by HEAD~6? ---209752a</p>
+<h2> git reset</h2>
+<p>The&nbsp;<code>git reset</code>&nbsp;command is used to reset (erase) commits:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git reset &lt;reference-to-commit&gt;
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>It can be used to:</p>
+<ul>
+<li>move the HEAD and current branch pointer to the referenced commit</li>
+<li>erase commits</li>
+<li>move committed changes to the staging index</li>
+<li>unstage committed changes</li>
+</ul>
+<h3> Git Reset's Flags</h3>
+<p>The way that Git determines if it erases, stages previously committed changes, or unstages previously committed changes is by the flag that's used. The flags are:</p>
+<ul>
+<li><code>--mixed</code></li>
+<li><code>--soft</code></li>
+<li><code>--hard</code></li>
+</ul>
+<p><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/OfXQE4.png" alt="OfXQE4" loading="lazy">
+<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/Hs0Ox0.png" alt="Hs0Ox0" loading="lazy"></p>
+<blockquote>
+<h2> 💡 Backup Branch 💡</h2>
+</blockquote>
+<blockquote>
+<p>Remember that using the&nbsp;<code>git reset</code>&nbsp;command will&nbsp;<em>erase</em>&nbsp;commits from the current branch. So if you want to follow along with all the resetting stuff that's coming up, you'll need to create a branch on the current commit that you can use as a backup.</p>
+</blockquote>
+<blockquote>
+<p>Before I do any resetting, I usually create a&nbsp;<code>backup</code>&nbsp;branch on the most-recent commit so that I can get back to the commits if I make a mistake:</p>
+</blockquote>
+<blockquote>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git branch backup
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></blockquote>
+<h3> Reset's&nbsp;<code>--mixed</code>&nbsp;Flag</h3>
+<p>Let's look at each one of these flags.</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>* 9ec05ca (HEAD -&gt; master) Revert "Set page heading to "Quests &amp; Crusades""
+* db7e87a Set page heading to "Quests &amp; Crusades"
+* 796ddb0 Merge branch 'heading-update'
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Using the sample repo above with&nbsp;<code>HEAD</code>&nbsp;pointing to&nbsp;<code>master</code>&nbsp;on commit&nbsp;<code>9ec05ca</code>, running&nbsp;<code>git reset --mixed HEAD^</code>&nbsp;will take the changes made in commit&nbsp;<code>9ec05ca</code>&nbsp;and move them to the working directory.</p>
+<figure><img src="https://video.udacity-data.com/topher/2017/February/58a4e242_ud123-l6-git-revert-mixed/ud123-l6-git-revert-mixed.png" alt="The Terminal application showing the result of resetting with the  flag. The changes are unstaged." tabindex="0" loading="lazy"><figcaption>The Terminal application showing the result of resetting with the <code>--mixed</code> flag. The changes are unstaged.</figcaption></figure>
+<p><em>The Terminal application showing the result of resetting with the&nbsp;<code>--mixed</code>&nbsp;flag. The changes are unstaged.</em></p>
+<blockquote>
+<h2> 💡 Back To Normal 💡</h2>
+</blockquote>
+<blockquote>
+<p>If you created the&nbsp;<code>backup</code>&nbsp;branch prior to resetting anything, then you can easily get back to having the&nbsp;<code>master</code>&nbsp;branch point to the same commit as the&nbsp;<code>backup</code>&nbsp;branch. You'll just need to:</p>
+<ol>
+<li>remove the uncommitted changes from the working directory</li>
+<li>merge&nbsp;<code>backup</code>&nbsp;into&nbsp;<code>master</code>&nbsp;(which will cause a Fast-forward merge and move&nbsp;<code>master</code>&nbsp;up to the same point as&nbsp;<code>backup</code>)</li>
+</ol>
+</blockquote>
+<blockquote>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git checkout -- index.html
+$ git merge backup
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></blockquote>
+<h3> Reset's&nbsp;<code>--soft</code>&nbsp;Flag</h3>
+<p>Let's use the same few commits and look at how the&nbsp;<code>--soft</code>&nbsp;flag works:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>* 9ec05ca (HEAD -&gt; master) Revert "Set page heading to "Quests &amp; Crusades""
+* db7e87a Set page heading to "Quests &amp; Crusades"
+* 796ddb0 Merge branch 'heading-update'
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Running&nbsp;<code>git reset --soft HEAD^</code>&nbsp;will take the changes made in commit&nbsp;<code>9ec05ca</code>&nbsp;and move them directly to the Staging Index.</p>
+<figure><img src="https://video.udacity-data.com/topher/2017/February/58a4e29a_ud123-l6-git-revert-soft/ud123-l6-git-revert-soft.png" alt="The Terminal application showing the result of resetting with the  flag. The changes are moved to the Staging Index." tabindex="0" loading="lazy"><figcaption>The Terminal application showing the result of resetting with the <code>--soft</code> flag. The changes are moved to the Staging Index.</figcaption></figure>
+<p><em>The Terminal application showing the result of resetting with the&nbsp;<code>--soft</code>&nbsp;flag. The changes are moved to the Staging Index.</em></p>
+<h3> Reset's&nbsp;<code>--hard</code>&nbsp;Flag</h3>
+<p>Last but not least, let's look at the&nbsp;<code>--hard</code>&nbsp;flag:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>* 9ec05ca (HEAD -&gt; master) Revert "Set page heading to "Quests &amp; Crusades""
+* db7e87a Set page heading to "Quests &amp; Crusades"
+* 796ddb0 Merge branch 'heading-update'
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Running&nbsp;<code>git reset --hard HEAD^</code>&nbsp;will take the changes made in commit&nbsp;<code>9ec05ca</code>&nbsp;and erases them.</p>
+<figure><img src="https://video.udacity-data.com/topher/2017/February/58a4e2c2_ud123-l6-git-revert-hard/ud123-l6-git-revert-hard.png" alt="The Terminal application showing the result of resetting with the  flag. The changes are moved erased." tabindex="0" loading="lazy"><figcaption>The Terminal application showing the result of resetting with the <code>--hard</code> flag. The changes are moved erased.</figcaption></figure>
+<p><em>The Terminal application showing the result of resetting with the&nbsp;<code>--hard</code>&nbsp;flag. The changes are moved erased.</em></p>
+<h3> Further Research</h3>
+<ul>
+<li><a href="https://git-scm.com/docs/git-reset" target="_blank" rel="noopener noreferrer">git-reset</a>&nbsp;from Git docs</li>
+<li><a href="https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified" target="_blank" rel="noopener noreferrer">Reset Demystified</a>&nbsp;from Git Blog</li>
+<li><a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#Ancestry-References" target="_blank" rel="noopener noreferrer">Ancestry References</a>&nbsp;from Git Book</li>
+</ul>
+<h2> Expand On Your Git Skills</h2>
+<ul>
+<li>take the companion GitHub course</li>
+<li>create a repo to track your computer's settings -&nbsp;<a href="https://dotfiles.github.io/" target="_blank" rel="noopener noreferrer">https://dotfiles.github.io/</a></li>
+<li>develop the next, awesome feature for your personal project</li>
+<li>try tackling some Git challenges with the&nbsp;<a href="https://github.com/jlord/git-it-electron" target="_blank" rel="noopener noreferrer">Git-it app</a></li>
+<li><a href="https://udacity.github.io/git-styleguide/" target="_blank" rel="noopener noreferrer">Udacity Nanodegree Style Guide</a></li>
+</ul>
+<h1> Remote Control</h1>
+<h2> Add remote connections</h2>
+<p><code>$ git remote add ＜REMOTENAME＞ ＜URL&gt; </code></p>
+<h2> Set a URL to a remote</h2>
+<p><code>$ git remote set-urL &lt;REMOTENAME&gt; &lt;URL&gt;</code></p>
+<h2> Pull in changes</h2>
+<p><code>$ git pull ＜REMOTENAME&gt; ＜BRANCHNAME&gt;</code></p>
+<h2> View remote addresses</h2>
+<p><code>$ git remote-v</code></p>
+<h2> Push changes</h2>
+<p><code>git push ＜REMOTENAME&gt; ＜BRANCH&gt;</code></p>
+<h2> Delete a remote branch</h2>
+<p><code>$ git push &lt;REMOTENAME&gt;--delete &lt;BRANCHNAME&gt;</code></p>
+<h2> fork and clone</h2>
+<p>To be sure you have the correct remotes set up, type git remote-v to list out the
+addresses you have stored. You should have an 'origin' remote with your fork's
+address and then an 'upstream' remote with the address to the original, the URL
+noted above in this step.
+<code>$ git remote add upstream https://github.com/jlord/patchwork.git</code></p>
+<p>Add a remote
+<code>$ git remote add ＜REMOTENAME&gt; ＜URL&gt;</code></p>
+<p>Change a remote URL
+<code>$ git remote set-url ＜REMOTENAME&gt; ＜URL&gt;</code></p>
+<p>View remote connections
+<code>$ git remote-V</code></p>
+<p>Pullin changes from a remote branch
+<code>$ git pull &lt;REMOTENAME&gt; &lt;REMOTEBRANCH&gt;</code></p>
+<p>See changes to the remote before you pullin
+<code>$ git fetch--dry-run</code></p>
+]]></content:encoded>
+      <enclosure url="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/kmISzO.png" type="image/png"/>
+    </item>
     <item>
       <title>电脑上实现微信双开，无需网页版或第三方软件</title>
       <link>https://newzone.top/posts/2017-04-18-wechat_multi_open.html</link>
@@ -88,320 +1153,6 @@ MSOCache 其它的目录下内容同样根据注册表的内容把它指示的�
 <p>Office 组件报错大都是由于 MSOCache 目录被删，建议安装 Office 后不要删除该目录。使用优化工具时，要注意保留 MSOCache 目录及其下的文件。</p>
 ]]></content:encoded>
       <enclosure url="https://pic3.zhimg.com/v2-85bd2a49a47ee6d0c8eade7b3c249516_r.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>OneNote 2016 无法登陆问题解决</title>
-      <link>https://newzone.top/posts/2017-07-29-onenote_2016_cannot_be_logged_in.html</link>
-      <guid>https://newzone.top/posts/2017-07-29-onenote_2016_cannot_be_logged_in.html</guid>
-      <source url="https://newzone.top/rss.xml">OneNote 2016 无法登陆问题解决</source>
-      <description>OneNote 安装后，提示输入账号，但点击「下一步」始终没反应，无法进行登陆。 打开 IE 浏览器，访问 live.com，如果网页提示「登录需要启动 JavaScript」，说明问题的根源出在 IE 的设置上。</description>
-      <category>系统</category>
-      <pubDate>Sat, 29 Jul 2017 15:19:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>OneNote 安装后，提示输入账号，但点击「下一步」始终没反应，无法进行登陆。</p>
-<figure><img src="https://pic4.zhimg.com/v2-d5945359b896ffd09d9973e9597ec06b_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>打开 IE 浏览器，访问 <a href="http://live.com" target="_blank" rel="noopener noreferrer">live.com</a>，如果网页提示「登录需要启动 JavaScript」，说明问题的根源出在 IE 的设置上。</p>
-<figure><img src="https://pic1.zhimg.com/v2-cc00b3039f755b92f9ae511c8b7debd0_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>点击「IE 设置」&gt;「Internet 选项」&gt;「安全」&gt;「自定义级别」，然后启用脚本选项的「Java 小程序脚本」和「活动脚本」。</p>
-<figure><img src="https://pic2.zhimg.com/v2-717bf3c8b62748b62a04219435b8a75d_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<figure><img src="https://pic4.zhimg.com/v2-25697b0c27aa8780c532b7a03a78dcbf_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>完成设置后，即可正常登录并打开 OneNote。</p>
-<figure><img src="https://pic4.zhimg.com/v2-ff20ef8aa22215cba64b879775dfdf4f_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://pic4.zhimg.com/v2-d5945359b896ffd09d9973e9597ec06b_r.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>电脑关机了，第二天一看确又开着的？让系统正常关机！</title>
-      <link>https://newzone.top/posts/2017-09-02-forced_shutdown.html</link>
-      <guid>https://newzone.top/posts/2017-09-02-forced_shutdown.html</guid>
-      <source url="https://newzone.top/rss.xml">电脑关机了，第二天一看确又开着的？让系统正常关机！</source>
-      <description>电脑晚上明明按下关机键，第二天早上却发现电脑开了一晚上？ 这是因为后台应用程序和 GUI 应用程序在阻止或取消关机，系统未能按正常关机。按下列方法授予系统自动关机权限，就能让系统正常关机。 方法如下： 点击「开始菜单」，搜索「Regedit」，进入注册表编辑器。 打开窗口后，在注册表上方菜单中输入 计算机\HKEY_CURRENT_USER\Control Panel\Desktop。 在右侧窗格中找到 AutoEndTasks 键值，如果没有，则新建一个名为 AutoEndTasks 的「字符串值」，并将键值的数值设为 1。AutoEndTasks 表示自动结束失去响应的程序任务，0 为 false，是默认值，表示不自动结束失去响应的程序；1 为 true，则表示电脑会自动结束失去响应的程序。 查找或创建字符串值 WaitToKillAppTimeout，将数值设为 2000。2000 是毫秒，就是当有没有响应的程序时，等待 2 秒后会自动结束相应程序。</description>
-      <category>系统</category>
-      <pubDate>Sat, 02 Sep 2017 00:38:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>电脑晚上明明按下关机键，第二天早上却发现电脑开了一晚上？</p>
-<p>这是因为后台应用程序和 GUI 应用程序在阻止或取消关机，系统未能按正常关机。按下列方法授予系统自动关机权限，就能让系统正常关机。</p>
-<p><strong>方法如下：</strong></p>
-<ol>
-<li>
-<p>点击「开始菜单」，搜索「Regedit」，进入注册表编辑器。</p>
-</li>
-<li>
-<p>打开窗口后，在注册表上方菜单中输入 <code>计算机\HKEY_CURRENT_USER\Control Panel\Desktop</code>。</p>
-</li>
-<li>
-<p>在右侧窗格中找到 <code>AutoEndTasks</code> 键值，如果没有，则新建一个名为 <code>AutoEndTasks</code> 的「字符串值」，并将键值的数值设为 <code>1</code>。AutoEndTasks 表示自动结束失去响应的程序任务，0 为 false，是默认值，表示不自动结束失去响应的程序；1 为 true，则表示电脑会自动结束失去响应的程序。</p>
-<figure><img src="https://pic3.zhimg.com/v2-c643b9737b35f9dd9a8382c5653e3d3e_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>查找或创建字符串值 <code>WaitToKillAppTimeout</code>，将数值设为 <code>2000</code>。2000 是毫秒，就是当有没有响应的程序时，等待 2 秒后会自动结束相应程序。</p>
-</li>
-</ol>
-<p>操作下，让电脑默认强制关机吧！</p>
-<p>——————————</p>
-<p>网上流行一种修改「gpedit.msc」来达到快速关机的方法，但试验无效，<strong>不能强制关机</strong>。</p>
-<ol>
-<li>
-<p>点击桌面左下角“windows”图标，选择“运行”选项；</p>
-</li>
-<li>
-<p>进入运行窗口，输入“gpedit.msc”命令，按下回车键确定；</p>
-</li>
-<li>
-<p>打开本地组策略编辑器界面，依次展开“计算机配置——管理模板——系统——关机选项”文件夹；鼠标右击右侧“关闭会阻止或取消关机的应用程序的自动终止功能”选项，接着选择“编辑”功能；将弹出窗口选项更改成“已启用”，然后点击“应用——确定”按钮。</p>
-<figure><img src="https://pic4.zhimg.com/v2-4b736585b25509b036935a2f9c37d843_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>但开启后，提示程序没有响应，无法关机。</p>
-<figure><img src="https://pic4.zhimg.com/v2-46fafee0cb6e212e793fc80268ab0917_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-</ol>
-<p>修改“gpedit.msc”可以关闭程序的关机权限，但没授予关机对程序的关闭权限，<strong>不能使用</strong>！</p>
-]]></content:encoded>
-      <enclosure url="https://pic3.zhimg.com/v2-c643b9737b35f9dd9a8382c5653e3d3e_r.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>加速 SMB 协议，让 PC 变身小型 NAS</title>
-      <link>https://newzone.top/posts/2017-09-03-smb_lan_sharing.html</link>
-      <guid>https://newzone.top/posts/2017-09-03-smb_lan_sharing.html</guid>
-      <source url="https://newzone.top/rss.xml">加速 SMB 协议，让 PC 变身小型 NAS</source>
-      <description>Windows 系统开启 SMB 协议： 打开「控制面板」窗口，在「类别」查看方式下单击「程序」。 打开「程序」窗口，单击「启用或关闭 windows 功能」。 打开「windows 功能」窗口，勾选 SMB 直通。 勾选「远程差分压缩 API 支持」。</description>
-      <category>系统</category>
-      <pubDate>Sun, 03 Sep 2017 20:57:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Windows 系统开启 SMB 协议：</p>
-<ol>
-<li>
-<p>打开「控制面板」窗口，在「类别」查看方式下单击「程序」。</p>
-<figure><img src="https://pic1.zhimg.com/v2-af3e5c2a16a1f245ac6584097c53be60_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>打开「程序」窗口，单击「启用或关闭 windows 功能」。</p>
-<figure><img src="https://pic1.zhimg.com/v2-36207f67a5eb3aeb8ee7c1ae855b13dc_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>打开「windows 功能」窗口，勾选 SMB 直通。</p>
-<figure><img src="https://pic3.zhimg.com/v2-b1feb5554e6f1da003266be9cb470dfe_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>勾选「远程差分压缩 API 支持」。</p>
-<figure><img src="https://pic4.zhimg.com/v2-c5fc3e3d771b6e4bd2516372c69b340b_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-</ol>
-<p>网上很多教程都要求关闭“远程差分压缩”复选框，这是对“远程差分压缩”的误解。</p>
-<p>官方解释：远程差分压缩 (RDC) 功能是一组应用程序编程接口 (API)，这些应用程序可用于确定某个文件集是否发生了变化，如果是，就检测哪部分文件进行了更改。RDC 检测文件中数据的插入、删除和重新排列，使应用程序能够仅复制文件的已更改部分。这对于在有限带宽网络（如广域网 (WAN) 连接）上复制文件非常有用。</p>
-]]></content:encoded>
-      <enclosure url="https://pic1.zhimg.com/v2-af3e5c2a16a1f245ac6584097c53be60_r.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2)</title>
-      <link>https://newzone.top/posts/2017-10-18-light_cat_e8-c-epon_admin.html</link>
-      <guid>https://newzone.top/posts/2017-10-18-light_cat_e8-c-epon_admin.html</guid>
-      <source url="https://newzone.top/rss.xml">光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2)</source>
-      <description>为什么要获得光猫超级密码？ *端口映射 (eMule high ID)、桥接模式（路由器掌控拨号，不能兼容固定电话）。*网上关于光猫超级密码的获取攻略都在 2012-14 年，已经无法使用了。 测试环境 运营商：上海电信 设备：贝尔 E8-C-EPON 硬件版本：RG201O-CA_V1A2 软件版本：E201OCAA2V11S 光猫超级密码破解步骤 地址栏输入 192.168.1.1，用户名：光猫背面，密码：光猫背面，登陆管理界面。 浏览器地址栏输入 192.168.1.1/backupsettings.txt，将 backupsettings.txt 文件导出并备份在电脑上。 如果打不开上面的地址，改为输入 192.168.1.1/backupsettings.conf，并做好备份。 打开下载好的文档 backupsettings.txt 或 backupsettings.conf，搜索 TeleComAccount，两个 password 间就是超级密码。超级账号是 telecomadmin。 地址栏输入 192.168.1.1，用刚获取的超级密码登陆，然后开始端口映射和设备桥接了。</description>
-      <category>网络</category>
-      <pubDate>Wed, 18 Oct 2017 18:28:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2> 为什么要获得光猫超级密码？</h2>
-<p>*端口映射 (eMule high ID)、桥接模式（路由器掌控拨号，不能兼容固定电话）。*网上关于光猫超级密码的获取攻略都在 2012-14 年，已经无法使用了。</p>
-<h3> 测试环境</h3>
-<p>运营商：上海电信
-设备：贝尔 E8-C-EPON
-硬件版本：RG201O-CA_V1A2
-软件版本：E201OCAA2V11S</p>
-<h2> 光猫超级密码破解步骤</h2>
-<ol>
-<li>
-<p>地址栏输入 <code>192.168.1.1</code>，用户名：光猫背面，密码：光猫背面，登陆管理界面。</p>
-<figure><img src="https://pic1.zhimg.com/v2-9e43bc86b9095f3f6c2cfa4bd58dcd68_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>浏览器地址栏输入 <code>192.168.1.1/backupsettings.txt</code>，将 <code>backupsettings.txt</code> 文件导出并备份在电脑上。
-如果打不开上面的地址，改为输入 <code>192.168.1.1/backupsettings.conf</code>，并做好备份。</p>
-</li>
-<li>
-<p>打开下载好的文档 <code>backupsettings.txt</code> 或 <code>backupsettings.conf</code>，搜索 <code>TeleComAccount</code>，两个 password 间就是超级密码。超级账号是 telecomadmin。</p>
-<figure><img src="https://pic3.zhimg.com/v2-ee441dd18cc8e5f6303fdaef82b6d476_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>地址栏输入 <code>192.168.1.1</code>，用刚获取的超级密码登陆，然后开始端口映射和设备桥接了。</p>
-<figure><img src="https://pic1.zhimg.com/v2-31d6bb6b90be541c186a360fe2dd323c_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-</ol>
-<p>新装光猫无法获取超级密码的话，可直接使用运营商 app 进行映射。</p>
-]]></content:encoded>
-      <enclosure url="https://pic1.zhimg.com/v2-9e43bc86b9095f3f6c2cfa4bd58dcd68_r.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>光猫改造 篇二：光猫 + 路由器，实现端口映射</title>
-      <link>https://newzone.top/posts/2017-10-18-light_cat_port_forwarding.html</link>
-      <guid>https://newzone.top/posts/2017-10-18-light_cat_port_forwarding.html</guid>
-      <source url="https://newzone.top/rss.xml">光猫改造 篇二：光猫 + 路由器，实现端口映射</source>
-      <description>光猫默认没有管理权限，需要先获得光猫的超管密码，参考 光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2）。 光猫端口映射步骤： 登陆光猫管理地址 192.168.1.1，应用 → 高级 NAT 设置 →DMZ 设置，启用 DMZ 主机绑定路由器地址（路由器 WAN 口 IP 地址-192.168.1.X) 登陆路由器管理地址 192.168.X.X。这里已梅林 AC5300 为图例。 在路由器设置选项中找到“端口转发”，按要求设置端口。我这是 eMule TCP 和 UDP 转发，设置完成后，变成 High ID。</description>
-      <category>网络</category>
-      <pubDate>Wed, 18 Oct 2017 22:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>光猫默认没有管理权限，需要先获得光猫的超管密码，参考 <a href="https://newzone.top/posts/2017-10-18-Light_cat_E8-C-EPON_admin.html" target="_blank" rel="noopener noreferrer">光猫改造 篇一：超级管理员密码破解（E8-C-EPON RG201O-CA_V1A2）</a>。</p>
-<p><strong>光猫端口映射步骤：</strong></p>
-<ol>
-<li>
-<p>登陆光猫管理地址 192.168.1.1，应用 → 高级 NAT 设置 →DMZ 设置，启用 DMZ 主机绑定路由器地址（路由器 WAN 口 IP 地址-192.168.1.X)</p>
-<figure><img src="https://pic2.zhimg.com/v2-658d5433201b79da169a520f4b19d495_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>登陆路由器管理地址 192.168.X.X。这里已梅林 AC5300 为图例。</p>
-<figure><img src="https://pic4.zhimg.com/v2-32825a6d3d75f4bfe5668f1b0d6c6683_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-<li>
-<p>在路由器设置选项中找到“端口转发”，按要求设置端口。我这是 eMule TCP 和 UDP 转发，设置完成后，变成 High ID。</p>
-<figure><img src="https://pic2.zhimg.com/v2-8f3eb2c42fd5d1a98f1345c6a5855e99_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<figure><img src="https://pic2.zhimg.com/v2-b4f5179278da52409f4a04ce7d139f99_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-</li>
-</ol>
-]]></content:encoded>
-      <enclosure url="https://pic2.zhimg.com/v2-658d5433201b79da169a520f4b19d495_r.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>小型网站管理员，快放弃 CDN！</title>
-      <link>https://newzone.top/posts/2018-01-19-forget_the_cdn.html</link>
-      <guid>https://newzone.top/posts/2018-01-19-forget_the_cdn.html</guid>
-      <source url="https://newzone.top/rss.xml">小型网站管理员，快放弃 CDN！</source>
-      <description>CDN 的全称是 Content Delivery Network，即内容分发网络。其基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定。通过在网络各处放置节点服务器所构成的在现有的互联网基础之上的一层智能虚拟网络，CDN 系统能够实时地根据网络流量和各节点的连接、负载状况以及到用户的距离和响应时间等综合信息将用户的请求重新导向离用户最近的服务节点上。其目的是使用户可就近取得所需内容，解决 Internet 网络拥挤的状况，提高用户访问网站的响应速度。 国内 CDN 有阿里云、腾讯、百度、网宿、七牛云、又拍云等。</description>
-      <category>服务器</category>
-      <pubDate>Fri, 19 Jan 2018 12:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<blockquote>
-<p>CDN 的全称是 Content Delivery Network，即内容分发网络。其基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定。通过在网络各处放置节点服务器所构成的在现有的互联网基础之上的一层智能虚拟网络，CDN 系统能够实时地根据网络流量和各节点的连接、负载状况以及到用户的距离和响应时间等综合信息将用户的请求重新导向离用户最近的服务节点上。其目的是使用户可就近取得所需内容，解决 Internet 网络拥挤的状况，提高用户访问网站的响应速度。</p>
-</blockquote>
-<p>国内 CDN 有阿里云、腾讯、百度、网宿、七牛云、又拍云等。</p>
-<p>这里以阿里云 CDN 为例。我之前使用阿里云全站 CDN，一直以为速度会加快。但命中率只有 7%，在更换为 ECS 后，命中率更降为 2%。</p>
-<p>更可怕的是，我提交工单后才得到的事实。<strong>CDN 运营商会根据 DNS 分配就近分配 CDN 节点，抓取网站缓存。</strong></p>
-<p>第一反应：「不错啊。如果网站在北京，访客在上海，直接访问上海的节点，速度必然要快一些。」</p>
-<p>但事实并没有这么完美。<strong>CDN 是根据本地 DNS 来分配节点。</strong></p>
-<p>你从上海放出访问申请，DNS 有可能帮你分配去广东的节点。极端情况下，有可能分配到不同运营商，<strong>导致无法打开网站。</strong></p>
-<p>我进行了三个测试，本地网络环境都是上海电信，更换了 DNS 设置。</p>
-<p>第一次测试使用 114DNS，分配了广州鹏博士网络，网站打不开。提交工单后，客服反映<strong>这个节点是局域网节点，只有鹏博士网络才能打开。</strong></p>
-<p>第二次测试使用电信默认 DNS，分配苏州电信，网站正常。</p>
-<p>第三次测试使用阿里云 DNS，分配杭州电信，网站正常</p>
-<p>后面两次虽然都能打开网站，但没有一个分配在上海电信，这种加速又能快多少呢？</p>
-<p>在网站<strong>配置足够、流量不大（日均访客 1000 以内）</strong> 时，不建议使用全站 CDN，这只会拖累访问体验。小网站只适合将图片部署在 CDN。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>雇个机器人帮你干活</title>
-      <link>https://newzone.top/posts/2018-01-31-hire_a_robot.html</link>
-      <guid>https://newzone.top/posts/2018-01-31-hire_a_robot.html</guid>
-      <source url="https://newzone.top/rss.xml">雇个机器人帮你干活</source>
-      <description>机器人会取代你工作！ 计算云会取代你工作！ AI 会取代你的工作！ 我相信科技终究有一天会消灭所有工作，但我们这代人的无奈就是很难等到这一天。 作为懒人、宅男，等不及了怎么办？ 既然还没被取代，那就雇个机器人帮你干活！ 我每天第一件事是去各个网站看热门新闻、行业资料。以前是用 RSS，但 RSS 被视为落后，越来越多的网站不再提供 RSS 源。离开 RSS，我就一直没找到更合适的方法去将内容聚合起来，不得不在一个个网站间疲于奔命，逐渐不再看内容。</description>
-      <category>自动化</category>
-      <pubDate>Wed, 31 Jan 2018 22:51:00 GMT</pubDate>
-      <content:encoded><![CDATA[<blockquote>
-<p>机器人会取代你工作！
-计算云会取代你工作！
-AI 会取代你的工作！</p>
-</blockquote>
-<p>我相信科技终究有一天会消灭所有工作，但我们这代人的无奈就是很难等到这一天。</p>
-<p>作为懒人、宅男，等不及了怎么办？</p>
-<p>既然还没被取代，那就<strong>雇个机器人帮你干活</strong>！</p>
-<p>我每天第一件事是去各个网站看热门新闻、行业资料。以前是用 RSS，但 RSS 被视为落后，越来越多的网站不再提供 RSS 源。离开 RSS，我就一直没找到更合适的方法去将内容聚合起来，不得不在一个个网站间疲于奔命，逐渐不再看内容。</p>
-<blockquote>
-<p>RSS(Really Simple Syndication) 是一种描述和同步网站内容的格式，是使用最广泛的 XML 应用。简易信息聚合（也叫聚合内容）是一种 RSS 基于 XML 标准，在互联网上被广泛采用的内容包装和投递协议。</p>
-</blockquote>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 增加 <code>Alfred</code> 搜索</label></li>
-</ul>
-<p><strong>直到遇到了我的第一个机器人雇员 <a href="https://github.com/huginn/huginn" target="_blank" rel="noopener noreferrer">Huginn</a></strong></p>
-<blockquote>
-<p>Huginn 是一个可以创建为你在线执行自动化任务的系统。Huginn 可以读取网页，监测事件并且执行符合你需求的动作。Huginn 通过 agents 创建并执行任务（事件流）。你可以将它看作是一个运行在你自己服务器上的 IFTTT 或 Zapier。</p>
-</blockquote>
-<p>Huginn 帮我将所有信息聚合成 RSS，24 小时帮我获取我要的内容。</p>
-<ul>
-<li><a href="http://news.163.com/rank" target="_blank" rel="noopener noreferrer">网易热门新闻</a>：抓取网易顶贴最多的 100 条新闻</li>
-<li><a href="http://top.baidu.com/buzz?b=1" target="_blank" rel="noopener noreferrer">百度实时热点</a>：实时更新每天的百度热点</li>
-<li><a href="https://www.guokr.com/" target="_blank" rel="noopener noreferrer">果壳网</a>：果壳首页推荐，官方更新速度较慢，刚好可以了解些奇思妙想</li>
-<li>工作类：梅花、SocialBeta、数英网、艾瑞网</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>提早晚餐，饿死算逑</title>
-      <link>https://newzone.top/posts/2018-03-06-no_more_dinner.html</link>
-      <guid>https://newzone.top/posts/2018-03-06-no_more_dinner.html</guid>
-      <source url="https://newzone.top/rss.xml">提早晚餐，饿死算逑</source>
-      <description>上大学后，每天晚上都打游戏点「叉鸭例牌 + 两碗米饭」，体重成功上到 85KG。后来减肥在 13 年达到历史低点 75KG，但后来持续上升，在 18 年春节达到顶点，93KG，比婚前胖了38 斤。 目前以在家办公为主，很少出门，每天走路都没走多少，更别说运动了。 解决方案： 增加运动：每天划船机 2 公里，后期再逐步加量 调节饮食，多喝水不吃炸鸡 早餐：9 点，牛奶 + 麦片 午餐：12 点，正常 晚餐：4 点，晚餐后不再吃东西</description>
-      <category>健康</category>
-      <pubDate>Tue, 06 Mar 2018 22:06:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>上大学后，每天晚上都打游戏点「叉鸭例牌 + 两碗米饭」，体重成功上到 85KG。后来减肥在 13 年达到历史低点 75KG，但后来持续上升，在 18 年春节达到顶点，93KG，比婚前胖了<strong>38 斤</strong>。</p>
-<p>目前以在家办公为主，很少出门，每天走路都没走多少，更别说运动了。</p>
-<p><strong>解决方案：</strong></p>
-<ol>
-<li>
-<p>增加运动：每天划船机 2 公里，后期再逐步加量</p>
-</li>
-<li>
-<p>调节饮食，多喝水不吃炸鸡</p>
-<ul>
-<li>
-<p>早餐：9 点，牛奶 + 麦片</p>
-</li>
-<li>
-<p>午餐：12 点，正常</p>
-</li>
-<li>
-<p>晚餐：4 点，晚餐后不再吃东西</p>
-</li>
-</ul>
-</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>日期</th>
-<th>历史体重</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2012 年 9 月 2 日 23:04:51</td>
-<td>85KG</td>
-<td>今天吃了 3 个苹果，3 块钱煎饼。刚洗完澡</td>
-</tr>
-<tr>
-<td>2013 年 4 月 11 日 21:24:54</td>
-<td>86.4KG</td>
-<td>脱去外套</td>
-</tr>
-<tr>
-<td>2013 年 9 月 5 日 8 点</td>
-<td>81.8kg</td>
-<td></td>
-</tr>
-<tr>
-<td>2013 年 10 月 3 日 9:55:02</td>
-<td>78.7KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2014 年 2 月 25 日春节</td>
-<td>83KG</td>
-<td>重新开始减重</td>
-</tr>
-<tr>
-<td>2014 年 10 月 19 日 16:50:10</td>
-<td>86.1KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2016 年 8 月 4 日</td>
-<td>88KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2018 年 3 月 6 日 晚</td>
-<td>91.6 KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2020 年 10 月 6 日</td>
-<td>95 KG</td>
-<td>巅峰，开始营养健康餐</td>
-</tr>
-</tbody>
-</table>
-]]></content:encoded>
     </item>
   </channel>
 </rss>

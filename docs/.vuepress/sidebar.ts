@@ -7,15 +7,15 @@ export default sidebar([
   { text: "Books&Tutorials", icon: "read", link: "https://suegk.github.io/reading/" },
   {
     text: "👩‍💻 Code",
-    //icon: "",
-    prefix: "/Code/",
+    icon: "",
+    prefix: "/code/",
     link: "",
     collapsible: true,
     children: "structure"
   },
   {
     text: "🍏 Productivity Software",
-    //icon: "",
+    icon: "",
     prefix: "/apps/",
     link: "",
     collapsible: true,
@@ -24,7 +24,7 @@ export default sidebar([
 
   {
     text: "🧩 Algorithms",
-    //icon: "",
+    icon: "",
     prefix: "/Algorithms/",
     link: "",
     collapsible: true,
@@ -33,7 +33,7 @@ export default sidebar([
 
   {
     text: "⚙️ MLOps",
-    //icon: "",
+    icon: "",
     prefix: "/MLOps/",
     link: "",
     collapsible: true,
@@ -42,7 +42,7 @@ export default sidebar([
 
   {
     text: "Visualization",
-    //icon: "",
+    icon: "",
     prefix: "/Visualization/",
     link: "",
     collapsible: true,

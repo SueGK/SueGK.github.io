@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://newzone.top/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://suegk.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <title>LearnData-开源笔记</title>
-    <link>https://newzone.top/</link>
+    <link>https://suegk.github.io/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 24 Jan 2023 18:03:59 GMT</pubDate>
-    <lastBuildDate>Tue, 24 Jan 2023 18:03:59 GMT</lastBuildDate>
+    <pubDate>Tue, 24 Jan 2023 18:22:25 GMT</pubDate>
+    <lastBuildDate>Tue, 24 Jan 2023 18:22:25 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>工具</category>
     <category>系统</category>
     <item>
       <title>Tools</title>
-      <link>https://newzone.top/Algorithm/Academics/Conference-Workshop.html</link>
-      <guid>https://newzone.top/Algorithm/Academics/Conference-Workshop.html</guid>
-      <source url="https://newzone.top/rss.xml">Tools</source>
+      <link>https://suegk.github.io/Algorithm/Academics/Conference-Workshop.html</link>
+      <guid>https://suegk.github.io/Algorithm/Academics/Conference-Workshop.html</guid>
+      <source url="https://suegk.github.io/rss.xml">Tools</source>
       <description>Tools AMiner 🌟 AMiner (aminer.org) aims to provide comprehensive search and mining services for researcher social networks. In this system, we focus on: (1) creating a semantic-based profile for each researcher by extracting information from the distributed Web; (2) integrating academic data (e.g., the bibliographic data and the researcher profiles) from multiple sources; (3) accurately searching the heterogeneous network; (4) analyzing and discovering interesting patterns from the built researcher social network. The main search and analysis functions in AMiner include:</description>
       <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Tools</h1>
@@ -72,9 +72,9 @@
     </item>
     <item>
       <title></title>
-      <link>https://newzone.top/MLOps/AWS/02-Endpoint%20Demo.html</link>
-      <guid>https://newzone.top/MLOps/AWS/02-Endpoint%20Demo.html</guid>
-      <source url="https://newzone.top/rss.xml"></source>
+      <link>https://suegk.github.io/MLOps/AWS/02-Endpoint%20Demo.html</link>
+      <guid>https://suegk.github.io/MLOps/AWS/02-Endpoint%20Demo.html</guid>
+      <source url="https://suegk.github.io/rss.xml"></source>
       <description>title: 02-Endpoint Demo article: false In this demo, we demonstrate how to create an endpoint&amp;nbsp;in the following two ways: AWS Console SDK Then, we will also talk about how to make predictions using an endpoint.</description>
       <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
       <content:encoded><![CDATA[<hr>
@@ -127,9 +127,9 @@ inference <span class="token operator">=</span> predictor<span class="token punc
     </item>
     <item>
       <title></title>
-      <link>https://newzone.top/MLOps/AWS/02-Endpoint.html</link>
-      <guid>https://newzone.top/MLOps/AWS/02-Endpoint.html</guid>
-      <source url="https://newzone.top/rss.xml"></source>
+      <link>https://suegk.github.io/MLOps/AWS/02-Endpoint.html</link>
+      <guid>https://suegk.github.io/MLOps/AWS/02-Endpoint.html</guid>
+      <source url="https://suegk.github.io/rss.xml"></source>
       <description>title: 02-Endpoint article: false RESTful API jHkgox An&amp;nbsp;interface&amp;nbsp;is a shared methodology through which you can interact with different objects in computing. An&amp;nbsp;Application Programming Interface (API)&amp;nbsp;is an interface between a user and a backend of an application. A&amp;nbsp;RESTful API&amp;nbsp;is an API that follows specific architectural boundaries, which is called the REST architectural style.</description>
       <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
       <content:encoded><![CDATA[<hr>
@@ -184,9 +184,9 @@ article: false</h2>
     </item>
     <item>
       <title>Batch Transform Demo</title>
-      <link>https://newzone.top/MLOps/AWS/03-Batch%20Transform.html</link>
-      <guid>https://newzone.top/MLOps/AWS/03-Batch%20Transform.html</guid>
-      <source url="https://newzone.top/rss.xml">Batch Transform Demo</source>
+      <link>https://suegk.github.io/MLOps/AWS/03-Batch%20Transform.html</link>
+      <guid>https://suegk.github.io/MLOps/AWS/03-Batch%20Transform.html</guid>
+      <source url="https://suegk.github.io/rss.xml">Batch Transform Demo</source>
       <description>title: 03-Batch Transform article: false Batch Transform Use batch transform when you need to do the following: Preprocess datasets to remove noise or bias that interferes with training or inference from your dataset. Get inferences from large datasets. Run inference when you don't need a persistent endpoint. Associate input records with inferences to assist the interpretation of results.</description>
       <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
       <content:encoded><![CDATA[<hr>
@@ -267,9 +267,9 @@ model <span class="token operator">=</span> Model<span class="token punctuation"
     </item>
     <item>
       <title>Scenario #1</title>
-      <link>https://newzone.top/code/git/Version%20Control%20scenario.html</link>
-      <guid>https://newzone.top/code/git/Version%20Control%20scenario.html</guid>
-      <source url="https://newzone.top/rss.xml">Scenario #1</source>
+      <link>https://suegk.github.io/code/git/Version%20Control%20scenario.html</link>
+      <guid>https://suegk.github.io/code/git/Version%20Control%20scenario.html</guid>
+      <source url="https://suegk.github.io/rss.xml">Scenario #1</source>
       <description>Scenario #1 Let's walk through the Git commands that go along with each step in the scenario you just observed in the video. Step 1: You have a local version of this repository on your laptop, and to get the latest stable version, you pull from the develop branch. Switch to the develop branch git checkout develop</description>
       <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Scenario #1</h1>
@@ -395,9 +395,9 @@ model <span class="token operator">=</span> Model<span class="token punctuation"
     </item>
     <item>
       <title>Undo changes</title>
-      <link>https://newzone.top/code/git/git.html</link>
-      <guid>https://newzone.top/code/git/git.html</guid>
-      <source url="https://newzone.top/rss.xml">Undo changes</source>
+      <link>https://suegk.github.io/code/git/git.html</link>
+      <guid>https://suegk.github.io/code/git/git.html</guid>
+      <source url="https://suegk.github.io/rss.xml">Undo changes</source>
       <description>$ git add -h usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;... -n, --dry-run dry run -v, --verbose be verbose -i, --interactive interactive picking -p, --patch select hunks interactively -e, --edit edit current diff and apply -f, --force allow adding otherwise ignored files -u, --update update tracked files --renormalize renormalize EOL of tracked files (implies -u) -N, --intent-to-add record only the fact that the path will be added later -A, --all add changes from all tracked and untracked files --ignore-removal ignore paths removed in the working tree (same as --no-all) --refresh don't add, only refresh the index --ignore-errors just skip files which cannot be added because of errors --ignore-missing check if - even missing - files are ignored in dry run --chmod (+|-)x override the executable bit of the listed files</description>
       <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
       <content:encoded><![CDATA[<div class="language-console line-numbers-mode" data-ext="console"><pre class="language-console"><code>$ git add -h
@@ -1083,9 +1083,9 @@ noted above in this step.
     </item>
     <item>
       <title>电脑上实现微信双开，无需网页版或第三方软件</title>
-      <link>https://newzone.top/posts/2017-04-18-wechat_multi_open.html</link>
-      <guid>https://newzone.top/posts/2017-04-18-wechat_multi_open.html</guid>
-      <source url="https://newzone.top/rss.xml">电脑上实现微信双开，无需网页版或第三方软件</source>
+      <link>https://suegk.github.io/posts/2017-04-18-wechat_multi_open.html</link>
+      <guid>https://suegk.github.io/posts/2017-04-18-wechat_multi_open.html</guid>
+      <source url="https://suegk.github.io/rss.xml">电脑上实现微信双开，无需网页版或第三方软件</source>
       <description>由于工作原因，有时候我们需要在电脑上登录多个微信。但微信限制一个客户端只能登陆一个账号，PC 端 + 网页版就成了通用方案，操作效率下降许多。 其实我们还有更好的办法。在微信 PC 版之余，同时安装微信 For Windows，就能实现客户端双开！ 微信 For Windows 安装 打开「运行」对话框，输入并启动「应用商店」或「Microsoft Store」，搜索并安装 微信 For Windows。</description>
       <category>工具</category>
       <pubDate>Tue, 18 Apr 2017 00:00:00 GMT</pubDate>
@@ -1113,9 +1113,9 @@ noted above in this step.
     </item>
     <item>
       <title>office 2016 安装程序报错解决办法</title>
-      <link>https://newzone.top/posts/2017-07-28-office_2016_installer_error.html</link>
-      <guid>https://newzone.top/posts/2017-07-28-office_2016_installer_error.html</guid>
-      <source url="https://newzone.top/rss.xml">office 2016 安装程序报错解决办法</source>
+      <link>https://suegk.github.io/posts/2017-07-28-office_2016_installer_error.html</link>
+      <guid>https://suegk.github.io/posts/2017-07-28-office_2016_installer_error.html</guid>
+      <source url="https://suegk.github.io/rss.xml">office 2016 安装程序报错解决办法</source>
       <description>重新安装 Office 系统或更改安装组件时，经常提示：「找不到有效的安装源」，但实际这些文件都能在安装包内找到。这是由于注册表和组件而导致的报错，「找不到有效的安装源」并不是真实原因，解决方法查看下方。 解决方法 打开 regedit.exe，在注册表中找到路径 计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Delivery\SourceEngine\Downloads\{90160000-00BA-0804-1000-0000000FF1CE}-C\Sources\PROPLUS16(RG)-6186D162。 修改 Path 数据，改为安装包位置，比如 F:\5.软件资源\系统重装\SW_DVD5_Office_Professional_Plus_2016_64Bit_ChnSimp_MLF_X20-42426\groove.zh-cn。 在 C 盘建立安装组件： 把安装包路径 \groove.zh-cn\ 下的文件复制到 C:\MSOCache\All Users\{90160000-00BA-0804-1000-0000000FF1CE}-C 目录下 (如果没有这个目录就自己建立)。 把安装包路径 \proplus.ww\ 下的文件复制到 C:\MSOCache\All Users\{90160000-0011-0000-1000-0000000FF1CE}-C。 将需要的程序文件放入 MSOCache 路径 MSOCache 其它的目录下内容同样根据注册表的内容把它指示的光盘中的安装文件复制到相应的目录下。如果没有那个目录就要自己建立，类似的目录一共有 12 个。 如果不想全装可以只选择需要的软件，下面以 Onenote 和 Access 为例。 Onenote 把安装包路径 \onenote.zh-cn\ 下的文件复制到 C:\MSOCache\All Users\{90160000-00A1-0804-1000-0000000FF1CE}-CC。 Access 把安装包路径 \access.zh-cn\ 下的文件复制到 C:\MSOCache\All Users\{90160000-0015-0804-1000-0000000FF1CE}-C。 最后进入安装包运行 setup.exe 安装正常。</description>
       <category>系统</category>
       <pubDate>Fri, 28 Jul 2017 11:02:00 GMT</pubDate>

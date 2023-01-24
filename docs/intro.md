@@ -1,13 +1,12 @@
 ---
 article: false
-title: 个人介绍
+title: About Me
 icon: any
 ---
+- Machine Learning，Deep Learning
 
-互联网广告人，
+- Curious About New Tools And Methods.
 
-迷信新工具、新方法，
+- Insisting On Criticism And Self-Criticism, Remaining Open To Every Opportunity, And Being Brave Enough To Try New Things.
 
-坚持批评与自我批评，对每一个机遇保持开放的态度，勇于尝试新鲜的事物，
-
-热衷于研究开源软件、心理学理论，定期分享探索成果。
+- Be Keen To Research Open Source And Efficiency Software And Share The Results Of Their Explorations On A Regular Basis

@@ -5,11 +5,11 @@ import sidebar from "./sidebar";
 
 export default hopeTheme({
   // 主题选项：https://vuepress-theme-hope.github.io/v2/zh/config/theme/layout.html
-  hostname: "https://newzone.top",
+  hostname: "https://suegk.github.io/",
 
   author: {
-    name: "清顺",
-    url: "https://newzone.top",
+    name: "Sue",
+    url: "https://suegk.github.io/",
   },
 
   iconAssets: "iconfont",
@@ -34,7 +34,7 @@ export default hopeTheme({
   fullscreen: true,
 
   // 默认为 GitHub. 同时也可以是一个完整的 URL
-  repo: "rockbenben/LearnData",
+  repo: "SueGK/SueGK.github.io",
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为 "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "GitHub",
   // 是否在导航栏内显示仓库链接，默认为 `true`
@@ -67,22 +67,27 @@ export default hopeTheme({
   // 主题功能选项：https://vuepress-theme-hope.github.io/v2/zh/config/theme/feature.html
   blog: {
     articleInfo: ["Date", "PageView", "Category", "Tag", "ReadingTime"],
-    name: "清顺",
+    name: "Sue",
     avatar: "/avatar_self.webp",
     description: "迷信新工具，热衷于研究开源软件、心理学理论，定期分享探索成果",
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
+      GitHub: "https://github.com/SueGK",
+      Medium: "https://medium.com/@sue.sk.guo",
+      Twitter: "https://twitter.com/Sue_sk79",
+      /*
       Zhihu: "https://www.zhihu.com/people/qingwhat",
       少数派: [
         "https://sspai.com/u/zqj05i4v/posts",
         path.resolve(__dirname, "icons/sspai.svg"),
       ],
       Wechat: "http://tc.seoipo.com/wechat.svg",
-      Email: "mailto:learndata@newzone.top",
+      
+      Email: "",
       Discord: "https://discord.gg/PZTQfJ4GjX",
-      RSS: "https://newzone.top/rss.xml",
+      */
+      //RSS: "https://newzone.top/rss.xml",
     },
   },
   // 开发模式下是否启动热更新，显示所有更改并重新渲染
@@ -94,6 +99,7 @@ export default hopeTheme({
 
     // 评论配置（仅做样例，记得更换）
     comment: {
+      /*
       provider: "Waline",
       serverURL: "https://waline.newzone.top",
       reaction: [
@@ -124,15 +130,14 @@ export default hopeTheme({
           level5: "化神",
         },
       },
-
-      // Giscus 备用配置
-      /*
-      provider: "Giscus",
-      repo: "rockbenben/LearnData",
-      repoId: "R_kgDOHdfk6Q",
-      category: "Comments",
-      categoryId: "DIC_kwDOHdfk6c4CQYNn",
       */
+      // Giscus 备用配置
+      provider: "Giscus",
+      repo: "SueGK/SueGK.github.io",
+      repoId: "R_kgDOIt6Nxg",
+      category: "General",
+      categoryId: "DIC_kwDOIt6Nxs4CTx-m",
+      
     },
 
     // 组件库

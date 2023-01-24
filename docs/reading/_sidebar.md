@@ -1,10 +1,18 @@
-
-- [读书方法]()
-- 0.自我提升
-  - [提升思维](0_自我提升/提升思维.md)
-  - [吃掉那只青蛙](0_自我提升/吃掉那只青蛙.md)
-- 1.心理学
-  - [人性的弱点](1_心理学/人性的弱点.md)
-  - [影响力](1_心理学/影响力.md)
-- [写作](2_技能/写作.md)
-- [商业传记](3_管理/商业传记.md)
+- [Reading Techniques](README.md)
+- 00 - Data
+  - [Data Science](00-Data/DataScience.md)
+  - [Data Visualization](00-Data/DataVisualization.md)
+- 10 - AI
+  - [Statistics](10-AI/Stats.md)
+  - [Machine Learning](10-AI/ML.md)
+  - [Deep Learning](10-AI/DL.md)
+  - [Computer Vision](10-AI/CV.md)
+  - [NLP](10-AI/NLP.md)
+- 20 - Code
+  - [Python](20-Code/Python.md)
+  - [Pytorch](20-Code/Pytorch.md)
+  - [Tensorflow](20-Code/Tensorflow.md)
+  - [R](20-Code/R.md)
+  - [Shell](20-Code/Shell.md)
+- 30 - Data Structure & Algorithms
+  - [DSA](30-DataStructureAlgorithms/dsa.md)

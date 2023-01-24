@@ -6,9 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <!-- <title>LearnData - 读书笔记</title>
-  <meta name="description" content="读书笔记" />
-  <meta name="keywords" content="读书笔记,阅读笔记" /> -->
   <title>Reading Notes</title>
   <meta name="description" content="Read and Learn" />
   <meta name="keywords" content="Book,Tutorials" />
@@ -59,15 +56,29 @@
       }
     }
   </style>
-
+  <!-- Matomo 此区块为统计代码，请删除-->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "https://piwik.seoipo.com/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', '7']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <!-- End Matomo Code 此区块为统计代码，请删除-->
 </head>
 
 <body class="body--ready">
-  <div id="app">🏃‍🏃‍🏃‍💨Loading...</div>
+  <div id="app">🏃‍🏃‍🏃‍💨 Loading...</div>
   <script>
     window.$docsify = {
-      name: '<p>🌈 Read Notes</p>', // 文档标题，会显示在侧边栏顶部
-      nameLink: 'https://newzone.top/', // 点击文档标题后跳转的链接地址。
+      name: '<p>🌈 Reading Notes</p>', // 文档标题，会显示在侧边栏顶部
+      nameLink: 'https://suegk.github.io/', // 点击文档标题后跳转的链接地址。
       // repo: 'https://github.com/rockbenben/LearnData',
       // logo: '/_media/icon.svg', // 在侧边栏中出现的网站图标，你可以使用 CSS 来更改大小
       // homepage: 'README.md', // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
@@ -98,7 +109,7 @@
         maxAge: 86400000, // 缓存过期时间，单位毫秒，默认一天
         paths: 'auto',
         placeholder: '🔍 Search',
-        noData: '😒 Can not find it!',
+        noData: '😒 找不到结果，请缩短搜索词',
 
         // 搜索标题的最大层级，1 - 6
         depth: 2,
@@ -142,22 +153,7 @@
       },
       // 部署 Waline：https://waline.js.org/guide/get-started.html
       // 阅读量统计与评论，不需要可删除本区块
-      // waline: {
-      //   serverURL: "https://waline.newzone.top",
-      //   pageview: true, // 浏览量统计
-      //   // Waline 等级标签
-      //   walineLocales: {
-      //     "/": {
-      //       admin: "盛年不重来，一日难再晨",
-      //       level0: "锻体",
-      //       level1: "炼气",
-      //       level2: "筑基",
-      //       level3: "金丹",
-      //       level4: "元婴",
-      //       level5: "化神",
-      //     },
-      //   },
-      // },
+
     }
   </script>
 
@@ -206,7 +202,7 @@
       minutes - 0-59 之间的整数，做为 date 对象的分钟数
       seconds - 0-59 之间的整数，做为 date 对象的秒数
       microseconds - 0-999 之间的整数，做为 date 对象的毫秒数 */
-      var t1 = Date.UTC(2022, 07, 23, 22, 22, 22); //北京时间 2022-07-23 22:22:22 //LearnData 首个 commit 时间，该为你自己值得纪念的日子吧
+      var t1 = Date.UTC(2023, 01, 01, 23, 59, 59); //北京时间 2022-07-23 22:22:22 //LearnData 首个 commit 时间，该为你自己值得纪念的日子吧
       var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
       var diff = t2 - t1;
       var diffYears = Math.floor(diff / years);

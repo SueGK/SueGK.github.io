@@ -8,7 +8,6 @@ tag:
   - promt
 order: 1
 ---
-
 # Follow-up Questions
 
 Most of time ChatGPT may not provide a perfect answer on the first try, it has a self-correction ability that allows it to improve its answers. Just ask it to reflect the response or you can give it a little hint/idea you have, ChatGPT usually apologizes and provides a better answer.
@@ -21,8 +20,6 @@ Prompt:
 	- Can you analyze if the response is correct?
 	- Are you sure about that?
 ```
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I saw <a href="https://twitter.com/awjuliani?ref_src=twsrc%5Etfw">@awjuliani</a>'s tweet that LLMs cannot generate a non-rhyming poem. Indeed, GPT-4 does not do it even if I ask it to think carefully <a href="https://t.co/O61PkLMmBV">https://t.co/O61PkLMmBV</a> <a href="https://t.co/faHRfpHB0l">pic.twitter.com/faHRfpHB0l</a></p>— Eric Jang (@ericjang11) <a href="https://twitter.com/ericjang11/status/1639882382437384192?ref_src=twsrc%5Etfw">March 26, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Related paper:
 [Reflexion: an autonomous agent with dynamic memory and self-reflection](https://arxiv.org/pdf/2303.11366.pdf)

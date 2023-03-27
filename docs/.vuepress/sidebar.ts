@@ -6,13 +6,14 @@ export default sidebar([
   // 读书笔记架构更换到 docsify，不能使用相对链接
   { text: "Books&Tutorials", icon: "read", link: "https://suegk.github.io/reading/" },
   {
-    text: "👩‍💻 Code",
+    text: "🗳️ Prompt Engineering",
     icon: "",
-    prefix: "/code/",
+    prefix: "/PromptEngineering/",
     link: "",
     collapsible: true,
     children: "structure"
   },
+  
   {
     text: "🍏 Productivity Software",
     icon: "",

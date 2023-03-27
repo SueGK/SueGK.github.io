@@ -1,3 +1,4 @@
+```
 ---
 title: test
 subtitle: random
@@ -6,8 +7,10 @@ category:
   - code
 tag:
   - promt
-order: 1
+order: 
 ---
+```
+
 # Follow-up Questions
 
 Most of time ChatGPT may not provide a perfect answer on the first try, it has a self-correction ability that allows it to improve its answers. Just ask it to reflect the response or you can give it a little hint/idea you have, ChatGPT usually apologizes and provides a better answer.
@@ -20,6 +23,8 @@ Prompt:
 	- Can you analyze if the response is correct?
 	- Are you sure about that?
 ```
+
+![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FFemFarm%2FDGyOvm4Bo3.png?alt=media&token=a48c517b-d8a1-40e8-8408-6965a2c3eac6)
 
 Related paper:
 [Reflexion: an autonomous agent with dynamic memory and self-reflection](https://arxiv.org/pdf/2303.11366.pdf)

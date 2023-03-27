@@ -6,45 +6,17 @@
     <link>https://suegk.github.io/</link>
     <description>Artificial Intelligence | Deep Learning | Productivity Software | Note-Taking</description>
     <language>en-US</language>
-    <pubDate>Mon, 27 Mar 2023 00:13:05 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Mar 2023 00:13:05 GMT</lastBuildDate>
+    <pubDate>Mon, 27 Mar 2023 00:44:43 GMT</pubDate>
+    <lastBuildDate>Mon, 27 Mar 2023 00:44:43 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>code</category>
-    <item>
-      <title>test</title>
-      <link>https://suegk.github.io/posts/prompt.html</link>
-      <guid>https://suegk.github.io/posts/prompt.html</guid>
-      <source url="https://suegk.github.io/rss.xml">test</source>
-      <description>Follow-up Questions Most of time ChatGPT may not provide a perfect answer on the first try, it has a self-correction ability that allows it to improve its answers. Just ask it to reflect the response or you can give it a little hint/idea you have, ChatGPT usually apologizes and provides a better answer.</description>
-      <category>code</category>
-      <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Follow-up Questions</h1>
-<p>Most of time ChatGPT may not provide a perfect answer on the first try, it has a self-correction ability that allows it to improve its answers. Just ask it to reflect the response or you can give it a little hint/idea you have, ChatGPT usually apologizes and provides a better answer.</p>
-<h2> Ask LLMs to critique their outputs and immediately fix their own mistakes</h2>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>Prompt<span class="token punctuation">:</span> 
-	<span class="token operator">-</span> Did xxx meet the assignment?
-	<span class="token operator">-</span> Can you analyze <span class="token keyword">if</span> the response <span class="token keyword">is</span> correct?
-	<span class="token operator">-</span> Are you sure about that?
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Related paper:
-<a href="https://arxiv.org/pdf/2303.11366.pdf" target="_blank" rel="noopener noreferrer">Reflexion: an autonomous agent with dynamic memory and self-reflection</a>
-Here are some takeaways from this page.</p>
-<ul>
-<li>The document proposes Reﬂexion, an approach that endows an agent with dynamic memory and self-reﬂection capabilities to enhance its existing reasoning trace and task-speciﬁc action choice abilities.</li>
-<li>The approach uses a simple heuristic to detect hallucination and inefﬁcient action execution and queries an LLM to reﬂect on its current task, trajectory history, and last reward.</li>
-<li>The approach achieves improved performance on decision-making tasks in AlfWorld environments and knowledge-intensive, search-based question-and-answer tasks in HotPotQA environments.</li>
-</ul>
-<p>Reference:
-- <a href="https://twitter.com/ericjang11/status/1639882111338573824" target="_blank" rel="noopener noreferrer">(1) Eric Jang on Twitter: "Instead of finding the perfect prompt for an LLM (let's think step by step), you can ask LLMs to critique their outputs and immediately fix their own mistakes. Here's a fun example:" / Twitter</a></p>
-]]></content:encoded>
-    </item>
     <item>
       <title>Tools</title>
-      <link>https://suegk.github.io/Algorithm/Academics/Conference-Workshop.html</link>
-      <guid>https://suegk.github.io/Algorithm/Academics/Conference-Workshop.html</guid>
+      <link>https://suegk.github.io/Algorithm/Conference-Workshop.html</link>
+      <guid>https://suegk.github.io/Algorithm/Conference-Workshop.html</guid>
       <source url="https://suegk.github.io/rss.xml">Tools</source>
       <description>Tools AMiner 🌟 AMiner (aminer.org) aims to provide comprehensive search and mining services for researcher social networks. In this system, we focus on: (1) creating a semantic-based profile for each researcher by extracting information from the distributed Web; (2) integrating academic data (e.g., the bibliographic data and the researcher profiles) from multiple sources; (3) accurately searching the heterogeneous network; (4) analyzing and discovering interesting patterns from the built researcher social network. The main search and analysis functions in AMiner include:</description>
-      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
+      <pubDate>Mon, 27 Mar 2023 00:43:32 GMT</pubDate>
       <content:encoded><![CDATA[<h1> Tools</h1>
 <h2> <a href="https://www.aminer.cn/introduction" target="_blank" rel="noopener noreferrer">AMiner</a> 🌟</h2>
 <blockquote>
@@ -97,199 +69,42 @@ Here are some takeaways from this page.</p>
       <enclosure url="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/X64Hh3.png" type="image/png"/>
     </item>
     <item>
-      <title></title>
-      <link>https://suegk.github.io/MLOps/AWS/02-Endpoint%20Demo.html</link>
-      <guid>https://suegk.github.io/MLOps/AWS/02-Endpoint%20Demo.html</guid>
-      <source url="https://suegk.github.io/rss.xml"></source>
-      <description>title: 02-Endpoint Demo article: false In this demo, we demonstrate how to create an endpoint&amp;nbsp;in the following two ways: AWS Console SDK Then, we will also talk about how to make predictions using an endpoint.</description>
-      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
-      <content:encoded><![CDATA[<hr>
-<h2> title: 02-Endpoint Demo
-article: false</h2>
-<p>In this demo, we demonstrate how to create an endpoint&nbsp;in the following two ways:</p>
+      <title>Follow-up Questions</title>
+      <link>https://suegk.github.io/PromptEngineering/prompt.html</link>
+      <guid>https://suegk.github.io/PromptEngineering/prompt.html</guid>
+      <source url="https://suegk.github.io/rss.xml">Follow-up Questions</source>
+      <description>--- title: test subtitle: random date: 2023-03-27 category: - code tag: - promt order: ---</description>
+      <pubDate>Mon, 27 Mar 2023 00:43:32 GMT</pubDate>
+      <content:encoded><![CDATA[<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>---
+title: test
+subtitle: random
+date: 2023-03-27
+category:
+  - code
+tag:
+  - promt
+order: 
+---
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1> Follow-up Questions</h1>
+<p>Most of time ChatGPT may not provide a perfect answer on the first try, it has a self-correction ability that allows it to improve its answers. Just ask it to reflect the response or you can give it a little hint/idea you have, ChatGPT usually apologizes and provides a better answer.</p>
+<h2> Ask LLMs to critique their outputs and immediately fix their own mistakes</h2>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>Prompt<span class="token punctuation">:</span> 
+	<span class="token operator">-</span> Did xxx meet the assignment?
+	<span class="token operator">-</span> Can you analyze <span class="token keyword">if</span> the response <span class="token keyword">is</span> correct?
+	<span class="token operator">-</span> Are you sure about that?
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FFemFarm%2FDGyOvm4Bo3.png?alt=media&amp;token=a48c517b-d8a1-40e8-8408-6965a2c3eac6" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>Related paper:
+<a href="https://arxiv.org/pdf/2303.11366.pdf" target="_blank" rel="noopener noreferrer">Reflexion: an autonomous agent with dynamic memory and self-reflection</a>
+Here are some takeaways from this page.</p>
 <ul>
-<li><strong>AWS Console</strong></li>
-<li><strong>SDK</strong></li>
+<li>The document proposes Reﬂexion, an approach that endows an agent with dynamic memory and self-reﬂection capabilities to enhance its existing reasoning trace and task-speciﬁc action choice abilities.</li>
+<li>The approach uses a simple heuristic to detect hallucination and inefﬁcient action execution and queries an LLM to reﬂect on its current task, trajectory history, and last reward.</li>
+<li>The approach achieves improved performance on decision-making tasks in AlfWorld environments and knowledge-intensive, search-based question-and-answer tasks in HotPotQA environments.</li>
 </ul>
-<p>Then, we will also talk about how to make predictions using an endpoint.</p>
-<h3> AWS Console</h3>
-<p>To create the endpoint using the console, we first create an&nbsp;<strong>endpoint configuration.</strong>&nbsp;Then, we’re already basically done. We can then use this endpoint configuration via&nbsp;<strong>create endpoint</strong>. We can confirm the health of our endpoint in the SageMaker Console under 'Endpoints', which is under 'Inference.'</p>
-<p>Quick heads-up: if you’re doing this through a personal account, there’s a limit of 2 instances across your endpoints. Contact AWS support if you want to increase this number.</p>
-<h3> SDK</h3>
-<p>Reminder: all the code demonstrated here can be found in the course&nbsp;<a href="https://github.com/udacity/udacity-nd009t-C2-Developing-ML-Workflow/tree/master" target="_blank" rel="noopener noreferrer">Github repo</a>&nbsp;in&nbsp;<code>Lesson 2, Lecture 2 Demo - Endpoint.ipynb</code>.</p>
-<p>Through the SDK, we will first initiate a&nbsp;<strong>boto3 client</strong>. Then, we obtain the&nbsp;<strong>model image uri</strong>, the&nbsp;<strong>model artifact</strong>, and an&nbsp;<strong>execution role</strong>. This is used to initiate a&nbsp;<code>Model</code>&nbsp;object. Then, we call the&nbsp;<code>deploy</code>&nbsp;method, specifying what kind of instance we want and how many.</p>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>role <span class="token operator">=</span> get_execution_role<span class="token punctuation">(</span><span class="token punctuation">)</span>
-image_uri <span class="token operator">=</span> image_uris<span class="token punctuation">.</span>retrieve<span class="token punctuation">(</span>framework<span class="token operator">=</span><span class="token string">'xgboost'</span><span class="token punctuation">,</span>region<span class="token operator">=</span><span class="token string">'us-west-2'</span><span class="token punctuation">,</span> version<span class="token operator">=</span><span class="token string">'latest'</span><span class="token punctuation">)</span>
-model_data <span class="token operator">=</span> <span class="token string">"s3://sagemaker-us-west-2-565094796913/boston-xgboost-HL/output/xgboost-2021-08-31-23-02-30-970/output/model.tar.gz"</span>
-
-model <span class="token operator">=</span> Model<span class="token punctuation">(</span>image_uri<span class="token operator">=</span>image_uri<span class="token punctuation">,</span> model_data<span class="token operator">=</span>model_data<span class="token punctuation">,</span> role<span class="token operator">=</span>role<span class="token punctuation">)</span>
-
-predictor <span class="token operator">=</span> model<span class="token punctuation">.</span>deploy<span class="token punctuation">(</span>initial_instance_count<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span> instance_type<span class="token operator">=</span><span class="token string">"ml.m5.large"</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Using endpoint through SDK</h3>
-<p>To utilize this endpoint, you can do it programmatically through the SDK's&nbsp;<code>Predictor</code>&nbsp;interface. You pass in the&nbsp;<strong>endpoint name</strong>&nbsp;and your&nbsp;<strong>Boto3 session</strong>. Depending on the type of data, you may need to&nbsp;<strong>serialize</strong>&nbsp;the data.&nbsp;<strong>Serializing</strong>&nbsp;the data breaks the data down in such a way that it can be recreated later. An example of a predictor object and serialization is shown below.</p>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code><span class="token comment">#deploy the model</span>
-deployment <span class="token operator">=</span> model<span class="token punctuation">.</span>deploy<span class="token punctuation">(</span>
-    initial_instance_count<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>
-    instance_type<span class="token operator">=</span><span class="token string">'ml.m5.xlarge'</span><span class="token punctuation">,</span>
-    <span class="token punctuation">)</span>
-<span class="token comment">#get the endpoint name</span>
-endpoint <span class="token operator">=</span> deployment<span class="token punctuation">.</span>endpoint_name
-
-<span class="token comment">#instantiate a Predictor</span>
-predictor <span class="token operator">=</span> sagemaker<span class="token punctuation">.</span>predictor<span class="token punctuation">.</span>Predictor<span class="token punctuation">(</span>
-    endpoint<span class="token punctuation">,</span>
-    sagemaker_session<span class="token operator">=</span>sagemaker<span class="token punctuation">.</span>Session<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">)</span>
-
-<span class="token comment">#prepare one image for prediction</span>
-predictor<span class="token punctuation">.</span>serializer <span class="token operator">=</span> IdentitySerializer<span class="token punctuation">(</span><span class="token string">"image/png"</span><span class="token punctuation">)</span>
-<span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">"test_image.png"</span><span class="token punctuation">,</span> <span class="token string">"rb"</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
-    payload <span class="token operator">=</span> f<span class="token punctuation">.</span>read<span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-<span class="token comment">#use the predictor to make a prediction</span>
-inference <span class="token operator">=</span> predictor<span class="token punctuation">.</span>predict<span class="token punctuation">(</span>payload<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Make sure you delete the endpoint and other instances once you complete the demo to avoid cost!</h3>
+<p>Reference:
+- <a href="https://twitter.com/ericjang11/status/1639882111338573824" target="_blank" rel="noopener noreferrer">(1) Eric Jang on Twitter: "Instead of finding the perfect prompt for an LLM (let's think step by step), you can ask LLMs to critique their outputs and immediately fix their own mistakes. Here's a fun example:" / Twitter</a></p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title></title>
-      <link>https://suegk.github.io/MLOps/AWS/02-Endpoint.html</link>
-      <guid>https://suegk.github.io/MLOps/AWS/02-Endpoint.html</guid>
-      <source url="https://suegk.github.io/rss.xml"></source>
-      <description>title: 02-Endpoint article: false RESTful API jHkgox An&amp;nbsp;interface&amp;nbsp;is a shared methodology through which you can interact with different objects in computing. An&amp;nbsp;Application Programming Interface (API)&amp;nbsp;is an interface between a user and a backend of an application. A&amp;nbsp;RESTful API&amp;nbsp;is an API that follows specific architectural boundaries, which is called the REST architectural style.</description>
-      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
-      <content:encoded><![CDATA[<hr>
-<h2> title: 02-Endpoint
-article: false</h2>
-<h3> RESTful API</h3>
-<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/jHkgox.png" alt="jHkgox" tabindex="0" loading="lazy"><figcaption>jHkgox</figcaption></figure>
-<p>An&nbsp;<strong>interface</strong>&nbsp;is a shared methodology through which you can interact with different objects in computing. An&nbsp;<strong>Application Programming Interface (API)</strong>&nbsp;is an interface between a user and a backend of an application. A&nbsp;<strong>RESTful API</strong>&nbsp;is an API that follows specific architectural boundaries, which is called the REST architectural style.</p>
-<p>4 HTTP operations that are supported are:</p>
-<ul>
-<li>GET - Used to retrieve resources</li>
-<li>PUT - Used to update existing resources</li>
-<li>POST - Used to create a new resource</li>
-<li>DELETE - Used to delete a resource</li>
-</ul>
-<h3> Endpoint</h3>
-<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/Ayfe3b.png" alt="Ayfe3b" tabindex="0" loading="lazy"><figcaption>Ayfe3b</figcaption></figure>
-<p>In SageMaker, an&nbsp;<strong>endpoint</strong>&nbsp;is an interface to a model in production. The endpoint allows us to send user data to the model and receives predictions back from the model-based upon that user data.</p>
-<p>SageMaker endpoints support the POST definition. Within this POST definition, you can provide a sample that you wish to be processed by your model. The POST request is asking for the ‘creation’ of inference.</p>
-<p>The configuration for an endpoint includes:</p>
-<ul>
-<li>A model artifact stored in S3</li>
-<li>A configuration for how data is formatted</li>
-<li>Metadata (Version data/Tags)</li>
-<li>Specified computing resources. (Machine type and # of machines)</li>
-</ul>
-<h3> Deploying on AWS</h3>
-<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/XPhgWk.png" alt="XPhgWk" tabindex="0" loading="lazy"><figcaption>XPhgWk</figcaption></figure>
-<p><strong>Production</strong>&nbsp;is a general term used to describe the stage of ML development when your trained model is evaluated against new data.&nbsp;<strong>Deployment</strong>&nbsp;is the practice of configuring and establishing computing resources to serve your model on a wider scale.</p>
-<p><strong>Multi-Availablity Zone (Multi-AZ) Deployment</strong>&nbsp;is deploying the same endpoint on different machines that are geographically isolated from each other. This increases the&nbsp;<strong>availability</strong>&nbsp;of your endpoint.</p>
-<p><strong>Autoscaling</strong>&nbsp;is the configuration of additional machines to serve your endpoint to meet demand. Enabling autoscaling increases the&nbsp;<strong>scalability</strong>&nbsp;of your endpoint. This is also sometimes referred to as&nbsp;<strong>elasticity</strong>.</p>
-<p>Availability and scalability are possible in AWS because model artifacts that are generated during training jobs are stored in S3. This simple, secure storage allows AWS to copy what is necessary across machines as needed.</p>
-<h3> Endpoint Configuration Requirements</h3>
-<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/804vfd.png" alt="804vfd" tabindex="0" loading="lazy"><figcaption>804vfd</figcaption></figure>
-<h3> [[02-Endpoint Demo]]</h3>
-<h3> New Terms</h3>
-<ul>
-<li><strong>Interface -</strong>&nbsp;A shared methodology through which you can interact with different objects in computing.</li>
-<li><strong>API -</strong>&nbsp;An interface between a user and a backend of an application.</li>
-<li><strong>RESTful API -</strong>&nbsp;An API that utilizes the REST framework.</li>
-<li><strong>Endpoint</strong>&nbsp;- A model in production in SageMaker</li>
-<li><strong>Production</strong>&nbsp;- The stage when a trained model is evaluated against new data.</li>
-<li><strong>Deployment -</strong>&nbsp;The practice of configuring and establishing computing resources to serve your model on a wider scale.</li>
-<li><strong>Multi-Availablity Zone (Multi-AZ) Deployment</strong>&nbsp;- The deployment of the same resources on different machines that are geographically isolated from each other.</li>
-<li><strong>Availability -</strong>&nbsp;Redundancy that ensures the availability of resources</li>
-<li><strong>Autoscaling</strong>&nbsp;- The deployment of new resources to meet demand</li>
-<li><strong>Scalability/Elasticity</strong>&nbsp;- The ability to acquire resources as you need them and release them as you don't.</li>
-</ul>
-<h3> Additional Resources</h3>
-]]></content:encoded>
-      <enclosure url="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/jHkgox.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Batch Transform Demo</title>
-      <link>https://suegk.github.io/MLOps/AWS/03-Batch%20Transform.html</link>
-      <guid>https://suegk.github.io/MLOps/AWS/03-Batch%20Transform.html</guid>
-      <source url="https://suegk.github.io/rss.xml">Batch Transform Demo</source>
-      <description>title: 03-Batch Transform article: false Batch Transform Use batch transform when you need to do the following: Preprocess datasets to remove noise or bias that interferes with training or inference from your dataset. Get inferences from large datasets. Run inference when you don't need a persistent endpoint. Associate input records with inferences to assist the interpretation of results.</description>
-      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
-      <content:encoded><![CDATA[<hr>
-<h2> title: 03-Batch Transform
-article: false</h2>
-<h3> Batch Transform</h3>
-<p>Use batch transform when you need to do the following:</p>
-<ul>
-<li>Preprocess datasets to remove noise or bias that interferes with training or inference from your dataset.</li>
-<li>Get inferences from large datasets.</li>
-<li>Run inference when you don't need a persistent endpoint.</li>
-<li>Associate input records with inferences to assist the interpretation of results.</li>
-</ul>
-<p><strong>Batch Transform</strong>&nbsp;is a compute job that performs inference on a dataset. To invoke Batch Transform, you will need the following:</p>
-<ul>
-<li>Input path in S3 to the bucket containing the datasets.</li>
-<li>Output path in S3 for the result of the inference.</li>
-<li>Description of computing resources</li>
-<li>S3 URI of the model artifact.</li>
-</ul>
-<p><strong>A Batch Transformation job is only possible on models created through the AWS Console or through the “CreateModel” operation on the CLI or SDK.</strong></p>
-<p>This differs from an endpoint in that endpoints service individual user requests for inference over time.</p>
-<h3> Batch Transform (in parallel)</h3>
-<p>The size of data can be a bottleneck for a transform job. By default, a separate compute resource will be spun up for each individual file in the S3 bucket that you specify. If you wish to split the size of the job even further, you can set the&nbsp;<code>SplitType</code>&nbsp;parameter to&nbsp;<code>"Line"</code>. To assemble these split jobs back to a single output file, set <code>AssembleWith</code>&nbsp;parameters to&nbsp;<code>"Line"</code>.</p>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code><span class="token keyword">import</span> boto3
-client <span class="token operator">=</span> boto3<span class="token punctuation">.</span>client<span class="token punctuation">(</span>‘sagemaker’<span class="token punctuation">)</span>
-response <span class="token operator">=</span> client<span class="token punctuation">.</span>create_transform_job<span class="token punctuation">(</span>
-    TransformJobName<span class="token operator">=</span>‘my_job’<span class="token punctuation">,</span>
-    ModelName<span class="token operator">=</span>‘target_model_for_inference’<span class="token punctuation">,</span>
-    TransformInput<span class="token operator">=</span><span class="token punctuation">{</span>
-        ‘DataSource’<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            ‘S3DataSource’<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-            ‘S3DataType’<span class="token punctuation">:</span> ‘S3Prefix’<span class="token punctuation">,</span>
-            ‘S3Uri’<span class="token punctuation">:</span> ‘s3<span class="token punctuation">:</span><span class="token operator">//</span>mybucket<span class="token operator">/</span>inputfolder<span class="token operator">/</span>’
-         <span class="token punctuation">}</span>
-     <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    ‘SplitType’<span class="token punctuation">:</span> ‘Line’
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    TransformInput<span class="token operator">=</span><span class="token punctuation">{</span>
-        ‘S3OutputPath’<span class="token punctuation">:</span> ‘s3<span class="token punctuation">:</span><span class="token operator">//</span>mybucket<span class="token operator">/</span>outputpath’<span class="token punctuation">,</span>
-        ‘AssembleWith’<span class="token punctuation">:</span> ‘Line’
-    <span class="token punctuation">}</span><span class="token punctuation">,</span>
-    TransformResources<span class="token operator">=</span><span class="token punctuation">{</span>
-    'InstanceType’<span class="token punctuation">:</span> ‘ml<span class="token punctuation">.</span>m4<span class="token punctuation">.</span>xlarge’<span class="token punctuation">,</span>
-    ‘InstanceCount’<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> New Terms</h3>
-<ul>
-<li><strong>Batch Transform</strong>&nbsp;- A compute job that performs inference on a dataset.</li>
-</ul>
-<h3> Additional Resources</h3>
-<ul>
-<li>If you want to learn more about batch transform, we recommend&nbsp;<a href="https://docs.aws.amazon.com/sagemaker/latest/dg/batch-transform.html" target="_blank" rel="noopener noreferrer">Use Batch Transform</a></li>
-</ul>
-<h1> Batch Transform Demo</h1>
-<h2> SDK</h2>
-<p>Programmatically, we do this operation in a similar pattern to what we’re used to. First, we’ll create a&nbsp;<strong>boto3 session.</strong>&nbsp;Then, similar to our operations on endpoints, we create a model object utilizing the i<strong>mage uri</strong>&nbsp;of Amazon’s XGBoost, our&nbsp;<strong>model artifact</strong>, and an&nbsp;<strong>execution role</strong>.</p>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>role <span class="token operator">=</span> get_execution_role<span class="token punctuation">(</span><span class="token punctuation">)</span>
-image_uri <span class="token operator">=</span> image_uris<span class="token punctuation">.</span>retrieve<span class="token punctuation">(</span>framework<span class="token operator">=</span><span class="token string">'xgboost'</span><span class="token punctuation">,</span>region<span class="token operator">=</span><span class="token string">'us-west-2'</span><span class="token punctuation">,</span> version<span class="token operator">=</span><span class="token string">'latest'</span><span class="token punctuation">)</span>
-model_data <span class="token operator">=</span> <span class="token string">"s3://sagemaker-us-west-2-565094796913/boston-xgboost-HL/output/xgboost-2021-08-31-23-02-30-970/output/model.tar.gz"</span>
-
-model <span class="token operator">=</span> Model<span class="token punctuation">(</span>image_uri<span class="token operator">=</span>image_uri<span class="token punctuation">,</span> model_data<span class="token operator">=</span>model_data<span class="token punctuation">,</span> role<span class="token operator">=</span>role<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Using this model object, we create a&nbsp;<strong>transformer</strong>&nbsp;object. This is used to perform operations on data, which in this case would be inference. We specify machine type, # of machines, and the output of where we want our transformations to go.</p>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>transformer <span class="token operator">=</span> model<span class="token punctuation">.</span>transformer<span class="token punctuation">(</span>
-    instance_count <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span>
-    instance_type <span class="token operator">=</span> <span class="token string">'ml.m4.xlarge'</span><span class="token punctuation">,</span>
-    output_path <span class="token operator">=</span> batch_transform_output_path
-<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Then, you call the transform method to do the job.</p>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>transformer<span class="token punctuation">.</span>transform<span class="token punctuation">(</span>
-    data<span class="token operator">=</span>data_s3_path<span class="token punctuation">,</span>
-    data_type<span class="token operator">=</span><span class="token string">'S3Prefix'</span><span class="token punctuation">,</span>
-    content_type<span class="token operator">=</span><span class="token string">'text/csv'</span><span class="token punctuation">,</span>
-    split_type<span class="token operator">=</span><span class="token string">'Line'</span>
-<span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> AWS Console</h2>
-]]></content:encoded>
+      <enclosure url="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FFemFarm%2FDGyOvm4Bo3.png?alt=media&token=a48c517b-d8a1-40e8-8408-6965a2c3eac6" type="image/"/>
     </item>
     <item>
       <title>Scenario #1</title>

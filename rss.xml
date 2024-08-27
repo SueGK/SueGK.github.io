@@ -6,10 +6,22 @@
     <link>https://suegk.github.io/</link>
     <description>Artificial Intelligence | Deep Learning | Productivity Software | Note-Taking</description>
     <language>en-US</language>
-    <pubDate>Mon, 27 Mar 2023 00:44:43 GMT</pubDate>
-    <lastBuildDate>Mon, 27 Mar 2023 00:44:43 GMT</lastBuildDate>
+    <pubDate>Tue, 27 Aug 2024 15:36:59 GMT</pubDate>
+    <lastBuildDate>Tue, 27 Aug 2024 15:36:59 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>使用指南</category>
+    <item>
+      <title>博客文章样例</title>
+      <link>https://suegk.github.io/posts/test.html</link>
+      <guid>https://suegk.github.io/posts/test.html</guid>
+      <source url="https://suegk.github.io/rss.xml">博客文章样例</source>
+      <description>博客文章内容，支持 Markdown 和 HTML 语言。</description>
+      <category>使用指南</category>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>博客文章内容，支持 Markdown 和 HTML 语言。</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Tools</title>
       <link>https://suegk.github.io/Algorithm/Conference-Workshop.html</link>

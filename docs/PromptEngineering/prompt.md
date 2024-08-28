@@ -1,5 +1,7 @@
-# Follow-up Questions
-
+---
+article: false
+title: Follow-up Questions
+---
 Most of time ChatGPT may not provide a perfect answer on the first try, it has a self-correction ability that allows it to improve its answers. Just ask it to reflect the response or you can give it a little hint/idea you have, ChatGPT usually apologizes and provides a better answer.
 
 ## Ask LLMs to critique their outputs and immediately fix their own mistakes

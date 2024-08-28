@@ -6,8 +6,8 @@
     <link>https://suegk.github.io/</link>
     <description>Artificial Intelligence | Deep Learning | Productivity Software | Note-Taking</description>
     <language>en-US</language>
-    <pubDate>Wed, 28 Aug 2024 04:20:19 GMT</pubDate>
-    <lastBuildDate>Wed, 28 Aug 2024 04:20:19 GMT</lastBuildDate>
+    <pubDate>Wed, 28 Aug 2024 04:57:20 GMT</pubDate>
+    <lastBuildDate>Wed, 28 Aug 2024 04:57:20 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>效率工具</category>
@@ -124,36 +124,14 @@ Filters automatically gather different types of bookmarks including Highights/Li
       <enclosure url="https://miro.medium.com/v2/resize:fit:1400/1*TMjVWkF1M66mQot_o9SNFQ.gif" type="image/gif"/>
     </item>
     <item>
-      <title>文章标题</title>
+      <title>如何改变GitHub中照片的位置</title>
       <link>https://suegk.github.io/posts/2022-08-16.html</link>
       <guid>https://suegk.github.io/posts/2022-08-16.html</guid>
-      <source url="https://suegk.github.io/rss.xml">文章标题</source>
-      <description>文章标题 title: How to resize and change location of images in GitHub 设置写作时间 date: 2022-08-16 一个页面可以有多个分类 category: 技巧 一个页面可以有多个标签 tag: Github 此页面会在文章列表置顶 sticky: false 此页面会出现在文章收藏中</description>
-      <pubDate>Wed, 28 Aug 2024 04:19:28 GMT</pubDate>
-      <content:encoded><![CDATA[<hr>
-<h1> 文章标题</h1>
-<p>title: How to resize and change location of images in GitHub</p>
-<h1> 设置写作时间</h1>
-<p>date: 2022-08-16</p>
-<h1> 一个页面可以有多个分类</h1>
-<p>category:</p>
-<ul>
-<li>技巧</li>
-</ul>
-<h1> 一个页面可以有多个标签</h1>
-<p>tag:</p>
-<ul>
-<li>Github</li>
-</ul>
-<h1> 此页面会在文章列表置顶</h1>
-<p>sticky: false</p>
-<h1> 此页面会出现在文章收藏中</h1>
-<p>star: true</p>
-<h1> 侧边栏的顺序</h1>
-<h1> 数字越小越靠前，支持非整数和负数，比如 -10 &lt; -9.5 &lt; 3.2, order 为 -10 的文章会最靠上。</h1>
-<h1> 个人偏好将非干货或随想短文的 order 设置在 -0.01 到 -0.99，将干货类长文的 order 设置在 -1 到负无穷。每次新增文章都会在上一篇的基础上递减 order 值。</h1>
-<h2> order: -1</h2>
-<p>You need to use some HTML in your Markdown. You could also use some text expander app to type it more quickly.</p>
+      <source url="https://suegk.github.io/rss.xml">如何改变GitHub中照片的位置</source>
+      <description>You need to use some HTML in your Markdown. You could also use some text expander app to type it more quickly. If you prefer video, here is my Youtube video! Video Link Here is my Macro for Keyboard Maestro which automate applications or web sites, text or images, simple or complex, on command or scheduled. You can also use other software such as TextExpander, ProKeys chrome extension, Alfred Snippets etc.</description>
+      <category>学习资源</category>
+      <pubDate>Thu, 18 Aug 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>You need to use some HTML in your Markdown. You could also use some text expander app to type it more quickly.</p>
 <p>If you prefer video, here is my Youtube video! <a href="https://www.youtube.com/watch?v=8LKybiFA-is" target="_blank" rel="noopener noreferrer">Video Link</a></p>
 <p>Here is my Macro for <a href="https://www.keyboardmaestro.com/main/" target="_blank" rel="noopener noreferrer">Keyboard Maestro</a> which automate applications or web sites, text or images, simple or complex, on command or scheduled. You can also use other software such as TextExpander, ProKeys chrome extension, Alfred Snippets etc.</p>
 <p>Please download it here: <a href="https://forum.keyboardmaestro.com/t/resize-image-and-change-location-in-github/28632" target="_blank" rel="noopener noreferrer">link</a></p>
@@ -257,36 +235,14 @@ I’m using an file hosting tool called <a href="https://apps.apple.com/us/app/u
       <enclosure url="https://miro.medium.com/v2/resize:fit:1368/1*tGqJ4kOcwBtYH8qZf5oowQ.png" type="image/png"/>
     </item>
     <item>
-      <title>文章标题</title>
+      <title>OpenCV-color in BGR order you must know</title>
       <link>https://suegk.github.io/posts/2022-08-18.html</link>
       <guid>https://suegk.github.io/posts/2022-08-18.html</guid>
-      <source url="https://suegk.github.io/rss.xml">文章标题</source>
-      <description>文章标题 title: OpenCV-color in BGR order you must know 设置写作时间 date: 2022-08-18 一个页面可以有多个分类 category: CV 一个页面可以有多个标签 tag: OpenCV 此页面会在文章列表置顶 sticky: false 此页面会出现在文章收藏中</description>
-      <pubDate>Wed, 28 Aug 2024 04:19:28 GMT</pubDate>
-      <content:encoded><![CDATA[<hr>
-<h1> 文章标题</h1>
-<p>title: OpenCV-color in BGR order you must know</p>
-<h1> 设置写作时间</h1>
-<p>date: 2022-08-18</p>
-<h1> 一个页面可以有多个分类</h1>
-<p>category:</p>
-<ul>
-<li>CV</li>
-</ul>
-<h1> 一个页面可以有多个标签</h1>
-<p>tag:</p>
-<ul>
-<li>OpenCV</li>
-</ul>
-<h1> 此页面会在文章列表置顶</h1>
-<p>sticky: false</p>
-<h1> 此页面会出现在文章收藏中</h1>
-<p>star: true</p>
-<h1> 侧边栏的顺序</h1>
-<h1> 数字越小越靠前，支持非整数和负数，比如 -10 &lt; -9.5 &lt; 3.2, order 为 -10 的文章会最靠上。</h1>
-<h1> 个人偏好将非干货或随想短文的 order 设置在 -0.01 到 -0.99，将干货类长文的 order 设置在 -1 到负无穷。每次新增文章都会在上一篇的基础上递减 order 值。</h1>
-<h2> order: -1</h2>
-<p>Wanna play around with the code? <a href="https://github.com/SueGK/Courses/blob/main/pyimagesearch-opencv-17-day-course/OpenCV-Mynotes/opencv_BGR_color.ipynb" target="_blank" rel="noopener noreferrer">Link</a></p>
+      <source url="https://suegk.github.io/rss.xml">OpenCV-color in BGR order you must know</source>
+      <description>Wanna play around with the code? Link import os import numpy as np import argparse import cv2 import matplotlib.pyplot as plt</description>
+      <category>学习资源</category>
+      <pubDate>Thu, 18 Aug 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Wanna play around with the code? <a href="https://github.com/SueGK/Courses/blob/main/pyimagesearch-opencv-17-day-course/OpenCV-Mynotes/opencv_BGR_color.ipynb" target="_blank" rel="noopener noreferrer">Link</a></p>
 <pre><code>import os
 import numpy as np
 import argparse

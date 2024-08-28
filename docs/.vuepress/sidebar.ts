@@ -33,14 +33,21 @@ export default sidebar([
   },
 
   {
-    text: "⚙️ MLOps",
+    text: "🔗 MLOps",
     icon: "",
     prefix: "/MLOps/",
     link: "",
     collapsible: true,
     children: "structure",
   },
-
+  {
+    text: "👩‍💻 Code",
+    icon: "",
+    prefix: "/Code/",
+    link: "",
+    collapsible: true,
+    children: "structure",
+  },
   {
     text: "Visualization",
     icon: "",

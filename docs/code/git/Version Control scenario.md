@@ -1,3 +1,8 @@
+---
+title: Git Use Case
+icon: code
+article: false
+---
 # Scenario #1
 
 Let's walk through the Git commands that go along with each step in the scenario you just observed in the video.

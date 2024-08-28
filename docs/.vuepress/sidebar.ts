@@ -40,6 +40,7 @@ export default sidebar([
     collapsible: true,
     children: "structure",
   },
+  
   {
     text: "👩‍💻 Code",
     icon: "",
@@ -48,6 +49,7 @@ export default sidebar([
     collapsible: true,
     children: "structure",
   },
+  
   {
     text: "Visualization",
     icon: "",

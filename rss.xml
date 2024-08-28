@@ -6,17 +6,407 @@
     <link>https://suegk.github.io/</link>
     <description>Artificial Intelligence | Deep Learning | Productivity Software | Note-Taking</description>
     <language>en-US</language>
-    <pubDate>Wed, 28 Aug 2024 03:52:02 GMT</pubDate>
-    <lastBuildDate>Wed, 28 Aug 2024 03:52:02 GMT</lastBuildDate>
+    <pubDate>Wed, 28 Aug 2024 04:20:19 GMT</pubDate>
+    <lastBuildDate>Wed, 28 Aug 2024 04:20:19 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>效率工具</category>
+    <category>ML</category>
+    <category>学习资源</category>
     <category>Pytorch</category>
     <category>CV</category>
     <item>
-      <title>All you should know about translation equivariance/invariance in CNN</title>
+      <title>效率工具：Roam Research中Discourse Graph插件使用流程</title>
+      <link>https://suegk.github.io/posts/2022-06-30.html</link>
+      <guid>https://suegk.github.io/posts/2022-06-30.html</guid>
+      <source url="https://suegk.github.io/rss.xml">效率工具：Roam Research中Discourse Graph插件使用流程</source>
+      <description>I’m still surprised how much Roam Research potential would you find! Have been trying to use roam for my machine learning study for 2 weeks. The combination of discourse graph and query builder in @roam_js is really powerful! Here are what I found useful:我仍然很惊讶你会发现 Roam Research 的潜力有多大！2 周以来，我一直在尝试使用 roam 进行我的机器学习学习。@roam_js&amp;nbsp;中 discourse graph 和 query builder 的组合真的很强大！以下是我发现有用的内容：</description>
+      <category>效率工具</category>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>I’m still surprised how much Roam Research potential would you find! Have been trying to use roam for my machine learning study for 2 weeks. The combination of discourse graph and query builder in <a href="https://twitter.com/roam_js" target="_blank" rel="noopener noreferrer">@roam_js</a> is really powerful! Here are what I found useful:我仍然很惊讶你会发现 Roam Research 的潜力有多大！2 周以来，我一直在尝试使用 roam 进行我的机器学习学习。@roam_js&nbsp;中 discourse graph 和 query builder 的组合真的很强大！以下是我发现有用的内容：</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*GHCaGMokzGHolVp-.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*KwhYhr0UaYP9XO16.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p><a href="https://medium.com/@sue.sk.guo/((WjDE4sICN))" target="_blank" rel="noopener noreferrer">*</a> is the alias for the code node.*）是 Code 节点的别名。</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:318/0*32JqBwp8RBRywxHu.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>The reason why I add both code node and alias for that code node is that Discourse can’t recognize a block reference of a code node as code node to establish the relationship. So like the gif below, no discourse relation found.我之所以同时为该代码节点添加 code node 和 alias，是因为 Discourse 无法将代码节点的块引用识别为代码节点来建立关系。所以就像下面的 gif 一样，没有找到 discourse 关系。</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*uJWjYEvnPgi5fohx.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*KpaOvhdCiabj25YY.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>Now, I can easily go to the code node original block by clicking the * and then go back by checking the reference number.现在，我可以通过单击 * 轻松转到代码节点原始块，然后通过检查参考编号返回。</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*km3RxfLN8xIbtsh8.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://miro.medium.com/v2/resize:fit:1400/0*GHCaGMokzGHolVp-.png" type="image/png"/>
+    </item>
+    <item>
+      <title>效率工具：Roam Research代办任务管理流程</title>
+      <link>https://suegk.github.io/posts/2022-07-08.html</link>
+      <guid>https://suegk.github.io/posts/2022-07-08.html</guid>
+      <source url="https://suegk.github.io/rss.xml">效率工具：Roam Research代办任务管理流程</source>
+      <description>For Blogs that need a lot of time to read and learn对于需要大量时间阅读和学习的博客 (such as code projects etc)（如代码项目等） ▶ Using Blog Reference like ((Blog)) to gather all blog/articles so I could easily check in the “Reading&amp;Watching List” Page▶ 使用像&amp;nbsp;（（Blog））&amp;nbsp;这样的博客参考来收集所有博客/文章，这样我就可以轻松查看“阅读&amp;观看列表”页面</description>
+      <category>效率工具</category>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p><strong>For Blogs that need a lot of time to read and learn对于需要大量时间阅读和学习的博客
+(such as code projects etc)（如代码项目等）</strong></p>
+<p>▶ Using Blog Reference like <strong>((Blog))</strong> to gather all blog/articles so I could easily check in the “Reading&amp;Watching List” Page▶ 使用像&nbsp;（（Blog））&nbsp;这样的博客参考来收集所有博客/文章，这样我就可以轻松查看“阅读&amp;观看列表”页面</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*7NRdxjiFjzSzeAom" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*H1HNTw7kJAXXSNke" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p><strong>For smaller todo list&nbsp;对于较小的待办事项列表</strong></p>
+<p>I just use roam default /todo(in any pages) and use roam/js smartblocks TODO commands to fetch a list of block references of TODOs for Today/Overdue/Future TODOS我只使用 roam default /todo（在任何页面中）并使用 roam/js smartblocks TODO 命令来获取今天/逾期/未来 TODOS 的 TODO 的块引用列表</p>
+<p>My Usage Scenarios: <strong>Morning Journal</strong>我的使用场景：晨报</p>
+<p>When I start to write Morning Journal, I’ll use #42SmartBlock to automatically create the journal with <strong>Get Thing Done</strong> section where it shows all the TODOs for Today/Overdue/Future TODOS. Therefore I could easily check up the random TODOs to find somethings you’d like to do today and add them to <strong>Make time for today’s Highlight</strong> section. I also have projects pages where contains all todo for the specific project but sometimes it’s convenient and mindless to just fetch some random todo blocks.当我开始编写晨间日记时，我将使用 #42SmartBlock 自动创建带有&nbsp;Get Thing Done&nbsp;部分的日记，其中显示今天/逾期/未来 TODO 的所有 TODO。因此，我可以轻松地检查随机的 TODO，找到您今天想做的事情，并将它们添加到&nbsp;Make time for today's Highlight&nbsp;部分。我也有项目页面，其中包含特定项目的所有待办事项，但有时只是获取一些随机的待办事项块既方便又无意识。</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1064/1*xkkFs4Y29utCd7jBnYS0Cg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1136/1*9NOdgK41HM8KK2hbvZtECg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://miro.medium.com/v2/resize:fit:1400/0*7NRdxjiFjzSzeAom" type="image/"/>
+    </item>
+    <item>
+      <title>ML公式推导 — Logistic Regression Gradient Descent Derivatives</title>
+      <link>https://suegk.github.io/posts/2022-07-11.html</link>
+      <guid>https://suegk.github.io/posts/2022-07-11.html</guid>
+      <source url="https://suegk.github.io/rss.xml">ML公式推导 — Logistic Regression Gradient Descent Derivatives</source>
+      <description>From Andrew Ng</description>
+      <category>ML</category>
+      <pubDate>Mon, 11 Jul 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<figure><img src="https://cdn-images-1.medium.com/max/3792/1*psolPGqHQtCuVdAsW0TE7A.png" alt="From Andrew Ng" tabindex="0" loading="lazy"><figcaption>From Andrew Ng</figcaption></figure>
+<figure><img src="https://cdn-images-1.medium.com/max/3822/1*I-xYOKDargu0U75QkvoS_A.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://cdn-images-1.medium.com/max/3792/1*psolPGqHQtCuVdAsW0TE7A.png" type="image/png"/>
+    </item>
+    <item>
+      <title>效率工具：书简管理器Raindrop</title>
+      <link>https://suegk.github.io/posts/2022-07-25.html</link>
+      <guid>https://suegk.github.io/posts/2022-07-25.html</guid>
+      <source url="https://suegk.github.io/rss.xml">效率工具：书简管理器Raindrop</source>
+      <description>Tools:&amp;nbsp;工具： @raindrop_io : bookmark manager/read later/highlighting@raindrop_io&amp;nbsp;： 书签管理器/稍后阅读/高亮显示 @IFTTT : automation&amp;workflow@IFTTT&amp;nbsp;： 自动化&amp;工作流 You can customize the automation on ifttt. I normally choose the collection folder and tags.您可以在 ifttt 上自定义自动化。我通常会选择收藏文件夹和标签。</description>
+      <category>效率工具</category>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Tools:&nbsp;工具：</h1>
+<p><a href="http://twitter.com/raindrop_io" target="_blank" rel="noopener noreferrer">@raindrop_io</a> : bookmark manager/read later/highlighting@raindrop_io&nbsp;： 书签管理器/稍后阅读/高亮显示
+<a href="http://twitter.com/IFTTT" target="_blank" rel="noopener noreferrer">@IFTTT</a> : automation&amp;workflow@IFTTT&nbsp;： 自动化&amp;工作流
+You can customize the automation on ifttt. I normally choose the collection folder and tags.您可以在 ifttt 上自定义自动化。我通常会选择收藏文件夹和标签。</p>
+<p>Raindrop is a bookmark manager which is able to collect everything you come across while browsing such as articles, tweets, YouTube videos and so on.Raindrop 是一个书签管理器，它能够收集您在浏览时遇到的所有内容，例如文章、推文、YouTube 视频等。</p>
+<h1> Supported File Types支持的文件类型</h1>
+<ul>
+<li>Images (<code>jpeg</code>, <code>gif</code>, <code>png</code>)图片（jpeg、gif、png）</li>
+<li>Videos (<code>mp4</code>, <code>mov</code>, <code>wmv</code>, <code>webm</code>)视频（mp4、mov、wmv、webm）</li>
+<li>Documents (<code>pdf</code>, <code>doc</code>, <code>docx</code>, <code>xls</code>, <code>xlsx</code>, <code>txt</code>)文档 （pdf，&nbsp;doc， docx，&nbsp;xls， xlsx，&nbsp;txt）</li>
+</ul>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*TMjVWkF1M66mQot_o9SNFQ.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>from <a href="http://Raindrop.io" target="_blank" rel="noopener noreferrer">Raindrop.io</a> website&nbsp;从 <a href="http://Raindrop.io" target="_blank" rel="noopener noreferrer">Raindrop.io</a> 网站</p>
+<p>It has many powerful features.它有许多强大的功能。</p>
+<h1> 1. tags&amp;filters&nbsp;1. 标签和过滤器</h1>
+<p>You can search your collected website by tags or filters.您可以按标签或过滤器搜索您收集的网站。
+You can tag items and filter items with specific tags in specific collection folders.您可以在特定集合文件夹中使用特定标签标记项目和筛选项目。
+Filters automatically gather different types of bookmarks including Highights/Links/Articles/Video/Documents/Without lags.过滤器会自动收集不同类型的书签，包括 Highights/Links/Articles/Video/Documents/Without lags。</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1398/1*iD5GOFP39K8WrIkCxr7XEw.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1656/1*zm0vC8DtiyG-TGdI-VgFBw.jpeg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h1> 2. Integrations — Automation2. 集成 — 自动化</h1>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*oQqf9OV6NQdBhAbvCn3UrA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1276/1*30a9Fi13TmR0-zQD3QeTlw.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>from <a href="http://raindrop.io" target="_blank" rel="noopener noreferrer">raindrop.io</a> website&nbsp;从 <a href="http://raindrop.io" target="_blank" rel="noopener noreferrer">raindrop.io</a> 网站</p>
+<p>You can customize the automation on ifttt. I normally choose the collection folder and tags. You could automately collect liked tweets, liked YouTube videos and Medium Bookmarks into Raindrop.您可以在 ifttt 上自定义自动化。我通常会选择收藏文件夹和标签。您可以自动将喜欢的推文、喜欢的 YouTube 视频和 Medium 书签收集到 Raindrop 中。</p>
+<p>Here are my IFTTT settings:以下是我的 IFTTT 设置：</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:514/0*yzcDMFEpKdMIIeYK.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>Create Twitter/Medium folders
+创建 Twitter/Medium 文件夹</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:332/0*recwsFiMLJUOjKCC.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>customized in IFTTT&nbsp;在 IFTTT 中定制</p>
+<ol start="3">
+<li>Highlighting&nbsp;3. 突出显示</li>
+</ol>
+<p>You can highlight the articles you saved in raindrop and export the highlights.您可以突出显示保存在 raindrop 中的文章并导出突出显示。</p>
+<p>The IMPORTANT THING IS!!!重要的是!!</p>
+<blockquote>
+<p>There’s no limit on total number of pages and highlights.页面总数和 highlights 总数没有限制。</p>
+</blockquote>
+<p>There are still more powerful features you could explore in their website!您还可以在他们的网站中探索更强大的功能！</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*Otyg6Anyd4qtgV3f-BwTWA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://miro.medium.com/v2/resize:fit:1400/1*TMjVWkF1M66mQot_o9SNFQ.gif" type="image/gif"/>
+    </item>
+    <item>
+      <title>文章标题</title>
+      <link>https://suegk.github.io/posts/2022-08-16.html</link>
+      <guid>https://suegk.github.io/posts/2022-08-16.html</guid>
+      <source url="https://suegk.github.io/rss.xml">文章标题</source>
+      <description>文章标题 title: How to resize and change location of images in GitHub 设置写作时间 date: 2022-08-16 一个页面可以有多个分类 category: 技巧 一个页面可以有多个标签 tag: Github 此页面会在文章列表置顶 sticky: false 此页面会出现在文章收藏中</description>
+      <pubDate>Wed, 28 Aug 2024 04:19:28 GMT</pubDate>
+      <content:encoded><![CDATA[<hr>
+<h1> 文章标题</h1>
+<p>title: How to resize and change location of images in GitHub</p>
+<h1> 设置写作时间</h1>
+<p>date: 2022-08-16</p>
+<h1> 一个页面可以有多个分类</h1>
+<p>category:</p>
+<ul>
+<li>技巧</li>
+</ul>
+<h1> 一个页面可以有多个标签</h1>
+<p>tag:</p>
+<ul>
+<li>Github</li>
+</ul>
+<h1> 此页面会在文章列表置顶</h1>
+<p>sticky: false</p>
+<h1> 此页面会出现在文章收藏中</h1>
+<p>star: true</p>
+<h1> 侧边栏的顺序</h1>
+<h1> 数字越小越靠前，支持非整数和负数，比如 -10 &lt; -9.5 &lt; 3.2, order 为 -10 的文章会最靠上。</h1>
+<h1> 个人偏好将非干货或随想短文的 order 设置在 -0.01 到 -0.99，将干货类长文的 order 设置在 -1 到负无穷。每次新增文章都会在上一篇的基础上递减 order 值。</h1>
+<h2> order: -1</h2>
+<p>You need to use some HTML in your Markdown. You could also use some text expander app to type it more quickly.</p>
+<p>If you prefer video, here is my Youtube video! <a href="https://www.youtube.com/watch?v=8LKybiFA-is" target="_blank" rel="noopener noreferrer">Video Link</a></p>
+<p>Here is my Macro for <a href="https://www.keyboardmaestro.com/main/" target="_blank" rel="noopener noreferrer">Keyboard Maestro</a> which automate applications or web sites, text or images, simple or complex, on command or scheduled. You can also use other software such as TextExpander, ProKeys chrome extension, Alfred Snippets etc.</p>
+<p>Please download it here: <a href="https://forum.keyboardmaestro.com/t/resize-image-and-change-location-in-github/28632" target="_blank" rel="noopener noreferrer">link</a></p>
+<ul>
+<li>Resize pictures</li>
+<li>Change location of pictures</li>
+<li>Add many pictures in one row</li>
+</ul>
+<h2> Resize pictures</h2>
+<p>You can custimize the width and height.</p>
+<pre><code>`&lt;img src="yourPictureURL.jpg" width="400"/&gt;`
+`&lt;img src="yourPictureURL.jpg" width="400" height="200"/&gt;`
+</code></pre>
+<p>Before: Markdown</p>
+<pre><code>![]([https://user-images.githubusercontent.com/71711489/183897714-9e8b8508-2bc3-4bfd-b61e-600c4bd47711.png](https://user-images.githubusercontent.com/71711489/183897714-9e8b8508-2bc3-4bfd-b61e-600c4bd47711.png))
+</code></pre>
+<p>After: HTML</p>
+<pre><code>&lt;img src=”[https://user-images.githubusercontent.com/71711489/183897714-9e8b8508-2bc3-4bfd-b61e-600c4bd47711.png](https://user-images.githubusercontent.com/71711489/183897714-9e8b8508-2bc3-4bfd-b61e-600c4bd47711.png)" width=”400"&gt;
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*4G0C2BUOOMRO_CayzpqjvA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> Change location of resized pictures</h2>
+<p>Put the picture on the right:</p>
+<pre><code>`&lt;div align="right"&gt;`
+`&lt;img src="yourPictureURL.jpg" width="400"/&gt;`
+`&lt;/div&gt;`
+</code></pre>
+<p>Put the picture on the center:</p>
+<pre><code>`&lt;div align="center"&gt;`
+`&lt;img src="yourPictureURL.jpg" width="400"/&gt;`
+`&lt;/div&gt;`
+</code></pre>
+<p>If you don’t want to resize pictures then you can remove width="400" .</p>
+<figure><img src="https://cdn-images-1.medium.com/max/2076/1*4Fo9_Js2ZV91cWDCqrOsaw.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> Add many pictures in one row</h2>
+<pre><code>`&lt;p float="left"&gt;`
+ `&lt;img src="yourPictureURL.jpg" width="400"/&gt;`
+ `&lt;img src="yourPictureURL.jpg" width="400"/&gt;`
+ .....
+`&lt;/p&gt;`
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*_DI25TlR2A3aLOb4O5UpEw.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> Macro Download</h2>
+<p>I made some Macro to easily type the HTML code.</p>
+<p><strong>First, get the image url.</strong>
+I’m using an file hosting tool called <a href="https://apps.apple.com/us/app/upic-hosting-tool/id1510718678" target="_blank" rel="noopener noreferrer">uPic</a> to get image url. You can also upload images in your GitHub to get image url.</p>
+<p><strong>Second, Typed shortcuts are:</strong></p>
+<pre><code>?zz  # image resize
+?zc  # image resize and center location
+?zr  # image resize and right location
+?zm  # multiple image in one row
+</code></pre>
+<p>You can also change to hot key shortcuts or just call macro directly.</p>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*V4MmQDaXqW6wWI3mcRvx8w.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn-images-1.medium.com/max/3160/1*WuFAjNBSaPeSNScNInF-hg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*fvGFEbZHbIZpi5qoDsrDAA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>发现热门 ML/DL 研究论文的网站</title>
+      <link>https://suegk.github.io/posts/2022-08-18-1.html</link>
+      <guid>https://suegk.github.io/posts/2022-08-18-1.html</guid>
+      <source url="https://suegk.github.io/rss.xml">发现热门 ML/DL 研究论文的网站</source>
+      <description>Keep you updated with state of the art technology is really important in the Machine learning and deep learning field. 让您了解最先进的技术在机器学习和深度学习领域非常重要。 There are some tips from Andre NG on how to read research papers. https://www.youtube.com/watch?v=733m6qBH-jI</description>
+      <category>学习资源</category>
+      <pubDate>Thu, 18 Aug 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Keep you updated with state of the art technology is really important in the Machine learning and deep learning field.</p>
+<p>让您了解最先进的技术在机器学习和深度学习领域非常重要。</p>
+<p>There are some tips from Andre NG on how to read research papers. <a href="https://www.youtube.com/watch?v=733m6qBH-jI" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=733m6qBH-jI</a></p>
+<p>Andre NG 提供了一些关于如何阅读研究论文的建议。</p>
+<p><a href="https://www.youtube.com/watch?v=733m6qBH-jI" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=733m6qBH-jI</a></p>
+<p>So, where can we find the popular papers?那么，我们在哪里可以找到热门论文呢？=</p>
+<h2> * paperswithcode — <a href="https://paperswithcode.com/sota" target="_blank" rel="noopener noreferrer">Browse State-of-the-Art</a></h2>
+<p>The papers are well categorized so you can follow what =Andre =said, choose an area of interest like semantic segmentation, and read 15–20 papers to get a good understanding of this field. More importantly, you can find the paper’s code.这些论文分类很好，因此您可以按照&nbsp;Andre&nbsp;所说的内容，选择一个感兴趣的领域，例如语义分割，并阅读 15-20 篇论文以很好地理解该领域。更重要的是，您可以找到论文的代码。</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1368/1*tGqJ4kOcwBtYH8qZf5oowQ.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1048/1*GFD5JPhEEXzp7vwMmKfpjw.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> * <a href="https://nn.labml.ai/index.html" target="_blank" rel="noopener noreferrer">labml.ai Deep Learning Paper Implementations</a></h2>
+<p>59 Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, …), optimizers (adam, adabelief, …), gans(cyclegan, stylegan2, …), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, … 🧠59 深度学习论文的实现/教程，并排注释📝;包括 Transformer （Original， XL， Switch， Feedback， VIT等）， 优化器 （Adam， AdaBelief， ...）， GANS（Cyclegan， StyleGan2， ...）， 🎮 强化学习 （PPO， DQN）， CapsNet， Distillation ...🧠</p>
+<p>This is a collection of simple PyTorch implementations of neural networks and related algorithms.  These implementations are documented with explanations. So you are able to read the paper while understanding how to implement it by Pytorch.这是神经网络和相关算法的简单 PyTorch 实现的集合。<mark>这些实现记录了说明。因此，您可以在阅读本文的同时了解如何通过 Pytorch 实现它。</mark></p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*QI_S19lNihupZgpJj7eMfg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> * <a href="http://labml.ai" target="_blank" rel="noopener noreferrer">labml.ai</a> — <a href="https://papers.labml.ai/" target="_blank" rel="noopener noreferrer">Trending Research Papers</a></h2>
+<p>The most popular research papers on social media like Twitter. You can easily find links to download papers, paper summaries, explanation videos, and discussions.Twitter 等社交媒体上最受欢迎的研究论文。您可以轻松找到下载论文、论文摘要、解释视频和讨论的链接。</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*7pr_Bk_Sh38aNgmzOPgb1A.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*XJkaJCU4qvndNY1pUV5VZw.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*MxxeMhbirfw3CcN9Vs4eRg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>The chrome extension is really helpful as well.chrome 扩展程序也非常有用。</p>
+<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>This extension shows you the following details about research papers:
+✨ 2-line summary
+✨ Availability source code, videos, and discussions
+✨ Popularity on Twitter
+✨ Conferences
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> * <a href="https://aman.ai/papers/#noise-contrastive-estimation-a-new-estimation-principle-for-unnormalized-statistical-models" target="_blank" rel="noopener noreferrer">Paper lists made by Aman</a></h2>
+<p>A summary of key papers in Computer Vision, NLP, and Speech recognition.</p>
+<p>计算机视觉、NLP 和语音识别方面的关键论文摘要。</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*BdkxFnegXS0g0sHUNW-Akw.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h2> <a href="https://deeplearn.org/" target="_blank" rel="noopener noreferrer">Deep Learning Monitor</a></h2>
+<p>=Another website where you can find the hot papers on social media.另一个您可以在社交媒体上找到热门论文的网站。=</p>
+<p>The great feature is that you can create some monitors with the keywords related to the topic of interest and check new updates every one or two weeks. Once you find a good paper and you log in Mendeley on this website, you can directly send it to your Mendeley account.很棒的功能是您可以使用与感兴趣主题相关的关键字创建一些监视器，并每隔一两周检查一次新的更新。一旦你找到一篇好的论文并在本网站上登录 Mendeley，你就可以直接将其发送到你的 Mendeley 帐户。</p>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*3HtQpm1hSI6ApIAIOl3YvQ.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="https://miro.medium.com/v2/resize:fit:1400/1*cz1BAvWn42uztuayw0dm-w.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://miro.medium.com/v2/resize:fit:1368/1*tGqJ4kOcwBtYH8qZf5oowQ.png" type="image/png"/>
+    </item>
+    <item>
+      <title>文章标题</title>
+      <link>https://suegk.github.io/posts/2022-08-18.html</link>
+      <guid>https://suegk.github.io/posts/2022-08-18.html</guid>
+      <source url="https://suegk.github.io/rss.xml">文章标题</source>
+      <description>文章标题 title: OpenCV-color in BGR order you must know 设置写作时间 date: 2022-08-18 一个页面可以有多个分类 category: CV 一个页面可以有多个标签 tag: OpenCV 此页面会在文章列表置顶 sticky: false 此页面会出现在文章收藏中</description>
+      <pubDate>Wed, 28 Aug 2024 04:19:28 GMT</pubDate>
+      <content:encoded><![CDATA[<hr>
+<h1> 文章标题</h1>
+<p>title: OpenCV-color in BGR order you must know</p>
+<h1> 设置写作时间</h1>
+<p>date: 2022-08-18</p>
+<h1> 一个页面可以有多个分类</h1>
+<p>category:</p>
+<ul>
+<li>CV</li>
+</ul>
+<h1> 一个页面可以有多个标签</h1>
+<p>tag:</p>
+<ul>
+<li>OpenCV</li>
+</ul>
+<h1> 此页面会在文章列表置顶</h1>
+<p>sticky: false</p>
+<h1> 此页面会出现在文章收藏中</h1>
+<p>star: true</p>
+<h1> 侧边栏的顺序</h1>
+<h1> 数字越小越靠前，支持非整数和负数，比如 -10 &lt; -9.5 &lt; 3.2, order 为 -10 的文章会最靠上。</h1>
+<h1> 个人偏好将非干货或随想短文的 order 设置在 -0.01 到 -0.99，将干货类长文的 order 设置在 -1 到负无穷。每次新增文章都会在上一篇的基础上递减 order 值。</h1>
+<h2> order: -1</h2>
+<p>Wanna play around with the code? <a href="https://github.com/SueGK/Courses/blob/main/pyimagesearch-opencv-17-day-course/OpenCV-Mynotes/opencv_BGR_color.ipynb" target="_blank" rel="noopener noreferrer">Link</a></p>
+<pre><code>import os
+import numpy as np
+import argparse
+import cv2
+import matplotlib.pyplot as plt
+</code></pre>
+<p>The original picture looks like:</p>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/0*gMD-zYzvJWZegLIH.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>The OpenCV assumes images are in BGR channel order. OpenCV imread, imwrite and imshow all work with the BGR order, so the image won't change if we use cv2.imshow to show the image. But it doesn't work with matplotlib.</p>
+<p>Most image processing library use the RGB ordering such as matplotlib so if use plt.imshow, the color of the logo changed.</p>
+<pre><code>img = cv2.imread("logo.png")
+
+# show the image by cv2
+# The cv2.imshow() and cv.imshow() functions from the opencv-python package are incompatible with Jupyter notebook;
+# see https://github.com/jupyter/notebook/issues/3935.
+# As a replacement, you can use the following function:
+from google.colab.patches import cv2_imshow
+cv2_imshow(img)
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*Ixo3Bu6gZwaoAGhT64Rlyg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<pre><code># show the image by matplotlib
+plt.subplot(111)
+plt.imshow(img)
+plt.title("Original")
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*sqd7CCalX7L04M21PYdCvA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>If we want to read image in RGB order in OpenCV, we can use:</p>
+<p>img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)</p>
+<pre><code># read images in RGB order in OpenCV
+img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+from google.colab.patches import cv2_imshow
+cv2_imshow(img_rgb)
+plt.imshow(img_rgb)
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*b6K55FOZwp3tePqYe-DERg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p><strong>cv2.imread(FILENAME, FLAG)</strong></p>
+<p>There are some flags:</p>
+<p><strong>cv2.IMREAD_UNCHANGED:</strong> read the image as is from the source(with alpha channel). If the source image is an RGB, it loads the image into array with Red, Green and Blue channels.</p>
+<p><strong>cv2.IMREAD_COLOR:</strong> convert image to the 3 channel BGR color image but no transparency channel</p>
+<p><strong>cv2.IMREAD_GRAYSCALE:</strong> convert image to the single channel grayscale image</p>
+<p>Check more flags here: <a href="https://docs.opencv.org/3.4/d8/d6a/group__imgcodecs__flags.html#ga61d9b0126a3e57d9277ac48327799c80" target="_blank" rel="noopener noreferrer">OpenCV: Flags used for image file reading and writing</a></p>
+<pre><code>img = cv2.imread('logo.png', cv2.IMREAD_UNCHANGED)
+cv2_imshow(img)
+plt.imshow(img)
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*d_zvffWdR2cnGDKDOuG0DA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<pre><code>img = cv2.imread('logo.png', cv2.IMREAD_COLOR)
+cv2_imshow(img)
+plt.imshow(img)
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*bz2dYJPqveXPof4lw4f24A.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<pre><code>img = cv2.imread('logo.png', cv2.IMREAD_GRAYSCALE)
+cv2_imshow(img)
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*yYNiNY657JdYVMZMLnqlVg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>Let's have a look at the BGR channel. If we want to print the whole array then set np.set_printoptions(threshold=np.inf) and set it back to default after print the array. np.set_printoptions(threshold=1000</p>
+<pre><code>img = cv2.imread('logo.png', cv2.IMREAD_COLOR)
+cv2_imshow(img)
+b = img[:,:,0] # get blue channel
+g = img[:,:,1] # get green channel
+r = img[:,:,2] # get red channel
+
+print(b)
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*aLUmFMIu3E8WJ6zMM0_t8g.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<pre><code>np.set_printoptions(threshold=np.inf)
+print(b)
+np.set_printoptions(threshold=1000)
+
+# the output is really long so I won't print it here.
+</code></pre>
+<p>Now let's convert it to <strong>RGB</strong> channel. Even though we read image in RGB order but the logo color will change if we use cv2.imshow to show the image because it works with <strong>BGR</strong> order. plt.imshow show the original color of the image because it works with <strong>RGB</strong> order as well.</p>
+<pre><code># read images in RGB order in OpenCV
+img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+from google.colab.patches import cv2_imshow
+cv2_imshow(img_rgb)
+plt.imshow(img_rgb)
+</code></pre>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/1*abBgvTaTAg_wKCYiWBMuPQ.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<pre><code>r1 = img_rgb[:,:,0] # get blue channel
+g1 = img_rgb[:,:,1] # get green channel
+b1 = img_rgb[:,:,2] # get red channel
+
+(img[:,:,0] == img_rgb[:,:,2]).all()
+
+Output: True
+</code></pre>
+<p>When you try to draw a rectangle box in OpenCV, be careful that the color of rectangle is also in <strong>BGR</strong> order.</p>
+<pre><code># read the image
+image = cv2.imread('logo.png')
+
+# represents the top left corner of rectangle
+start_point = (5, 5)
+
+# represents the bottom right corner of rectangle
+end_point = (20, 20)
+
+# choose the rectangle color in BGR
+color = (0, 0, 255) # red
+
+# thickness of lines that make up the rectangle is 2 px
+thickness = 2
+
+# draw a rectangle with red line borders of thickness of 2 px
+image = cv2.rectangle(image, start_point, end_point, color, thickness)
+
+# Displaying the image
+cv2_imshow(image)
+</code></pre>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*J3rSiqjnPRM1D04oPitI1Q.png" alt="" loading="lazy">
+<a href="https://medium.com/mlearning-ai/mlearning-ai-submission-suggestions-b51e2b130bfb" target="_blank" rel="noopener noreferrer"><strong>Mlearning.ai Submission Suggestions</strong>
+<em>How to become a writer on Mlearning.ai</em>medium.com</a></p>
+]]></content:encoded>
+      <enclosure url="https://cdn-images-1.medium.com/max/2000/0*gMD-zYzvJWZegLIH.png" type="image/png"/>
+    </item>
+    <item>
+      <title>Pytorch DataLoader使用指南</title>
       <link>https://suegk.github.io/posts/2022-12-06.html</link>
       <guid>https://suegk.github.io/posts/2022-12-06.html</guid>
-      <source url="https://suegk.github.io/rss.xml">All you should know about translation equivariance/invariance in CNN</source>
+      <source url="https://suegk.github.io/rss.xml">Pytorch DataLoader使用指南</source>
       <description>by Sue Create a custom dataset To create a customized dataset in PyTorch, you should create a subclass of the torch.utils.data.Dataset class and implement the following methods:</description>
       <category>Pytorch</category>
       <pubDate>Tue, 06 Dec 2022 00:00:00 GMT</pubDate>
@@ -273,860 +663,6 @@ Taken together, our results indicate that the problem of insuring invariance to 
 <p><img src="https://miro.medium.com/max/1400/1*3HtQpm1hSI6ApIAIOl3YvQ.png" alt="" loading="lazy"><img src="https://miro.medium.com/max/1400/1*cz1BAvWn42uztuayw0dm-w.png" alt="" loading="lazy"></p>
 ]]></content:encoded>
       <enclosure url="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/X64Hh3.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Follow-up Questions</title>
-      <link>https://suegk.github.io/PromptEngineering/prompt.html</link>
-      <guid>https://suegk.github.io/PromptEngineering/prompt.html</guid>
-      <source url="https://suegk.github.io/rss.xml">Follow-up Questions</source>
-      <description>--- title: test subtitle: random date: 2023-03-27 category: - code tag: - promt order: ---</description>
-      <pubDate>Mon, 27 Mar 2023 00:43:32 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>---
-title: test
-subtitle: random
-date: 2023-03-27
-category:
-  - code
-tag:
-  - promt
-order: 
----
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h1> Follow-up Questions</h1>
-<p>Most of time ChatGPT may not provide a perfect answer on the first try, it has a self-correction ability that allows it to improve its answers. Just ask it to reflect the response or you can give it a little hint/idea you have, ChatGPT usually apologizes and provides a better answer.</p>
-<h2> Ask LLMs to critique their outputs and immediately fix their own mistakes</h2>
-<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>Prompt<span class="token punctuation">:</span> 
-	<span class="token operator">-</span> Did xxx meet the assignment?
-	<span class="token operator">-</span> Can you analyze <span class="token keyword">if</span> the response <span class="token keyword">is</span> correct?
-	<span class="token operator">-</span> Are you sure about that?
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FFemFarm%2FDGyOvm4Bo3.png?alt=media&amp;token=a48c517b-d8a1-40e8-8408-6965a2c3eac6" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>Related paper:
-<a href="https://arxiv.org/pdf/2303.11366.pdf" target="_blank" rel="noopener noreferrer">Reflexion: an autonomous agent with dynamic memory and self-reflection</a>
-Here are some takeaways from this page.</p>
-<ul>
-<li>The document proposes Reﬂexion, an approach that endows an agent with dynamic memory and self-reﬂection capabilities to enhance its existing reasoning trace and task-speciﬁc action choice abilities.</li>
-<li>The approach uses a simple heuristic to detect hallucination and inefﬁcient action execution and queries an LLM to reﬂect on its current task, trajectory history, and last reward.</li>
-<li>The approach achieves improved performance on decision-making tasks in AlfWorld environments and knowledge-intensive, search-based question-and-answer tasks in HotPotQA environments.</li>
-</ul>
-<p>Reference:
-- <a href="https://twitter.com/ericjang11/status/1639882111338573824" target="_blank" rel="noopener noreferrer">(1) Eric Jang on Twitter: "Instead of finding the perfect prompt for an LLM (let's think step by step), you can ask LLMs to critique their outputs and immediately fix their own mistakes. Here's a fun example:" / Twitter</a></p>
-]]></content:encoded>
-      <enclosure url="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FFemFarm%2FDGyOvm4Bo3.png?alt=media&token=a48c517b-d8a1-40e8-8408-6965a2c3eac6" type="image/"/>
-    </item>
-    <item>
-      <title>Scenario #1</title>
-      <link>https://suegk.github.io/code/git/Version%20Control%20scenario.html</link>
-      <guid>https://suegk.github.io/code/git/Version%20Control%20scenario.html</guid>
-      <source url="https://suegk.github.io/rss.xml">Scenario #1</source>
-      <description>Scenario #1 Let's walk through the Git commands that go along with each step in the scenario you just observed in the video. Step 1: You have a local version of this repository on your laptop, and to get the latest stable version, you pull from the develop branch. Switch to the develop branch git checkout develop</description>
-      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Scenario #1</h1>
-<p>Let's walk through the Git commands that go along with each step in the scenario you just observed in the video.</p>
-<h4> Step 1: You have a local version of this repository on your laptop, and to get the latest stable version, you pull from the develop branch.</h4>
-<blockquote>
-<h5> Switch to the develop branch</h5>
-<p><code>git checkout develop</code></p>
-</blockquote>
-<blockquote>
-<h5> Pull the latest changes in the develop branch</h5>
-<p><code>git pull</code></p>
-</blockquote>
-<h4> Step 2: When you start working on this demographic feature, you create a new branch called demographic, and start working on your code in this branch.</h4>
-<blockquote>
-<h5> Create and switch to a new branch called demographic from the develop branch</h5>
-<p><code>git checkout -b demographic</code></p>
-</blockquote>
-<blockquote>
-<h5> Work on this new feature and commit as you go</h5>
-<p><code>git commit -m 'added gender recommendations'</code><br>
-<code>git commit -m 'added location specific recommendations'</code><br>
-<code>...</code></p>
-</blockquote>
-<h4> Step 3: However, in the middle of your work, you need to work on another feature. So you commit your changes on this demographic branch, and switch back to the develop branch.</h4>
-<blockquote>
-<h5> Commit your changes before switching</h5>
-<p><code>git commit -m 'refactored demographic gender and location recommendations '</code></p>
-</blockquote>
-<blockquote>
-<h5> Switch to the develop branch</h5>
-<p><code>git checkout develop</code></p>
-</blockquote>
-<h4> Step 4: From this stable develop branch, you create another branch for a new feature called friend_groups.</h4>
-<blockquote>
-<h5> Create and switch to a new branch called friend_groups from the develop branch</h5>
-<p><code>git checkout -b friend_groups</code></p>
-</blockquote>
-<h4> Step 5: After you finish your work on the friend_groups branch, you commit your changes, switch back to the development branch, merge it back to the develop branch, and push this to the remote repository’s develop branch.</h4>
-<blockquote>
-<h5> Commit your changes before switching</h5>
-<p><code>git commit -m 'finalized friend_groups recommendations '</code></p>
-</blockquote>
-<blockquote>
-<h5> Switch to the develop branch</h5>
-<p><code>git checkout develop</code></p>
-</blockquote>
-<blockquote>
-<h5> Merge the friend_groups branch into the develop branch</h5>
-<p><code>git merge --no-ff friends_groups</code></p>
-</blockquote>
-<blockquote>
-<h5> Push to the remote repository</h5>
-<p><code>git push origin develop</code></p>
-</blockquote>
-<h4> Step 6: Now, you can switch back to the demographic branch to continue your progress on that feature.</h4>
-<blockquote>
-<h5> Switch to the demographic branch</h5>
-<p><code>git checkout demographic</code></p>
-</blockquote>
-<h1> Scenario #2</h1>
-<p>Let's walk through the Git commands that go along with each step in the scenario you just observed in the video.</p>
-<h4> Step 1: You check your commit history, seeing messages about the changes you made and how well the code performed.</h4>
-<blockquote>
-<h5> View the log history</h5>
-<p><code>git log</code></p>
-</blockquote>
-<h4> Step 2: The model at this commit seemed to score the highest, so you decide to take a look.</h4>
-<blockquote>
-<h5> Check out a commit</h5>
-<p><code>git checkout bc90f2cbc9dc4e802b46e7a153aa106dc9a88560</code></p>
-</blockquote>
-<p>After inspecting your code, you realize what modifications made it perform well, and use those for your model.</p>
-<h4> Step 3: Now, you're confident merging your changes back into the development branch and pushing the updated recommendation engine.</h4>
-<blockquote>
-<h5> Switch to the develop branch</h5>
-<p><code>git checkout develop</code></p>
-</blockquote>
-<blockquote>
-<h5> Merge the friend_groups branch into the develop branch</h5>
-<p><code>git merge --no-ff friend_groups</code></p>
-</blockquote>
-<blockquote>
-<h5> Push your changes to the remote repository</h5>
-<p><code>git push origin develop</code></p>
-</blockquote>
-<h1> Scenario #3</h1>
-<p>Let's walk through the Git commands that go along with each step in the scenario you just observed in the video.</p>
-<h4> Step 1: Andrew commits his changes to the documentation branch, switches to the development branch, and pulls down the latest changes from the cloud on this development branch, including the change I merged previously for the friends group feature.</h4>
-<blockquote>
-<h5> Commit the changes on the documentation branch</h5>
-<p><code>git commit -m "standardized all docstrings in process.py"</code></p>
-</blockquote>
-<blockquote>
-<h5> Switch to the develop branch</h5>
-<p><code>git checkout develop</code></p>
-</blockquote>
-<blockquote>
-<h5> Pull the latest changes on the develop branch down</h5>
-<p><code>git pull</code></p>
-</blockquote>
-<h4> Step 2: Andrew merges his documentation branch into the develop branch on his local repository, and then pushes his changes up to update the develop branch on the remote repository.</h4>
-<blockquote>
-<h5> Merge the documentation branch into the develop branch</h5>
-<p><code>git merge --no-ff documentation</code></p>
-</blockquote>
-<blockquote>
-<h5> Push the changes up to the remote repository</h5>
-<p><code>git push origin develop</code></p>
-</blockquote>
-<h4> Step 3: After the team reviews your work and Andrew's work, they merge the updates from the development branch into the master branch. Then, they push the changes to the master branch on the remote repository. These changes are now in production.</h4>
-<blockquote>
-<h5> Merge the develop branch into the master branch</h5>
-<p><code>git merge --no-ff develop</code></p>
-</blockquote>
-<blockquote>
-<h5> Push the changes up to the remote repository</h5>
-<p><code>git push origin master</code></p>
-</blockquote>
-<h3> Resources</h3>
-<p>Read&nbsp;<a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="noopener noreferrer">this great article</a>&nbsp;on a successful Git branching strategy.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Undo changes</title>
-      <link>https://suegk.github.io/code/git/git.html</link>
-      <guid>https://suegk.github.io/code/git/git.html</guid>
-      <source url="https://suegk.github.io/rss.xml">Undo changes</source>
-      <description>$ git add -h usage: git add [&amp;lt;options&amp;gt;] [--] &amp;lt;pathspec&amp;gt;... -n, --dry-run dry run -v, --verbose be verbose -i, --interactive interactive picking -p, --patch select hunks interactively -e, --edit edit current diff and apply -f, --force allow adding otherwise ignored files -u, --update update tracked files --renormalize renormalize EOL of tracked files (implies -u) -N, --intent-to-add record only the fact that the path will be added later -A, --all add changes from all tracked and untracked files --ignore-removal ignore paths removed in the working tree (same as --no-all) --refresh don't add, only refresh the index --ignore-errors just skip files which cannot be added because of errors --ignore-missing check if - even missing - files are ignored in dry run --chmod (+|-)x override the executable bit of the listed files</description>
-      <pubDate>Wed, 04 Jan 2023 05:09:10 GMT</pubDate>
-      <content:encoded><![CDATA[<div class="language-console line-numbers-mode" data-ext="console"><pre class="language-console"><code>$ git add -h
-usage: git add [&lt;options&gt;] [--] &lt;pathspec&gt;...
-
-    -n, --dry-run         dry run
-    -v, --verbose         be verbose
-
-    -i, --interactive     interactive picking
-    -p, --patch           select hunks interactively
-    -e, --edit            edit current diff and apply
-    -f, --force           allow adding otherwise ignored files
-    -u, --update          update tracked files
-    --renormalize         renormalize EOL of tracked files (implies -u)
-    -N, --intent-to-add   record only the fact that the path will be added later
-    -A, --all             add changes from all tracked and untracked files
-    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
-    --refresh             don't add, only refresh the index
-    --ignore-errors       just skip files which cannot be added because of errors
-    --ignore-missing      check if - even missing - files are ignored in dry run
-    --chmod (+|-)x        override the executable bit of the listed files
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-console line-numbers-mode" data-ext="console"><pre class="language-console"><code>mkdircd() { #Make path for each argument and cd into the last path mkdir -p "$@" &amp;&amp; cd "$_" }
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> git init</h2>
-<p>Use the&nbsp;<code>git init</code>&nbsp;command to create a new, empty repository in the current directory.</p>
-<h3> .Git Directory Contents</h3>
-<p><em>We're about to take a look at the&nbsp;<code>.git</code>&nbsp;directory...it's not vital for this course, though, so don't worry about memorizing anything, it's here if you want to dig a little deeper into how Git works under the hood.</em></p>
-<p>Here's a brief synopsis on each of the items in the&nbsp;<code>.git</code>&nbsp;directory:</p>
-<ul>
-<li>
-<p><strong>config file</strong>&nbsp;- where all&nbsp;<em>project specific</em>&nbsp;configuration settings are stored.<br>
-From the&nbsp;<a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration" target="_blank" rel="noopener noreferrer">Git Book</a>:</p>
-<blockquote>
-<p>Git looks for configuration values in the configuration file in the Git directory (.git/config) of whatever repository you’re currently using. These values are specific to that single repository.</p>
-</blockquote>
-<p>For example, let's say you set that the global configuration for Git uses your personal email address. If you want your work email to be used for a specific project rather than your personal email, that change would be added to this file.</p>
-</li>
-<li>
-<p><strong>description file</strong>&nbsp;- this file is only used by the GitWeb program, so we can ignore it</p>
-</li>
-<li>
-<p><strong>hooks directory</strong>&nbsp;- this is where we could place client-side or server-side scripts that we can use to hook into Git's different lifecycle events</p>
-</li>
-<li>
-<p><strong>info directory</strong>&nbsp;- contains the global excludes file</p>
-</li>
-<li>
-<p><strong>objects directory</strong>&nbsp;- this directory will store all of the commits we make</p>
-</li>
-<li>
-<p><strong>refs directory</strong>&nbsp;- this directory holds pointers to commits (basically the "branches" and "tags")</p>
-</li>
-</ul>
-<p>Remember, other than the "hooks" directory, you shouldn't mess with pretty much any of the content in here. The "hooks" directory&nbsp;<em>can</em>&nbsp;be used to hook into different parts or events of Git's workflow, but that's a more advanced topic that we won't be getting into in this course.</p>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain" target="_blank" rel="noopener noreferrer">Git Internals - Plumbing and Porcelain</a>&nbsp;(advanced - bookmark this and check it out later)</li>
-<li><a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks" target="_blank" rel="noopener noreferrer">Customizing Git - Git Hooks</a></li>
-</ul>
-<h2> git clone</h2>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git clone https://github.com/udacity/course-git-blog-project
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>rename clone repository, you can specify the new directory name as an additional argument:</p>
-<div class="language-console line-numbers-mode" data-ext="console"><pre class="language-console"><code>$ git clone https://github.com/udacity/course-git-blog-project new-name
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>Verify Terminal Location</strong>
-TIP: Now before you clone anything, make sure you are located in the correct directory on the command line. Cloning a project creates a new directory and places the cloned Git repository in it. The problem is that you can't have nested Git repositories. So make sure the terminal's current working directory isn't located in a Git repository. If your current working directory is not in your shell's prompt, type pwd to print the working directory.</p>
-<h3> Git Clone Recap</h3>
-<p>The&nbsp;<code>git clone</code>&nbsp;command is used to create an identical copy of an existing repository.</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git clone &lt;path-to-repository-to-clone&gt;
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>This command:</p>
-<ul>
-<li>takes the path to an existing repository</li>
-<li>by default will create a directory with the same name as the repository that's being cloned</li>
-<li>can be given a second argument that will be used as the name of the directory</li>
-<li>will create the new repository inside of the current working directory</li>
-</ul>
-<h3> Helpful Links</h3>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository" target="_blank" rel="noopener noreferrer">Cloning an Existing Repository</a></li>
-<li><a href="https://git-scm.com/docs/git-clone" target="_blank" rel="noopener noreferrer">git clone docs</a></li>
-<li><a href="https://www.atlassian.com/git/tutorials/setting-up-a-repository" target="_blank" rel="noopener noreferrer">git clone Tutorial</a></li>
-</ul>
-<h2> git status</h2>
-<p>As you can see in the GIF above, running&nbsp;<code>git status</code>&nbsp;in the&nbsp;<code>course-git-blog-project</code>&nbsp;project produces the following output:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>On branch master
-Your branch is up-to-date with 'origin/master'.
-nothing to commit, working directory clean
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Explanation</h3>
-<p>The output tells us two things:</p>
-<ol>
-<li><code>On branch master</code>&nbsp;– this tells us that Git is on the&nbsp;<code>master</code>&nbsp;branch. You've got a description of a branch on your terms sheet so this is the "master" branch (which is the default branch). We'll be looking more at branches in lesson 5</li>
-<li><code>Your branch is up-to-date with 'origin/master'.</code>&nbsp;– Because&nbsp;<code>git clone</code>&nbsp;was used to copy this repository from another computer, this is telling us if our project is in sync with the one we copied from. We won't be dealing with the project on the other computer, so this line can be ignored.</li>
-<li><code>nothing to commit, working directory clean</code>&nbsp;– this is saying that there are no pending changes.</li>
-</ol>
-<h3> Helpful Links</h3>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Checking-the-Status-of-Your-Files" target="_blank" rel="noopener noreferrer">Checking the Status of Your Files</a></li>
-<li><a href="https://git-scm.com/docs/git-status" target="_blank" rel="noopener noreferrer">git status docs</a></li>
-<li><a href="https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-status" target="_blank" rel="noopener noreferrer">git status Tutorial</a></li>
-</ul>
-<h2> git log</h2>
-<p>By&nbsp;<em>default</em>, this command displays:</p>
-<ul>
-<li>the SHA</li>
-<li>the author</li>
-<li>the date</li>
-<li>and the message</li>
-</ul>
-<h3> Navigating The Log</h3>
-<p>If you're not used to a pager on the command line, navigating in&nbsp;<a href="https://en.wikipedia.org/wiki/Less_(Unix)" target="_blank" rel="noopener noreferrer">Less</a>&nbsp;can be a bit odd. Here are some helpful keys:</p>
-<ul>
-<li>to scroll&nbsp;<strong>down</strong>, press
-<ul>
-<li><code>j</code>&nbsp;or&nbsp;&nbsp;<code>↓</code>&nbsp;to move&nbsp;<em>down</em>&nbsp;one line at a time</li>
-<li><code>d</code>&nbsp;to move by half the page screen</li>
-<li><code>f</code>&nbsp;to move by a whole page screen</li>
-</ul>
-</li>
-<li>to scroll&nbsp;<strong>up</strong>, press
-<ul>
-<li><code>k</code>&nbsp;or&nbsp;<code>↑</code>&nbsp;to move <em>up</em> one line at a time</li>
-<li><code>u</code>&nbsp;to move by half the page screen</li>
-<li><code>b</code>&nbsp;to move by a whole page screen</li>
-</ul>
-</li>
-<li>press&nbsp;<code>q</code>&nbsp;to&nbsp;<strong>quit</strong>&nbsp;out of the log (returns to the regular command prompt)</li>
-</ul>
-<p>What could we do here to not waste a lot of space and make the output smaller? We can use a&nbsp;<strong>flag</strong>.</p>
-<p>Flags can be used to alter how a program functions and/or what is displayed. To learn more about command line programs and flags, check out our course&nbsp;<a href="https://www.udacity.com/course/linux-command-line-basics--ud595" target="_blank" rel="noopener noreferrer">Linux Command Line Basics</a>.</p>
-<h2> git log --oneline</h2>
-<p>The&nbsp;<code>git log</code>&nbsp;command has a flag that can be used to alter how it displays the repository's information. That flag is&nbsp;<code>--oneline</code>:
-<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/kmISzO.png" alt="kmISzO" loading="lazy">
-This command:</p>
-<ul>
-<li>lists one commit per line</li>
-<li>shows the first 7 characters of the commit's SHA</li>
-<li>shows the commit's message</li>
-</ul>
-<h2> git log --stat</h2>
-<ul>
-<li>displays the file(s) that have been modified</li>
-<li>displays the number of lines that have been added/removed</li>
-<li>displays a summary line with the total number of modified files and lines that have been added/removed</li>
-</ul>
-<p>PREVIOUSNEXT
-<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/CRzpxt.png" alt="CRzpxt" loading="lazy"></p>
-<h2> git log -p</h2>
-<ul>
-<li>displays the files that have been modified</li>
-<li>displays the location of the lines that have been added/removed</li>
-<li>displays the actual changes that have been made</li>
-</ul>
-<p>The&nbsp;<code>git log</code>&nbsp;command has a flag that can be used to display the actual changes made to a file. The flag is&nbsp;<code>--patch</code>&nbsp;which can be shortened to just&nbsp;<code>-p</code>:</p>
-<h3> Annotated&nbsp;<code>git log -p</code>&nbsp;Output</h3>
-<p>Using the image above, let's do a quick recap of the&nbsp;<code>git log -p</code>&nbsp;output:
-<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/po7H0E.png" alt="po7H0E" loading="lazy"></p>
-<ul>
-<li>🔵 - the file that is being displayed</li>
-<li>🔶 - the hash of the first version of the file and the hash of the second version of the file
-<ul>
-<li>not usually important, so it's safe to ignore</li>
-</ul>
-</li>
-<li>❤️ - the old version and current version of the file</li>
-<li>🔍 - the lines where the file is added and how many lines there are
-<ul>
-<li><code>-15,83</code>&nbsp;indicates that the old version (represented by the&nbsp;<code>-</code>) started at line 15 and that the file had 83 lines</li>
-<li><code>+15,85</code>&nbsp;indicates that the current version (represented by the&nbsp;<code>+</code>) starts at line 15 and that there are now 85 lines...these 85 lines are shown in the patch below</li>
-</ul>
-</li>
-<li>✏️ - the actual changes made in the commit
-<ul>
-<li>lines that are red and start with a minus (<code>-</code>) were in the original version of the file but have been removed by the commit</li>
-<li>lines that are green and start with a plus (<code>+</code>) are new lines that have been added in the commit</li>
-</ul>
-</li>
-</ul>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/docs/git-diff#_generating_patches_with_p" target="_blank" rel="noopener noreferrer">Generating patches with -p</a>&nbsp;from the Git docs</li>
-</ul>
-<h2> git log -p --stat</h2>
-<p>you can combine flags!&nbsp;<code>git log -p --stat</code>will display the stats info above the patch info. Actually, the order doesn't matter;&nbsp;<code>git log --stat -p</code>&nbsp;will also show the stats info above the patch info.</p>
-<h2> git log -p -w</h2>
-<p>show the patch information, but will not highlight lines where&nbsp;_only_whitespace changes have occurred.</p>
-<p>-w
---ignore-all-space
-Ignore whitespace when comparing lines. This ignores differences even if one line has whitespace where the other line has none.</p>
-<p>--ignore-blank-lines
-Ignore changes whose lines are all blank.</p>
-<h2> git log -p SHA / git show SHA</h2>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git log -p fdf5493
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>By supplying a SHA, the&nbsp;<code>git log -p</code>&nbsp;command will&nbsp;<em>start at that commit</em>! No need to scroll through everything! Keep in mind that it will&nbsp;<em>also</em>&nbsp;show all of the commits that were made&nbsp;<em>prior</em>&nbsp;to the supplied SHA.</p>
-<p><code>$ git show fdf5493</code></p>
-<p>The&nbsp;<code>git show</code>&nbsp;command will show&nbsp;<em>only one commit</em>. So don't get alarmed when you can't find any other commits - it only shows one. The output of the&nbsp;<code>git show</code>&nbsp;command is exactly the same as the&nbsp;<code>git log -p</code>&nbsp;command. So by default,&nbsp;<code>git show</code>&nbsp;displays:</p>
-<ul>
-<li>the commit</li>
-<li>the author</li>
-<li>the date</li>
-<li>the commit message</li>
-<li>the patch information</li>
-</ul>
-<p>However,&nbsp;<code>git show</code>&nbsp;can be combined with most of the other flags we've looked at:</p>
-<ul>
-<li><code>--stat</code>&nbsp;- to show the how many files were changed and the number of lines that were added/removed</li>
-<li><code>-p</code>&nbsp;or&nbsp;<code>--patch</code>&nbsp;- this the default, but if&nbsp;<code>--stat</code>&nbsp;is used, the patch won't display, so pass&nbsp;<code>-p</code>&nbsp;to add it again</li>
-<li><code>-w</code>&nbsp;- to ignore changes to whitespace</li>
-</ul>
-<h2> git log --oneline --graph --all</h2>
-<p>The&nbsp;<code>--graph</code>&nbsp;flag adds the bullets and lines to the leftmost part of the output. This shows the actual&nbsp;<em>branching</em>&nbsp;that's happening. The&nbsp;<code>--all</code>&nbsp;flag is what displays&nbsp;<em>all</em>&nbsp;of the branches in the repository.</p>
-<h2> git add</h2>
-<p>The&nbsp;<code>git add</code>&nbsp;command is used to move files from the Working Directory to the Staging Index.</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git add &lt;file1&gt; &lt;file2&gt; … &lt;fileN&gt;
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>This command:</p>
-<ul>
-<li>takes a space-separated list of file names</li>
-<li>alternatively, the period&nbsp;<code>.</code>&nbsp;can be used in place of a list of files to tell Git to add the current directory (and all nested files)</li>
-</ul>
-<blockquote>
-<p>TIP: Did you also notice the helpful text that's located just beneath "Changes to be committed"? It says&nbsp;<code>(use "git rm --cached &lt;file&gt;..." to unstage)</code>&nbsp;This is a hint of what you should do if you accidentally ran&nbsp;<code>git add</code>&nbsp;and gave it the wrong file.</p>
-</blockquote>
-<blockquote>
-<p>As a side note,&nbsp;<code>git rm --cached</code>&nbsp;is not like the shell's&nbsp;<code>rm</code>&nbsp;command.&nbsp;<code>git rm --cached</code>&nbsp;will not destroy any of your work; it just removes it from the Staging Index.</p>
-</blockquote>
-<blockquote>
-<p>Also, this used the word "unstage". The act of moving a file from the Working Directory to the Staging Index is called "staging". If a file has been moved, then it has been "staged". Moving a file from the Staging Index&nbsp;_back_to the Working Directory will unstage the file. If you read documentation that says "stage the following files" that means you should use the&nbsp;<code>git add</code>&nbsp;command.</p>
-</blockquote>
-<h3> Stage Remaining Files</h3>
-<p>The&nbsp;<code>index.html</code>&nbsp;file has been staged. Let's stage the other two files. Now we&nbsp;<em>could</em>&nbsp;run the following:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git add css/app.css js/app.js
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>...but that's a lot of extra typing. We could use a special command line character to help:</p>
-<h3> The Period&nbsp;<code>.</code></h3>
-<p>The period refers to the current directory and can be used as a shortcut to refer to all files and directories (including all nested files and directories!).</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git add css/app.css js/app.js
-# would become
-$ git add .
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>The only thing to be careful of is that you might accidentally include more files than you meant to. Right now we&nbsp;<em>want</em>&nbsp;both&nbsp;<code>css/app.css</code>&nbsp;and&nbsp;<code>js/app.js</code>&nbsp;to be staged, so running this command is fine right now. But let's say you added some images to an&nbsp;<code>img</code>&nbsp;directory but didn't want to stage them just yet. Running&nbsp;<code>git add .</code>&nbsp;<em>will</em>&nbsp;stage them. If you do stage files that you didn't mean to, remember that&nbsp;<code>git status</code>&nbsp;will tell you the command to use to "unstage" files.</p>
-<h2> git commit</h2>
-<p>The&nbsp;<code>git commit</code>&nbsp;command takes files from the Staging Index and saves them in the repository.</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git commit
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>This command:</p>
-<ul>
-<li>will open the code editor that is specified in your configuration
-<ul>
-<li>(check out the Git configuration step from the first lesson to configure your editor)</li>
-</ul>
-</li>
-</ul>
-<p>Inside the code editor:</p>
-<ul>
-<li>a commit message must be supplied</li>
-<li>lines that start with a&nbsp;<code>#</code>&nbsp;are comments and will not be recorded</li>
-<li>save the file after adding a commit message</li>
-<li>close the editor to make the commit</li>
-</ul>
-<p>Then, use&nbsp;<code>git log</code>&nbsp;to review the commit you just made!</p>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://help.github.com/articles/associating-text-editors-with-git/" target="_blank" rel="noopener noreferrer">Associating text editors with Git</a>&nbsp;from GitHub Help Docs</li>
-<li><a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup" target="_blank" rel="noopener noreferrer">Getting Started - First-Time Git Setup</a>&nbsp;from Git book</li>
-</ul>
-<h3> Bypass The Editor With The&nbsp;<code>-m</code>&nbsp;Flag</h3>
-<blockquote>
-<p>TIP: If the commit message you're writing is short and you don't want to wait for your code editor to open up to type it out, you can pass your message directly on the command line with the&nbsp;<code>-m</code>&nbsp;flag:
-<code>$ git commit -m "Initial commit"</code></p>
-</blockquote>
-<h3> Good commit message</h3>
-<p>Now, what makes a "good" commit message? That's a great question and has been&nbsp;<a href="https://chris.beams.io/posts/git-commit/" target="_blank" rel="noopener noreferrer">written about</a>&nbsp;<a href="https://medium.com/@preslavrachev/what-s-with-the-50-72-rule-8a906f61f09c#.jwprsco0n" target="_blank" rel="noopener noreferrer">a number</a>&nbsp;<a href="http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html" target="_blank" rel="noopener noreferrer">of times</a>. Here are some important things to think about when crafting a good commit message:</p>
-<p><strong>Do</strong></p>
-<ul>
-<li>do keep the message short (less than 60-ish characters)</li>
-<li>do explain&nbsp;<em>what</em>&nbsp;the commit does (not&nbsp;<em>how</em>&nbsp;or&nbsp;<em>why</em>!)</li>
-</ul>
-<p><strong>Do not</strong></p>
-<ul>
-<li>do not explain&nbsp;<em>why</em>&nbsp;the changes are made (more on this below)</li>
-<li>do not explain&nbsp;<em>how</em>&nbsp;the changes are made (that's what&nbsp;<code>git log -p</code>&nbsp;is for!)</li>
-<li>do not use the word "and"
-<ul>
-<li>if you have to use "and", your commit message is probably doing too many changes - break the changes into separate commits</li>
-<li>e.g. "make the background color pink&nbsp;<em>and</em>&nbsp;increase the size of the sidebar"</li>
-</ul>
-</li>
-</ul>
-<p>The best way that I've found to come up with a commit message is to finish this phrase, "This commit will...". However, you finish that phrase, use&nbsp;<em>that</em>&nbsp;as your commit message.</p>
-<p>Above all,&nbsp;<em><strong>be consistent</strong></em>&nbsp;in how you write your commit messages!</p>
-<h3> Explain the&nbsp;Why</h3>
-<p>If you need to explain&nbsp;<em>why</em>&nbsp;a commit needs to be made, you can!</p>
-<p>When you're writing the commit message, the first line is the message itself. After the message, leave a blank line, and then type out the body or explanation including details about why the commit is needed (e.g. URL links).</p>
-<p>Here's what a commit message edit screen might look like:
-<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/pID4IX.png" alt="pID4IX" loading="lazy"></p>
-<h2> git diff</h2>
-<p>To recap, the&nbsp;<code>git diff</code>&nbsp;command is used to see changes that have been made but haven't been committed, yet:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git diff
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>This command displays:</p>
-<ul>
-<li>the files that have been modified</li>
-<li>the location of the lines that have been added/removed</li>
-<li>the actual changes that have been made</li>
-</ul>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/docs/git-diff" target="_blank" rel="noopener noreferrer">git diff</a>&nbsp;from the Git Docs</li>
-</ul>
-<h2> git ignore</h2>
-<p>If you want to keep a file in your project's directory structure but make sure it isn't accidentally committed to the project, you can use the specially named file,&nbsp;<code>.gitignore</code>&nbsp;(note the dot at the front, it's important!). Add this file to your project in the same directory that the hidden&nbsp;<code>.git</code>&nbsp;directory is located. All you have to do is list the&nbsp;<em>names</em>&nbsp;of files that you want Git to ignore (not track) and it will ignore them.</p>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#Ignoring-Files" target="_blank" rel="noopener noreferrer">Ignoring files</a>&nbsp;from the Git Book</li>
-<li><a href="https://git-scm.com/docs/gitignore#_pattern_format" target="_blank" rel="noopener noreferrer">gitignore</a>&nbsp;from the Git Docs</li>
-<li><a href="https://help.github.com/articles/ignoring-files/" target="_blank" rel="noopener noreferrer">Ignoring files</a>&nbsp;from the GitHub Docs</li>
-<li><a href="https://www.gitignore.io/" target="_blank" rel="noopener noreferrer">gitignore.io</a></li>
-</ul>
-<h2> Globbing Crash Course</h2>
-<p>Let's say that you add 50 images to your project, but want Git to ignore all of them. Does this mean you have to list each and every filename in the&nbsp;<code>.gitignore</code>&nbsp;file? Oh gosh no, that would be crazy! Instead, you can use a concept called&nbsp;[globbing](<a href="https://en.wikipedia.org/wiki/Glob_(programming)" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Glob_(programming)</a>.</p>
-<p>Globbing lets you use special characters to match patterns/characters. In the&nbsp;<code>.gitignore</code>&nbsp;file, you can use the following:</p>
-<ul>
-<li>blank lines can be used for spacing</li>
-<li><code>#</code>&nbsp;- marks line as a comment</li>
-<li><code>*</code>&nbsp;- matches 0 or more characters</li>
-<li><code>?</code>&nbsp;- matches 1 character</li>
-<li><code>[abc]</code>&nbsp;- matches a, b, <em>or</em> c</li>
-<li><code>**</code>&nbsp;- matches nested directories -&nbsp;<code>a/**/z</code>&nbsp;matches
-<ul>
-<li>a/z</li>
-<li>a/b/z</li>
-<li>a/b/c/z</li>
-</ul>
-</li>
-</ul>
-<p>So if all of the 50 images are JPEG images in the "samples" folder, we could add the following line to&nbsp;<code>.gitignore</code>&nbsp;to have Git ignore all 50 images.</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>samples/*.jpg
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> git tag</h2>
-<h3> tag the most recent commit</h3>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git tag -a v1.0
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
-<p>CAREFUL: In the command above (<code>git tag -a v1.0</code>) the&nbsp;<code>-a</code>&nbsp;flag is used. This flag tells Git to create an&nbsp;<em>annotated</em>&nbsp;flag. If you don't provide the flag (i.e.&nbsp;<code>git tag v1.0</code>) then it'll create what's called a&nbsp;<em>lightweight</em>&nbsp;tag.</p>
-</blockquote>
-<blockquote>
-<p>Annotated tags are recommended because they include a lot of extra information such as:</p>
-<ul>
-<li>the person who made the tag</li>
-<li>the date the tag was made</li>
-<li>a message for the tag</li>
-</ul>
-</blockquote>
-<h3> Adding A Tag To A Past Commit</h3>
-<p>Running&nbsp;<code>git tag -a v1.0</code>&nbsp;will . But what if you wanted to tag a commit that occurred farther back in the repo's history?</p>
-<p>All you have to do is provide the SHA of the commit you want to tag!</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git tag -a v1.0 a87984
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging" target="_blank" rel="noopener noreferrer">Git Basics - Tagging</a>&nbsp;from the Git Book</li>
-<li><a href="https://git-scm.com/docs/git-tag" target="_blank" rel="noopener noreferrer">Git Tag</a>&nbsp;from the Git Docs</li>
-</ul>
-<h2> git tag -d</h2>
-<p>A Git tag can be deleted with the&nbsp;<code>-d</code>&nbsp;flag (for&nbsp;<em>delete</em>!) and the name of the tag:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git tag -d v1.0
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/QwBmPt.png" alt="QwBmPt" tabindex="0" loading="lazy"><figcaption>QwBmPt</figcaption></figure>
-<h2> git branch</h2>
-<p>It can be used to:</p>
-<ul>
-<li>list all branch names in the repository</li>
-<li>create new branches <code>git branch sidebar</code></li>
-<li>delete branches</li>
-</ul>
-<p>If we type out just&nbsp;<code>git branch</code>&nbsp;it will list out the branches in a repository</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>git branch alt-sidebar-loc 42a69f
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>It creates a new branch called&nbsp;<code>alt-sidebar-loc</code>&nbsp;and has it pointing at the commit with the SHA&nbsp;<code>42a69f</code></p>
-<p>Deleting something can be quite nerve-wracking. Don't worry, though. Git won't let you delete a branch if it has commits on it that aren't on any other branch (meaning the commits are unique to the branch that's about to be deleted). If you created the&nbsp;<code>sidebar</code>&nbsp;branch, added commits to it, and then tried to delete it with the&nbsp;<code>git branch -d sidebar</code>, Git wouldn't let you delete the branch because you can't delete a branch that you're currently on. If you switched to the&nbsp;<code>master</code>&nbsp;branch and tried to delete the&nbsp;<code>sidebar</code>&nbsp;branch, Git&nbsp;<em>also</em>&nbsp;wouldn't let you do that because those new commits on the&nbsp;<code>sidebar</code>&nbsp;branch would be lost! To force deletion, you need to use a capital D flag -&nbsp;<code>git branch -D sidebar</code>.</p>
-<h3> change branch name</h3>
-<p>`$ git branch-m &amp;NEWBRANCHNAME&gt;</p>
-<h2> Git Branch Recap</h2>
-<p>To recap, the&nbsp;<code>git branch</code>&nbsp;command is used to manage branches in Git:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code># to list all branches
-$ git branch
-
-# to create a new "footer-fix" branch
-$ git branch footer-fix
-
-# to delete the "footer-fix" branch
-$ git branch -d footer-fix
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>This command is used to:</p>
-<ul>
-<li>list out local branches</li>
-<li>create new branches</li>
-<li>remove branches</li>
-</ul>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging" target="_blank" rel="noopener noreferrer">Git Branching - Basic Branching and Merging</a>&nbsp;from the Git Docs</li>
-<li><a href="http://learngitbranching.js.org/" target="_blank" rel="noopener noreferrer">Learn Git Branching</a></li>
-<li><a href="https://www.atlassian.com/git/tutorials/using-branches" target="_blank" rel="noopener noreferrer">Git Branching Tutorial</a>&nbsp;from the Atlassian Blog</li>
-</ul>
-<p>PREVIOUSNEXT</p>
-<h2> git checkout</h2>
-<p>It's important to understand how this command works. Running this command will:</p>
-<ul>
-<li>remove all files and directories from the Working Directory that Git is tracking
-<ul>
-<li>(files that Git tracks are stored in the repository, so nothing is lost)</li>
-</ul>
-</li>
-<li>go into the repository and pull out all of the files and directories of the commit that the branch points to</li>
-</ul>
-<p>So this will remove all of the files that are referenced by commits in the master branch. It will replace them with the files that are referenced by the commits in the sidebar branch.</p>
-<h3> git checkout -b</h3>
-<p><code>git checkout</code>&nbsp;command can actually create a new branch, too? If you provide the&nbsp;<code>-b</code>&nbsp;flag, you can create a branch&nbsp;<em>and</em>&nbsp;switch to it all in one command.</p>
-<h2> merging</h2>
-<p>Combining branches together is called&nbsp;<strong>merging</strong>. Pay attention to the two main types of merges in Git, a regular&nbsp;<strong>merge</strong>&nbsp;and a&nbsp;<strong>Fast-forward merge</strong>.
-Remember that making a merge makes a commit.</p>
-<h2> git merge</h2>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge &lt;name-of-branch-to-merge-in&gt;
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>When a merge happens, Git will:</p>
-<ul>
-<li>look at the branches that it's going to merge</li>
-<li>look back along the branch's history to find a single commit that&nbsp;<em>both</em>&nbsp;branches have in their commit history</li>
-<li>combine the lines of code that were changed on the separate branches together</li>
-<li>makes a commit to record the merge</li>
-<li>When we merge, we're merging some other branch into the current (checked-out) branch. We're not merging two branches into a new branch. We're not merging the current branch into the other branch.</li>
-</ul>
-<h3> Fast-forward Merge</h3>
-<p>Now, since&nbsp;<code>footer</code>&nbsp;is directly ahead of&nbsp;<code>master</code>, this merge is one of the easiest merges to do. Merging&nbsp;<code>footer</code>&nbsp;into&nbsp;<code>master</code>&nbsp;will cause a&nbsp;<strong>Fast-forward merge</strong>. A Fast-forward merge will just move the currently checked out branch&nbsp;<em>forward</em>&nbsp;until it points to the same commit that the other branch (in this case,&nbsp;<code>footer</code>) is pointing to.</p>
-<p>To merge in the&nbsp;<code>footer</code>&nbsp;branch, run command in <code>master</code> branch:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge footer
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/T1DGyH.png" alt="T1DGyH" tabindex="0" loading="lazy"><figcaption>T1DGyH</figcaption></figure>
-<p>After merge
-<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/wlryRx.png" alt="wlryRx" loading="lazy"></p>
-<h3> Regular merge</h3>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge sidebar
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>Because this combines two divergent branches, a commit is going to be made.
-Since this is a&nbsp;<em>merge commit</em>&nbsp;a default message is already supplied. You can change the message if you want, but it's common practice to use the default merge commit message. So when your code editor opens with the message, just close it again and accept that commit message.
-<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/cQGACU.png" alt="cQGACU" loading="lazy">
-<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/Fo29vZ.png" alt="Fo29vZ" loading="lazy"></p>
-<h3> Merge Recap</h3>
-<p>To recap, the&nbsp;<code>git merge</code>&nbsp;command is used to combine branches in Git:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge &lt;other-branch&gt;
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>There are two types of merges:</p>
-<ul>
-<li>Fast-forward merge – the branch being merged in must be&nbsp;<em>ahead</em>&nbsp;of the checked out branch. The checked out branch's pointer will just be moved forward to point to the same commit as the other branch.</li>
-<li>the regular type of merge
-<ul>
-<li>two divergent branches are combined</li>
-<li>a merge commit is created</li>
-</ul>
-</li>
-</ul>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merging" target="_blank" rel="noopener noreferrer">Basic Merging</a>&nbsp;from Git Book</li>
-<li><a href="https://git-scm.com/docs/git-merge" target="_blank" rel="noopener noreferrer">git-merge</a>&nbsp;from Git Docs</li>
-<li><a href="https://www.atlassian.com/git/tutorials/git-merge" target="_blank" rel="noopener noreferrer">git merge</a>&nbsp;from Atlassian blog</li>
-</ul>
-<h2> merge conflicts</h2>
-<h3> Merge Conflict Output Explained</h3>
-<p>The output that shows in the Terminal is:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git merge heading-update 
-Auto-merging index.html
-CONFLICT (content): Merge conflict in index.html
-Automatic merge failed; fix conflicts and then commit the result.
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> Merge Conflict Indicators Explanation</h3>
-<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/8aGJEi.png" alt="8aGJEi" tabindex="0" loading="lazy"><figcaption>8aGJEi</figcaption></figure>
-<p>The editor has the following merge conflict indicators:</p>
-<ul>
-<li><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code>&nbsp;everything below this line (until the next indicator) shows you what's on the current branch</li>
-<li><code>||||||| merged common ancestors</code>&nbsp;everything below this line (until the next indicator) shows you what the original lines were</li>
-<li><code>=======</code>&nbsp;is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in</li>
-<li><code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; heading-update</code>&nbsp;is the ending indicator of what's on the branch that's being merged in (in this case, the&nbsp;<code>heading-update</code>&nbsp;branch)</li>
-</ul>
-<h3> Resolving A Merge Conflict</h3>
-<p>Git is using the merge conflict indicators to show you what lines caused the merge conflict on the two different branches as well as what the original line used to have. So to resolve a merge conflict, you need to:</p>
-<ol>
-<li>choose which line(s) to keep</li>
-<li>remove all lines with indicators</li>
-</ol>
-<figure><img src="https://video.udacity-data.com/topher/2017/February/58a74ced_ud123-l5-resolve-merge-conflict/ud123-l5-resolve-merge-conflict.gif" alt="Code editor where showing the merge conflict indicators being removed and the page heading being updated." tabindex="0" loading="lazy"><figcaption>Code editor where showing the merge conflict indicators being removed and the page heading being updated.</figcaption></figure>
-<p>Once you've removed all lines with merge conflict indicators and have selected what heading you want to use, just save the file, add it to the staging index, and commit it!</p>
-<h3> Merge Conflict Recap</h3>
-<p>A merge conflict happens when the same line or lines have been changed on different branches that are being merged. Git will pause mid-merge telling you that there is a conflict and will tell you in what file or files the conflict occurred. To resolve the conflict in a file:</p>
-<ul>
-<li>locate and remove all lines with merge conflict indicators</li>
-<li>determine what to keep</li>
-<li>save the file(s)</li>
-<li>stage the file(s)</li>
-<li>make a commit</li>
-</ul>
-<p>Be careful that a file might have merge conflicts in multiple parts of the file, so make sure you check the entire file for merge conflict indicators - a quick search for&nbsp;<code>&lt;&lt;&lt;</code>&nbsp;should help you locate all of them.</p>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts" target="_blank" rel="noopener noreferrer">Basic Merge Conflicts</a>&nbsp;from the Git book</li>
-<li><a href="https://git-scm.com/docs/git-merge#_how_conflicts_are_presented" target="_blank" rel="noopener noreferrer">How Conflicts Are Presented</a>&nbsp;from the Git docs</li>
-</ul>
-<h1> Undo changes</h1>
-<h2> Changing The Last Commit  git commit --amend</h2>
-<p>If your Working Directory is clean (<strong>meaning there aren't any uncommitted changes in the repository</strong>), then running&nbsp;<code>git commit --amend</code>&nbsp;will let you provide a new commit message. Your code editor will open up and display the original commit message. Just fix a misspelling or completely reword it! Then save it and close the editor to lock in the new commit message.</p>
-<h3> Add Forgotten Files To Commit</h3>
-<p>To do get the forgotten link included, just:</p>
-<ul>
-<li>edit the file(s)</li>
-<li>save the file(s)</li>
-<li>stage the file(s)</li>
-<li>and run&nbsp;<code>git commit --amend</code></li>
-</ul>
-<h2> Reverse previous commit git revert  SHA</h2>
-<p>To recap, the&nbsp;<code>git revert</code>&nbsp;command is used to reverse a previously made commit:</p>
-<p><code>$ git revert  SHA-of-commit-to-revert</code></p>
-<p>This command:</p>
-<ul>
-<li>will undo the changes that were made by the provided commit</li>
-<li>creates a new commit to record the change
-<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/tDT6ft.png" alt="tDT6ft" loading="lazy"></li>
-</ul>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/docs/git-revert" target="_blank" rel="noopener noreferrer">git-revert</a>&nbsp;from Git Docs</li>
-<li><a href="https://www.atlassian.com/git/tutorials/undoing-changes" target="_blank" rel="noopener noreferrer">git revert</a>&nbsp;Atlassian tutorial</li>
-</ul>
-<h2> Reset(erase) commit</h2>
-<blockquote>
-<h2> ⚠️ Resetting Is Dangerous ⚠️</h2>
-</blockquote>
-<blockquote>
-<p>You've got to be careful with Git's resetting capabilities. This is one of the few commands that lets you erase commits from the repository. If a commit is no longer in the repository, then its content is gone.</p>
-</blockquote>
-<blockquote>
-<p>To alleviate the stress a bit, Git&nbsp;<em>does</em>&nbsp;keep track of everything for about 30 days before it completely erases anything. To access this content, you'll need to use the&nbsp;<code>git reflog</code>&nbsp;command. Check out these links for more info:</p>
-</blockquote>
-<blockquote>
-<ul>
-<li><a href="https://git-scm.com/docs/git-reflog" target="_blank" rel="noopener noreferrer">git-reflog</a></li>
-<li><a href="https://www.atlassian.com/git/tutorials/rewriting-history" target="_blank" rel="noopener noreferrer">Rewriting History</a></li>
-<li><a href="http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html" target="_blank" rel="noopener noreferrer">reflog, your safety net</a></li>
-</ul>
-</blockquote>
-<h3> Relative Commit References</h3>
-<p>Here's how we can refer to previous commits:</p>
-<ul>
-<li>
-<p><code>^</code>&nbsp;– indicates the parent commit</p>
-</li>
-<li>
-<p><code>~</code>&nbsp;– indicates the&nbsp;<em>first</em>&nbsp;parent commit</p>
-</li>
-<li>
-<p>the parent commit – the following indicate the parent commit of the current commit</p>
-<ul>
-<li>HEAD^</li>
-<li>HEAD~</li>
-<li>HEAD~1</li>
-</ul>
-</li>
-<li>
-<p>the grandparent commit – the following indicate the grandparent commit of the current commit</p>
-<ul>
-<li>HEAD^^</li>
-<li>HEAD~2</li>
-</ul>
-</li>
-<li>
-<p>the great-grandparent commit – the following indicate the great-grandparent commit of the current commit</p>
-<ul>
-<li>HEAD^^^</li>
-<li>HEAD~3</li>
-</ul>
-</li>
-</ul>
-<p>The main difference between the&nbsp;<code>^</code>&nbsp;and the&nbsp;<code>~</code>&nbsp;is when a commit is created&nbsp;<em>from a merge</em>. A merge commit has&nbsp;<em>two</em>&nbsp;parents. With a merge commit, the&nbsp;<code>^</code>&nbsp;reference is used to indicate the&nbsp;<em>first</em>&nbsp;parent of the commit while&nbsp;<code>^2</code>&nbsp;indicates the&nbsp;<em>second</em>&nbsp;parent. The first parent is the branch you were on when you ran&nbsp;<code>git merge</code>&nbsp;while the second parent is the branch that was merged in.</p>
-<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/4pUk4r.png" alt="4pUk4r" tabindex="0" loading="lazy"><figcaption>4pUk4r</figcaption></figure>
-<p>which commit is referenced by&nbsp;<code>HEAD~4^2</code>? ---f69811c
-Which commit is referenced by HEAD~6? ---209752a</p>
-<h2> git reset</h2>
-<p>The&nbsp;<code>git reset</code>&nbsp;command is used to reset (erase) commits:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git reset &lt;reference-to-commit&gt;
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>It can be used to:</p>
-<ul>
-<li>move the HEAD and current branch pointer to the referenced commit</li>
-<li>erase commits</li>
-<li>move committed changes to the staging index</li>
-<li>unstage committed changes</li>
-</ul>
-<h3> Git Reset's Flags</h3>
-<p>The way that Git determines if it erases, stages previously committed changes, or unstages previously committed changes is by the flag that's used. The flags are:</p>
-<ul>
-<li><code>--mixed</code></li>
-<li><code>--soft</code></li>
-<li><code>--hard</code></li>
-</ul>
-<p><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/OfXQE4.png" alt="OfXQE4" loading="lazy">
-<img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/Hs0Ox0.png" alt="Hs0Ox0" loading="lazy"></p>
-<blockquote>
-<h2> 💡 Backup Branch 💡</h2>
-</blockquote>
-<blockquote>
-<p>Remember that using the&nbsp;<code>git reset</code>&nbsp;command will&nbsp;<em>erase</em>&nbsp;commits from the current branch. So if you want to follow along with all the resetting stuff that's coming up, you'll need to create a branch on the current commit that you can use as a backup.</p>
-</blockquote>
-<blockquote>
-<p>Before I do any resetting, I usually create a&nbsp;<code>backup</code>&nbsp;branch on the most-recent commit so that I can get back to the commits if I make a mistake:</p>
-</blockquote>
-<blockquote>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git branch backup
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></blockquote>
-<h3> Reset's&nbsp;<code>--mixed</code>&nbsp;Flag</h3>
-<p>Let's look at each one of these flags.</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>* 9ec05ca (HEAD -&gt; master) Revert "Set page heading to "Quests &amp; Crusades""
-* db7e87a Set page heading to "Quests &amp; Crusades"
-* 796ddb0 Merge branch 'heading-update'
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Using the sample repo above with&nbsp;<code>HEAD</code>&nbsp;pointing to&nbsp;<code>master</code>&nbsp;on commit&nbsp;<code>9ec05ca</code>, running&nbsp;<code>git reset --mixed HEAD^</code>&nbsp;will take the changes made in commit&nbsp;<code>9ec05ca</code>&nbsp;and move them to the working directory.</p>
-<figure><img src="https://video.udacity-data.com/topher/2017/February/58a4e242_ud123-l6-git-revert-mixed/ud123-l6-git-revert-mixed.png" alt="The Terminal application showing the result of resetting with the  flag. The changes are unstaged." tabindex="0" loading="lazy"><figcaption>The Terminal application showing the result of resetting with the <code>--mixed</code> flag. The changes are unstaged.</figcaption></figure>
-<p><em>The Terminal application showing the result of resetting with the&nbsp;<code>--mixed</code>&nbsp;flag. The changes are unstaged.</em></p>
-<blockquote>
-<h2> 💡 Back To Normal 💡</h2>
-</blockquote>
-<blockquote>
-<p>If you created the&nbsp;<code>backup</code>&nbsp;branch prior to resetting anything, then you can easily get back to having the&nbsp;<code>master</code>&nbsp;branch point to the same commit as the&nbsp;<code>backup</code>&nbsp;branch. You'll just need to:</p>
-<ol>
-<li>remove the uncommitted changes from the working directory</li>
-<li>merge&nbsp;<code>backup</code>&nbsp;into&nbsp;<code>master</code>&nbsp;(which will cause a Fast-forward merge and move&nbsp;<code>master</code>&nbsp;up to the same point as&nbsp;<code>backup</code>)</li>
-</ol>
-</blockquote>
-<blockquote>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>$ git checkout -- index.html
-$ git merge backup
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></blockquote>
-<h3> Reset's&nbsp;<code>--soft</code>&nbsp;Flag</h3>
-<p>Let's use the same few commits and look at how the&nbsp;<code>--soft</code>&nbsp;flag works:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>* 9ec05ca (HEAD -&gt; master) Revert "Set page heading to "Quests &amp; Crusades""
-* db7e87a Set page heading to "Quests &amp; Crusades"
-* 796ddb0 Merge branch 'heading-update'
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Running&nbsp;<code>git reset --soft HEAD^</code>&nbsp;will take the changes made in commit&nbsp;<code>9ec05ca</code>&nbsp;and move them directly to the Staging Index.</p>
-<figure><img src="https://video.udacity-data.com/topher/2017/February/58a4e29a_ud123-l6-git-revert-soft/ud123-l6-git-revert-soft.png" alt="The Terminal application showing the result of resetting with the  flag. The changes are moved to the Staging Index." tabindex="0" loading="lazy"><figcaption>The Terminal application showing the result of resetting with the <code>--soft</code> flag. The changes are moved to the Staging Index.</figcaption></figure>
-<p><em>The Terminal application showing the result of resetting with the&nbsp;<code>--soft</code>&nbsp;flag. The changes are moved to the Staging Index.</em></p>
-<h3> Reset's&nbsp;<code>--hard</code>&nbsp;Flag</h3>
-<p>Last but not least, let's look at the&nbsp;<code>--hard</code>&nbsp;flag:</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>* 9ec05ca (HEAD -&gt; master) Revert "Set page heading to "Quests &amp; Crusades""
-* db7e87a Set page heading to "Quests &amp; Crusades"
-* 796ddb0 Merge branch 'heading-update'
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Running&nbsp;<code>git reset --hard HEAD^</code>&nbsp;will take the changes made in commit&nbsp;<code>9ec05ca</code>&nbsp;and erases them.</p>
-<figure><img src="https://video.udacity-data.com/topher/2017/February/58a4e2c2_ud123-l6-git-revert-hard/ud123-l6-git-revert-hard.png" alt="The Terminal application showing the result of resetting with the  flag. The changes are moved erased." tabindex="0" loading="lazy"><figcaption>The Terminal application showing the result of resetting with the <code>--hard</code> flag. The changes are moved erased.</figcaption></figure>
-<p><em>The Terminal application showing the result of resetting with the&nbsp;<code>--hard</code>&nbsp;flag. The changes are moved erased.</em></p>
-<h3> Further Research</h3>
-<ul>
-<li><a href="https://git-scm.com/docs/git-reset" target="_blank" rel="noopener noreferrer">git-reset</a>&nbsp;from Git docs</li>
-<li><a href="https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified" target="_blank" rel="noopener noreferrer">Reset Demystified</a>&nbsp;from Git Blog</li>
-<li><a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#Ancestry-References" target="_blank" rel="noopener noreferrer">Ancestry References</a>&nbsp;from Git Book</li>
-</ul>
-<h2> Expand On Your Git Skills</h2>
-<ul>
-<li>take the companion GitHub course</li>
-<li>create a repo to track your computer's settings -&nbsp;<a href="https://dotfiles.github.io/" target="_blank" rel="noopener noreferrer">https://dotfiles.github.io/</a></li>
-<li>develop the next, awesome feature for your personal project</li>
-<li>try tackling some Git challenges with the&nbsp;<a href="https://github.com/jlord/git-it-electron" target="_blank" rel="noopener noreferrer">Git-it app</a></li>
-<li><a href="https://udacity.github.io/git-styleguide/" target="_blank" rel="noopener noreferrer">Udacity Nanodegree Style Guide</a></li>
-</ul>
-<h1> Remote Control</h1>
-<h2> Add remote connections</h2>
-<p><code>$ git remote add ＜REMOTENAME＞ ＜URL&gt; </code></p>
-<h2> Set a URL to a remote</h2>
-<p><code>$ git remote set-urL &lt;REMOTENAME&gt; &lt;URL&gt;</code></p>
-<h2> Pull in changes</h2>
-<p><code>$ git pull ＜REMOTENAME&gt; ＜BRANCHNAME&gt;</code></p>
-<h2> View remote addresses</h2>
-<p><code>$ git remote-v</code></p>
-<h2> Push changes</h2>
-<p><code>git push ＜REMOTENAME&gt; ＜BRANCH&gt;</code></p>
-<h2> Delete a remote branch</h2>
-<p><code>$ git push &lt;REMOTENAME&gt;--delete &lt;BRANCHNAME&gt;</code></p>
-<h2> fork and clone</h2>
-<p>To be sure you have the correct remotes set up, type git remote-v to list out the
-addresses you have stored. You should have an 'origin' remote with your fork's
-address and then an 'upstream' remote with the address to the original, the URL
-noted above in this step.
-<code>$ git remote add upstream https://github.com/jlord/patchwork.git</code></p>
-<p>Add a remote
-<code>$ git remote add ＜REMOTENAME&gt; ＜URL&gt;</code></p>
-<p>Change a remote URL
-<code>$ git remote set-url ＜REMOTENAME&gt; ＜URL&gt;</code></p>
-<p>View remote connections
-<code>$ git remote-V</code></p>
-<p>Pullin changes from a remote branch
-<code>$ git pull &lt;REMOTENAME&gt; &lt;REMOTEBRANCH&gt;</code></p>
-<p>See changes to the remote before you pullin
-<code>$ git fetch--dry-run</code></p>
-]]></content:encoded>
-      <enclosure url="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/kmISzO.png" type="image/png"/>
     </item>
   </channel>
 </rss>

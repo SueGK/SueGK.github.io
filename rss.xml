@@ -6,26 +6,98 @@
     <link>https://suegk.github.io/</link>
     <description>Artificial Intelligence | Deep Learning | Productivity Software | Note-Taking</description>
     <language>en-US</language>
-    <pubDate>Wed, 28 Aug 2024 05:37:36 GMT</pubDate>
-    <lastBuildDate>Wed, 28 Aug 2024 05:37:36 GMT</lastBuildDate>
+    <pubDate>Wed, 28 Aug 2024 06:21:28 GMT</pubDate>
+    <lastBuildDate>Wed, 28 Aug 2024 06:21:28 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>效率工具</category>
     <category>ML</category>
     <category>学习资源</category>
     <category>Pytorch</category>
-    <category>CV</category>
+    <item>
+      <title></title>
+      <link>https://suegk.github.io/Algorithm/%E7%AE%97%E6%B3%95.html</link>
+      <guid>https://suegk.github.io/Algorithm/%E7%AE%97%E6%B3%95.html</guid>
+      <source url="https://suegk.github.io/rss.xml"></source>
+      <description>article: true title: 算法: Binary Search icon: fa6-solid:repeat binary search，也称作二分法（half-interval search），每次划分一半进行下一步搜索，所以时间复杂度无非就是while循环的次数！ img maximum comparisons are dependent on the height of a tree logn，极端情况下我们需要查找所有n个elements得到target. 第一次折半查找的为区间n，比较次数 c=1（中间值可能的个数为：2^c - 1 = 1， index: [8]） 第二次折半查找的为区间n/2，比较次数 c=2（中间值可能的个数为：2^c - 1 = 3，index: [8, 4, 12]） if target &amp;lt;= mid point: (left point, mid point-1) 即( 1, 7) or target &amp;gt;= mid point: (mid point+1, right point) 即( 9, 15) 一共可能的区间个数为2 ， 即( 1, 7) or (9, 15) 第三次次折半查找的为区间n/4，比较次数 c=3（中间值可能的个数为：2^c - 1 = 7，index: [8, 4, 12, 2, 6, 10, 14]） if target &amp;lt;= mid point: (left point, mid point-1) or target &amp;gt;= mid point: (mid point+1, right point) 一共可能的区间个数为4 ， 即( 1, 3) or (5, 7) or ( 9, 11) or (13, 15) 第四次次折半查找的为区间n/8，比较次数 c=4（中间值可能的个数为：2^c - 1 = 15，index: [8, 4, 12, 2, 6, 10, 14, 1, 3, 5, 7, 9, 11, 13, 15]） if target &amp;lt;= mid point: (left point, mid point-1) or target &amp;gt;= mid point: (mid point+1, right point) 一共可能的区间个数为8 ， 即 (1,1) or (3,3) or (5,5) or (7,7) or (9,9) or (11,11) or (13,13) or (15,15) 数组只余一个元素无法再分，计算结束。 此时中间值可能的个数=元素总个数len(nums), 算法经历了所有可能值 总共有n个元素，每次查找的区间大小为n，n/2，n/4，…，n/2^c 且2^c_max - 1 = len(nums) 可得 c=log2(n+1), n+1为常数所以可以把它看作c=log2(n),（ c为比较的次数or循环的次数or二分树的高度），log2(n)中2可以省略所以时间复杂度为 O(logn) minimum time of binary search: 1次比较得到target, O(1) maximum time of binary search: log(n)次比较得到target, O(logn)</description>
+      <pubDate>Wed, 28 Aug 2024 06:01:58 GMT</pubDate>
+      <content:encoded><![CDATA[<hr>
+<h2> article: true
+title: 算法: Binary Search
+icon: fa6-solid:repeat</h2>
+<ul>
+<li>binary search，也称作二分法（half-interval search），每次划分一半进行下一步搜索，所以时间复杂度无非就是while循环的次数！</li>
+<li><img src="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FFemFarm%2FrI6sP7NOWn.png?alt=media&amp;token=8a73e9d9-9606-417b-b00d-afe1fcf63b2b" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption>
+<ul>
+<li>maximum comparisons are dependent on the <strong>height of a tree</strong> <code>logn</code>，极端情况下我们需要查找所有n个elements得到target.
+<ul>
+<li>第一次折半查找的为区间<strong>n</strong>，比较次数 <code>c=1</code>（<strong>中间值可能的个数为：</strong><code>2^c - 1 = 1</code>， index: [8]）</li>
+<li>第二次折半查找的为区间<strong>n/2</strong>，比较次数 <code>c=2</code>（<strong>中间值可能的个数为：</strong><code>2^c - 1 = 3</code>，index: [8, 4, 12]）
+<ul>
+<li>if <code>target &lt;= mid point</code>: (left point, mid point-1) 即( 1, 7)</li>
+<li><strong>or</strong> <code>target &gt;= mid point</code>: (mid point+1, right point) 即( 9, 15)</li>
+<li>一共可能的区间个数为<strong>2</strong> ， 即( 1, 7) or (9, 15)</li>
+</ul>
+</li>
+<li>第三次次折半查找的为区间<strong>n/4</strong>，比较次数 <code>c=3</code>（<strong>中间值可能的个数为：</strong><code>2^c - 1 = 7</code>，index: [8, 4, 12, 2, 6, 10, 14]）
+<ul>
+<li>if <code>target &lt;= mid point</code>: (left point, mid point-1)</li>
+<li><strong>or</strong> <code>target &gt;= mid point</code>: (mid point+1, right point)</li>
+<li>一共可能的区间个数为<strong>4</strong> ， 即( 1, 3) or (5, 7) or ( 9, 11) or (13, 15)</li>
+</ul>
+</li>
+<li>第四次次折半查找的为区间<strong>n/8</strong>，比较次数 <code>c=4</code>（<strong>中间值可能的个数为：</strong><code>2^c - 1 = 15</code>，index: [8, 4, 12, 2, 6, 10, 14, 1, 3, 5, 7, 9, 11, 13, 15]）
+<ul>
+<li>if <code>target &lt;= mid point</code>: (left point, mid point-1)</li>
+<li><strong>or</strong> <code>target &gt;= mid point</code>: (mid point+1, right point)</li>
+<li>一共可能的区间个数为<strong>8</strong> ， 即 (1,1) or (3,3) or (5,5) or (7,7) or (9,9) or (11,11) or (13,13) or (15,15)</li>
+<li>数组只余一个元素无法再分，计算结束。</li>
+<li>此时<strong>中间值可能的个数=元素总个数len(nums)</strong>, 算法经历了所有可能值</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>总共有n个元素，每次查找的区间大小为n，n/2，n/4，…，n/2^c 且2^c_max - 1 = len(nums)
+可得 <code>c=log2(n+1), n+1为常数所以可以把它看作c=log2(n)</code>,（ <strong>c为比较的次数or循环的次数or二分树的高度</strong>），log2(n)中2可以省略所以时间复杂度为 <code>O(logn)</code>
+<ul>
+<li>minimum time of binary search: 1次比较得到target, <code>O(1)</code></li>
+<li>maximum time of binary search: log(n)次比较得到target, <code>O(logn)</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FFemFarm%2FrI6sP7NOWn.png?alt=media&token=8a73e9d9-9606-417b-b00d-afe1fcf63b2b" type="image/"/>
+    </item>
+    <item>
+      <title>自制的流程图</title>
+      <link>https://suegk.github.io/studydiagram/mydiagram.html</link>
+      <guid>https://suegk.github.io/studydiagram/mydiagram.html</guid>
+      <source url="https://suegk.github.io/rss.xml">自制的流程图</source>
+      <description>🖼️ 自制的流程图 1. ReAct Prompt ReAct-Sue 2. Pytorch DataLoader pytorch-dataloader</description>
+      <pubDate>Wed, 28 Aug 2024 06:01:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 🖼️ 自制的流程图</h1>
+<h2> 1. ReAct Prompt</h2>
+<figure><img src="https://github.com/user-attachments/assets/0e221c68-7790-4a2b-87f4-0eb0f6ea966e" alt="ReAct-Sue" tabindex="0" loading="lazy"><figcaption>ReAct-Sue</figcaption></figure>
+<h2> 2. Pytorch DataLoader</h2>
+<figure><img src="https://github.com/user-attachments/assets/187c5703-f5c8-49a7-854d-72f138163664" alt="pytorch-dataloader" tabindex="0" loading="lazy"><figcaption>pytorch-dataloader</figcaption></figure>
+<h2> 3. API Communication CheatSheet</h2>
+<figure><img src="https://github.com/user-attachments/assets/7d5523e9-7eae-4962-8b49-bf8df43cb660" alt="API-Communication-cheatsheet" tabindex="0" loading="lazy"><figcaption>API-Communication-cheatsheet</figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://github.com/user-attachments/assets/0e221c68-7790-4a2b-87f4-0eb0f6ea966e" type="image/"/>
+    </item>
     <item>
       <title>效率工具：Roam Research中Discourse Graph插件使用流程</title>
       <link>https://suegk.github.io/posts/2022-06-30.html</link>
       <guid>https://suegk.github.io/posts/2022-06-30.html</guid>
       <source url="https://suegk.github.io/rss.xml">效率工具：Roam Research中Discourse Graph插件使用流程</source>
-      <description>I’m still surprised how much Roam Research potential would you find! Have been trying to use roam for my machine learning study for 2 weeks. The combination of discourse graph and query builder in @roam_js is really powerful! Here are what I found useful:我仍然很惊讶你会发现 Roam Research 的潜力有多大！2 周以来，我一直在尝试使用 roam 进行我的机器学习学习。@roam_js&amp;nbsp;中 discourse graph 和 query builder 的组合真的很强大！以下是我发现有用的内容：</description>
+      <description>I’m still surprised how much Roam Research potential would you find! Have been trying to use roam for my machine learning study for 2 weeks. The combination of discourse graph a...</description>
       <category>效率工具</category>
       <pubDate>Thu, 30 Jun 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>I’m still surprised how much Roam Research potential would you find! Have been trying to use roam for my machine learning study for 2 weeks. The combination of discourse graph and query builder in <a href="https://twitter.com/roam_js" target="_blank" rel="noopener noreferrer">@roam_js</a> is really powerful! Here are what I found useful:我仍然很惊讶你会发现 Roam Research 的潜力有多大！2 周以来，我一直在尝试使用 roam 进行我的机器学习学习。@roam_js&nbsp;中 discourse graph 和 query builder 的组合真的很强大！以下是我发现有用的内容：</p>
-<figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*GHCaGMokzGHolVp-.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+      <content:encoded><![CDATA[<figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*GHCaGMokzGHolVp-.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <figure><img src="https://miro.medium.com/v2/resize:fit:1400/0*KwhYhr0UaYP9XO16.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>I’m still surprised how much Roam Research potential would you find! Have been trying to use roam for my machine learning study for 2 weeks. The combination of discourse graph and query builder in <a href="https://twitter.com/roam_js" target="_blank" rel="noopener noreferrer">@roam_js</a> is really powerful! Here are what I found useful:我仍然很惊讶你会发现 Roam Research 的潜力有多大！2 周以来，我一直在尝试使用 roam 进行我的机器学习学习。@roam_js&nbsp;中 discourse graph 和 query builder 的组合真的很强大！以下是我发现有用的内容：</p>
 <p><a href="https://medium.com/@sue.sk.guo/((WjDE4sICN))" target="_blank" rel="noopener noreferrer">*</a> is the alias for the code node.*）是 Code 节点的别名。</p>
 <figure><img src="https://miro.medium.com/v2/resize:fit:318/0*32JqBwp8RBRywxHu.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>The reason why I add both code node and alias for that code node is that Discourse can’t recognize a block reference of a code node as code node to establish the relationship. So like the gif below, no discourse relation found.我之所以同时为该代码节点添加 code node 和 alias，是因为 Discourse 无法将代码节点的块引用识别为代码节点来建立关系。所以就像下面的 gif 一样，没有找到 discourse 关系。</p>
@@ -243,116 +315,105 @@ I’m using an file hosting tool called <a href="https://apps.apple.com/us/app/u
       <category>学习资源</category>
       <pubDate>Thu, 18 Aug 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Wanna play around with the code? <a href="https://github.com/SueGK/Courses/blob/main/pyimagesearch-opencv-17-day-course/OpenCV-Mynotes/opencv_BGR_color.ipynb" target="_blank" rel="noopener noreferrer">Link</a></p>
-<pre><code>import os
-import numpy as np
-import argparse
-import cv2
-import matplotlib.pyplot as plt
-</code></pre>
-<p>The original picture looks like:</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    <span class="token keyword">import</span> os
+    <span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
+    <span class="token keyword">import</span> argparse
+    <span class="token keyword">import</span> cv2
+    <span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>The original picture looks like:</p>
 <figure><img src="https://cdn-images-1.medium.com/max/2000/0*gMD-zYzvJWZegLIH.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>The OpenCV assumes images are in BGR channel order. OpenCV imread, imwrite and imshow all work with the BGR order, so the image won't change if we use cv2.imshow to show the image. But it doesn't work with matplotlib.</p>
 <p>Most image processing library use the RGB ordering such as matplotlib so if use plt.imshow, the color of the logo changed.</p>
-<pre><code>img = cv2.imread("logo.png")
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    img <span class="token operator">=</span> cv2<span class="token punctuation">.</span>imread<span class="token punctuation">(</span><span class="token string">"logo.png"</span><span class="token punctuation">)</span>
 
-# show the image by cv2
-# The cv2.imshow() and cv.imshow() functions from the opencv-python package are incompatible with Jupyter notebook;
-# see https://github.com/jupyter/notebook/issues/3935.
-# As a replacement, you can use the following function:
-from google.colab.patches import cv2_imshow
-cv2_imshow(img)
-</code></pre>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*Ixo3Bu6gZwaoAGhT64Rlyg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<pre><code># show the image by matplotlib
-plt.subplot(111)
-plt.imshow(img)
-plt.title("Original")
-</code></pre>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*sqd7CCalX7L04M21PYdCvA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+    <span class="token comment"># show the image by cv2</span>
+    <span class="token comment"># The cv2.imshow() and cv.imshow() functions from the opencv-python package are incompatible with Jupyter notebook;</span>
+    <span class="token comment"># see https://github.com/jupyter/notebook/issues/3935.</span>
+    <span class="token comment"># As a replacement, you can use the following function:</span>
+    <span class="token keyword">from</span> google<span class="token punctuation">.</span>colab<span class="token punctuation">.</span>patches <span class="token keyword">import</span> cv2_imshow
+    cv2_imshow<span class="token punctuation">(</span>img<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn-images-1.medium.com/max/2000/1*Ixo3Bu6gZwaoAGhT64Rlyg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    <span class="token comment"># show the image by matplotlib</span>
+    plt<span class="token punctuation">.</span>subplot<span class="token punctuation">(</span><span class="token number">111</span><span class="token punctuation">)</span>
+    plt<span class="token punctuation">.</span>imshow<span class="token punctuation">(</span>img<span class="token punctuation">)</span>
+    plt<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">"Original"</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn-images-1.medium.com/max/2000/1*sqd7CCalX7L04M21PYdCvA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>If we want to read image in RGB order in OpenCV, we can use:</p>
-<p>img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)</p>
-<pre><code># read images in RGB order in OpenCV
-img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-from google.colab.patches import cv2_imshow
-cv2_imshow(img_rgb)
-plt.imshow(img_rgb)
-</code></pre>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*b6K55FOZwp3tePqYe-DERg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>img <span class="token operator">=</span> cv2<span class="token punctuation">.</span>cvtColor<span class="token punctuation">(</span>img<span class="token punctuation">,</span> cv2<span class="token punctuation">.</span>COLOR_BGR2RGB<span class="token punctuation">)</span>
+
+    <span class="token comment"># read images in RGB order in OpenCV</span>
+    img_rgb <span class="token operator">=</span> cv2<span class="token punctuation">.</span>cvtColor<span class="token punctuation">(</span>img<span class="token punctuation">,</span> cv2<span class="token punctuation">.</span>COLOR_BGR2RGB<span class="token punctuation">)</span>
+    <span class="token keyword">from</span> google<span class="token punctuation">.</span>colab<span class="token punctuation">.</span>patches <span class="token keyword">import</span> cv2_imshow
+    cv2_imshow<span class="token punctuation">(</span>img_rgb<span class="token punctuation">)</span>
+    plt<span class="token punctuation">.</span>imshow<span class="token punctuation">(</span>img_rgb<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn-images-1.medium.com/max/2000/1*b6K55FOZwp3tePqYe-DERg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p><strong>cv2.imread(FILENAME, FLAG)</strong></p>
 <p>There are some flags:</p>
 <p><strong>cv2.IMREAD_UNCHANGED:</strong> read the image as is from the source(with alpha channel). If the source image is an RGB, it loads the image into array with Red, Green and Blue channels.</p>
 <p><strong>cv2.IMREAD_COLOR:</strong> convert image to the 3 channel BGR color image but no transparency channel</p>
 <p><strong>cv2.IMREAD_GRAYSCALE:</strong> convert image to the single channel grayscale image</p>
 <p>Check more flags here: <a href="https://docs.opencv.org/3.4/d8/d6a/group__imgcodecs__flags.html#ga61d9b0126a3e57d9277ac48327799c80" target="_blank" rel="noopener noreferrer">OpenCV: Flags used for image file reading and writing</a></p>
-<pre><code>img = cv2.imread('logo.png', cv2.IMREAD_UNCHANGED)
-cv2_imshow(img)
-plt.imshow(img)
-</code></pre>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*d_zvffWdR2cnGDKDOuG0DA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<pre><code>img = cv2.imread('logo.png', cv2.IMREAD_COLOR)
-cv2_imshow(img)
-plt.imshow(img)
-</code></pre>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*bz2dYJPqveXPof4lw4f24A.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<pre><code>img = cv2.imread('logo.png', cv2.IMREAD_GRAYSCALE)
-cv2_imshow(img)
-</code></pre>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*yYNiNY657JdYVMZMLnqlVg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    img <span class="token operator">=</span> cv2<span class="token punctuation">.</span>imread<span class="token punctuation">(</span><span class="token string">'logo.png'</span><span class="token punctuation">,</span> cv2<span class="token punctuation">.</span>IMREAD_UNCHANGED<span class="token punctuation">)</span>
+    cv2_imshow<span class="token punctuation">(</span>img<span class="token punctuation">)</span>
+    plt<span class="token punctuation">.</span>imshow<span class="token punctuation">(</span>img<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn-images-1.medium.com/max/2000/1*d_zvffWdR2cnGDKDOuG0DA.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    img <span class="token operator">=</span> cv2<span class="token punctuation">.</span>imread<span class="token punctuation">(</span><span class="token string">'logo.png'</span><span class="token punctuation">,</span> cv2<span class="token punctuation">.</span>IMREAD_COLOR<span class="token punctuation">)</span>
+    cv2_imshow<span class="token punctuation">(</span>img<span class="token punctuation">)</span>
+    plt<span class="token punctuation">.</span>imshow<span class="token punctuation">(</span>img<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn-images-1.medium.com/max/2000/1*bz2dYJPqveXPof4lw4f24A.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    img <span class="token operator">=</span> cv2<span class="token punctuation">.</span>imread<span class="token punctuation">(</span><span class="token string">'logo.png'</span><span class="token punctuation">,</span> cv2<span class="token punctuation">.</span>IMREAD_GRAYSCALE<span class="token punctuation">)</span>
+    cv2_imshow<span class="token punctuation">(</span>img<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn-images-1.medium.com/max/2000/1*yYNiNY657JdYVMZMLnqlVg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>Let's have a look at the BGR channel. If we want to print the whole array then set np.set_printoptions(threshold=np.inf) and set it back to default after print the array. np.set_printoptions(threshold=1000</p>
-<pre><code>img = cv2.imread('logo.png', cv2.IMREAD_COLOR)
-cv2_imshow(img)
-b = img[:,:,0] # get blue channel
-g = img[:,:,1] # get green channel
-r = img[:,:,2] # get red channel
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    img <span class="token operator">=</span> cv2<span class="token punctuation">.</span>imread<span class="token punctuation">(</span><span class="token string">'logo.png'</span><span class="token punctuation">,</span> cv2<span class="token punctuation">.</span>IMREAD_COLOR<span class="token punctuation">)</span>
+    cv2_imshow<span class="token punctuation">(</span>img<span class="token punctuation">)</span>
+    b <span class="token operator">=</span> img<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token comment"># get blue channel</span>
+    g <span class="token operator">=</span> img<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token comment"># get green channel</span>
+    r <span class="token operator">=</span> img<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token comment"># get red channel</span>
 
-print(b)
-</code></pre>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*aLUmFMIu3E8WJ6zMM0_t8g.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<pre><code>np.set_printoptions(threshold=np.inf)
-print(b)
-np.set_printoptions(threshold=1000)
+    <span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn-images-1.medium.com/max/2000/1*aLUmFMIu3E8WJ6zMM0_t8g.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    np<span class="token punctuation">.</span>set_printoptions<span class="token punctuation">(</span>threshold<span class="token operator">=</span>np<span class="token punctuation">.</span>inf<span class="token punctuation">)</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span>
+    np<span class="token punctuation">.</span>set_printoptions<span class="token punctuation">(</span>threshold<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">)</span>
 
-# the output is really long so I won't print it here.
-</code></pre>
-<p>Now let's convert it to <strong>RGB</strong> channel. Even though we read image in RGB order but the logo color will change if we use cv2.imshow to show the image because it works with <strong>BGR</strong> order. plt.imshow show the original color of the image because it works with <strong>RGB</strong> order as well.</p>
-<pre><code># read images in RGB order in OpenCV
-img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-from google.colab.patches import cv2_imshow
-cv2_imshow(img_rgb)
-plt.imshow(img_rgb)
-</code></pre>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*abBgvTaTAg_wKCYiWBMuPQ.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<pre><code>r1 = img_rgb[:,:,0] # get blue channel
-g1 = img_rgb[:,:,1] # get green channel
-b1 = img_rgb[:,:,2] # get red channel
+    <span class="token comment"># the output is really long so I won't print it here.</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Now let's convert it to <strong>RGB</strong> channel. Even though we read image in RGB order but the logo color will change if we use cv2.imshow to show the image because it works with <strong>BGR</strong> order. plt.imshow show the original color of the image because it works with <strong>RGB</strong> order as well.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    <span class="token comment"># read images in RGB order in OpenCV</span>
+    img_rgb <span class="token operator">=</span> cv2<span class="token punctuation">.</span>cvtColor<span class="token punctuation">(</span>img<span class="token punctuation">,</span> cv2<span class="token punctuation">.</span>COLOR_BGR2RGB<span class="token punctuation">)</span>
+    <span class="token keyword">from</span> google<span class="token punctuation">.</span>colab<span class="token punctuation">.</span>patches <span class="token keyword">import</span> cv2_imshow
+    cv2_imshow<span class="token punctuation">(</span>img_rgb<span class="token punctuation">)</span>
+    plt<span class="token punctuation">.</span>imshow<span class="token punctuation">(</span>img_rgb<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://cdn-images-1.medium.com/max/2000/1*abBgvTaTAg_wKCYiWBMuPQ.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    r1 <span class="token operator">=</span> img_rgb<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token comment"># get blue channel</span>
+    g1 <span class="token operator">=</span> img_rgb<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token comment"># get green channel</span>
+    b1 <span class="token operator">=</span> img_rgb<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token comment"># get red channel</span>
 
-(img[:,:,0] == img_rgb[:,:,2]).all()
+    <span class="token punctuation">(</span>img<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">==</span> img_rgb<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token builtin">all</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
 
-Output: True
-</code></pre>
-<p>When you try to draw a rectangle box in OpenCV, be careful that the color of rectangle is also in <strong>BGR</strong> order.</p>
-<pre><code># read the image
-image = cv2.imread('logo.png')
+    Output<span class="token punctuation">:</span> <span class="token boolean">True</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>When you try to draw a rectangle box in OpenCV, be careful that the color of rectangle is also in <strong>BGR</strong> order.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    <span class="token comment"># read the image</span>
+    image <span class="token operator">=</span> cv2<span class="token punctuation">.</span>imread<span class="token punctuation">(</span><span class="token string">'logo.png'</span><span class="token punctuation">)</span>
 
-# represents the top left corner of rectangle
-start_point = (5, 5)
+    <span class="token comment"># represents the top left corner of rectangle</span>
+    start_point <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span>
 
-# represents the bottom right corner of rectangle
-end_point = (20, 20)
+    <span class="token comment"># represents the bottom right corner of rectangle</span>
+    end_point <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span>
 
-# choose the rectangle color in BGR
-color = (0, 0, 255) # red
+    <span class="token comment"># choose the rectangle color in BGR</span>
+    color <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">255</span><span class="token punctuation">)</span> <span class="token comment"># red</span>
 
-# thickness of lines that make up the rectangle is 2 px
-thickness = 2
+    <span class="token comment"># thickness of lines that make up the rectangle is 2 px</span>
+    thickness <span class="token operator">=</span> <span class="token number">2</span>
 
-# draw a rectangle with red line borders of thickness of 2 px
-image = cv2.rectangle(image, start_point, end_point, color, thickness)
+    <span class="token comment"># draw a rectangle with red line borders of thickness of 2 px</span>
+    image <span class="token operator">=</span> cv2<span class="token punctuation">.</span>rectangle<span class="token punctuation">(</span>image<span class="token punctuation">,</span> start_point<span class="token punctuation">,</span> end_point<span class="token punctuation">,</span> color<span class="token punctuation">,</span> thickness<span class="token punctuation">)</span>
 
-# Displaying the image
-cv2_imshow(image)
-</code></pre>
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*J3rSiqjnPRM1D04oPitI1Q.png" alt="" loading="lazy">
+    <span class="token comment"># Displaying the image</span>
+    cv2_imshow<span class="token punctuation">(</span>image<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><img src="https://cdn-images-1.medium.com/max/2000/1*J3rSiqjnPRM1D04oPitI1Q.png" alt="" loading="lazy">
 <a href="https://medium.com/mlearning-ai/mlearning-ai-submission-suggestions-b51e2b130bfb" target="_blank" rel="noopener noreferrer"><strong>Mlearning.ai Submission Suggestions</strong>
 <em>How to become a writer on Mlearning.ai</em>medium.com</a></p>
 ]]></content:encoded>
@@ -375,32 +436,30 @@ cv2_imshow(image)
 <li><strong>getitem</strong>(idx): This method should return the data for the sample with the specified index. The returned data should be a tuple containing the data and the corresponding label for the sample.</li>
 </ul>
 <p>Here is an example of how your custom dataset class might look:</p>
-<pre><code>import torch
-from torch.utils.data import Dataset
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    <span class="token keyword">import</span> torch
+    <span class="token keyword">from</span> torch<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>data <span class="token keyword">import</span> Dataset
 
-class CustomDataset(Dataset):
-    def__init__(self, data, labels):
-        self.data = data
-        self.labels = labels
+    <span class="token keyword">class</span> <span class="token class-name">CustomDataset</span><span class="token punctuation">(</span>Dataset<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        def__init__<span class="token punctuation">(</span>self<span class="token punctuation">,</span> data<span class="token punctuation">,</span> labels<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            self<span class="token punctuation">.</span>data <span class="token operator">=</span> data
+            self<span class="token punctuation">.</span>labels <span class="token operator">=</span> labels
 
-def__len__(self):
-        return len(self.labels)
+    def__len__<span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> <span class="token builtin">len</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>labels<span class="token punctuation">)</span>
 
-def__getitem__(self, idx):
-        return self.data[idx], self.labels[idx]
-</code></pre>
-<p>To use your custom dataset, you can create an instance of the class and then pass it to a PyTorch DataLoader object. The DataLoader can then be used to iterate over the dataset and retrieve the samples.</p>
-<pre><code># Create an instance of the CustomDataset class
-dataset = CustomDataset(data, labels)
+    def__getitem__<span class="token punctuation">(</span>self<span class="token punctuation">,</span> idx<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">return</span> self<span class="token punctuation">.</span>data<span class="token punctuation">[</span>idx<span class="token punctuation">]</span><span class="token punctuation">,</span> self<span class="token punctuation">.</span>labels<span class="token punctuation">[</span>idx<span class="token punctuation">]</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>To use your custom dataset, you can create an instance of the class and then pass it to a PyTorch DataLoader object. The DataLoader can then be used to iterate over the dataset and retrieve the samples.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    <span class="token comment"># Create an instance of the CustomDataset class</span>
+    dataset <span class="token operator">=</span> CustomDataset<span class="token punctuation">(</span>data<span class="token punctuation">,</span> labels<span class="token punctuation">)</span>
 
-# Create a DataLoader for the dataset
-dataloader = torch.utils.data.DataLoader(dataset, batch_size=32, shuffle=True)
+    <span class="token comment"># Create a DataLoader for the dataset</span>
+    dataloader <span class="token operator">=</span> torch<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>data<span class="token punctuation">.</span>DataLoader<span class="token punctuation">(</span>dataset<span class="token punctuation">,</span> batch_size<span class="token operator">=</span><span class="token number">32</span><span class="token punctuation">,</span> shuffle<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
 
-# Loop over the dataloader to retrieve the samples
-for data, labels in dataloader:
-    # Do something with the data and labels
-</code></pre>
-<p>You can learn more about creating custom datasets in PyTorch in the official PyTorch documentation: <a href="https://pytorch.org/docs/stable/data.html#creating-custom-datasets" target="_blank" rel="noopener noreferrer">https://pytorch.org/docs/stable/data.html#creating-custom-datasets</a></p>
+    <span class="token comment"># Loop over the dataloader to retrieve the samples</span>
+    <span class="token keyword">for</span> data<span class="token punctuation">,</span> labels <span class="token keyword">in</span> dataloader<span class="token punctuation">:</span>
+        <span class="token comment"># Do something with the data and labels</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>You can learn more about creating custom datasets in PyTorch in the official PyTorch documentation: <a href="https://pytorch.org/docs/stable/data.html#creating-custom-datasets" target="_blank" rel="noopener noreferrer">https://pytorch.org/docs/stable/data.html#creating-custom-datasets</a></p>
 <h2> <strong>what does dataloader do?</strong></h2>
 <p>A PyTorch DataLoader is an object that provides a number of benefits when working with large datasets. It is typically used in conjunction with a Dataset object that provides the data that the DataLoader will iterate over.</p>
 <p>The main purpose of the DataLoader is to batch the data from the Dataset and provide it to the model during training. It allows you to specify the batch size and whether or not the data should be shuffled each epoch. This can be useful for training models on large datasets that don't fit in memory, as it allows the data to be processed in smaller batches.</p>
@@ -408,72 +467,69 @@ for data, labels in dataloader:
 <p>Overall, the DataLoader is an important part of the PyTorch data processing pipeline, and is typically used when training deep learning models on large datasets. It provides an iterator over a dataset, allowing you to train your model on a large dataset by loading only a small portion of the data into memory at a time.</p>
 <p>The DataLoader class takes a dataset and a batch size as input and returns an iterator over the dataset that yields mini-batches of data. You can use the DataLoader class to shuffle the data and define the number of workers that will be used to load the data in parallel.</p>
 <p>One way to use the DataLoader class is with the for loop. Here is an example:</p>
-<pre><code># Import the DataLoader class
-from torch.utils.data import DataLoader
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    <span class="token comment"># Import the DataLoader class</span>
+    <span class="token keyword">from</span> torch<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>data <span class="token keyword">import</span> DataLoader
 
-# Create a dataset
-dataset = SomeDataset()
+    <span class="token comment"># Create a dataset</span>
+    dataset <span class="token operator">=</span> SomeDataset<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
-# Create a DataLoader instance
-data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
+    <span class="token comment"># Create a DataLoader instance</span>
+    data_loader <span class="token operator">=</span> DataLoader<span class="token punctuation">(</span>dataset<span class="token punctuation">,</span> batch_size<span class="token operator">=</span><span class="token number">32</span><span class="token punctuation">,</span> shuffle<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
 
-# Use the DataLoader object like an iterator
-for data in data_loader:
-    # Get the data
-    inputs, labels = data
+    <span class="token comment"># Use the DataLoader object like an iterator</span>
+    <span class="token keyword">for</span> data <span class="token keyword">in</span> data_loader<span class="token punctuation">:</span>
+        <span class="token comment"># Get the data</span>
+        inputs<span class="token punctuation">,</span> labels <span class="token operator">=</span> data
 
-# Use the data to train your model
-    train(model, inputs, labels)
-</code></pre>
-<p>The DataLoader class also has a <strong>iter</strong> method that returns an iterator over the dataset, allowing you to use the DataLoader instance in a for loop.</p>
-<pre><code># Create a DataLoader instance
-data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
+    <span class="token comment"># Use the data to train your model</span>
+        train<span class="token punctuation">(</span>model<span class="token punctuation">,</span> inputs<span class="token punctuation">,</span> labels<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>The DataLoader class also has a <strong>iter</strong> method that returns an iterator over the dataset, allowing you to use the DataLoader instance in a for loop.</p>
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    <span class="token comment"># Create a DataLoader instance</span>
+    data_loader <span class="token operator">=</span> DataLoader<span class="token punctuation">(</span>dataset<span class="token punctuation">,</span> batch_size<span class="token operator">=</span><span class="token number">32</span><span class="token punctuation">,</span> shuffle<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
 
-# Get an iterator over the dataset
-data_iterator = iter(data_loader)
+    <span class="token comment"># Get an iterator over the dataset</span>
+    data_iterator <span class="token operator">=</span> <span class="token builtin">iter</span><span class="token punctuation">(</span>data_loader<span class="token punctuation">)</span>
 
-# Use the iterator in a for loop
-for data in data_iterator:
-    # Get the data
-    inputs, labels = data
+    <span class="token comment"># Use the iterator in a for loop</span>
+    <span class="token keyword">for</span> data <span class="token keyword">in</span> data_iterator<span class="token punctuation">:</span>
+        <span class="token comment"># Get the data</span>
+        inputs<span class="token punctuation">,</span> labels <span class="token operator">=</span> data
 
-# Use the data to train your model
-    train(model, inputs, labels)
-</code></pre>
-<h2> <strong>collate_fn in DataLoader</strong></h2>
+    <span class="token comment"># Use the data to train your model</span>
+        train<span class="token punctuation">(</span>model<span class="token punctuation">,</span> inputs<span class="token punctuation">,</span> labels<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> <strong>collate_fn in DataLoader</strong></h2>
 <p>The DataLoader class also provides a way to customize the way data is loaded by defining a collate_fn function. The collate_fn function defines how the data will be combined into a mini-batch. This is useful when your dataset contains data of different sizes, such as images of different sizes.</p>
 <p>Here is an example of using a collate_fn function:</p>
-<pre><code># Import the DataLoader class
-from torch.utils.data import DataLoader
+<div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code>    <span class="token comment"># Import the DataLoader class</span>
+    <span class="token keyword">from</span> torch<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>data <span class="token keyword">import</span> DataLoader
 
-# Create a dataset
-dataset = SomeDataset()
+    <span class="token comment"># Create a dataset</span>
+    dataset <span class="token operator">=</span> SomeDataset<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
-# Define a collate function
-def collate_fn(data):
-    # Sort the data in descending order of length
-    data.sort(key=lambda x: len(x[0]), reverse=True)
+    <span class="token comment"># Define a collate function</span>
+    <span class="token keyword">def</span> <span class="token function">collate_fn</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">:</span>
+        <span class="token comment"># Sort the data in descending order of length</span>
+        data<span class="token punctuation">.</span>sort<span class="token punctuation">(</span>key<span class="token operator">=</span><span class="token keyword">lambda</span> x<span class="token punctuation">:</span> <span class="token builtin">len</span><span class="token punctuation">(</span>x<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span> reverse<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
 
-# Unpack the data
-    inputs, labels = zip(*data)
+    <span class="token comment"># Unpack the data</span>
+        inputs<span class="token punctuation">,</span> labels <span class="token operator">=</span> <span class="token builtin">zip</span><span class="token punctuation">(</span><span class="token operator">*</span>data<span class="token punctuation">)</span>
 
-# Pad the inputs
-    inputs = pad_sequence(inputs, batch_first=True)
+    <span class="token comment"># Pad the inputs</span>
+        inputs <span class="token operator">=</span> pad_sequence<span class="token punctuation">(</span>inputs<span class="token punctuation">,</span> batch_first<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
 
-return inputs, labels
+    <span class="token keyword">return</span> inputs<span class="token punctuation">,</span> labels
 
-# Create a DataLoader instance
-data_loader = DataLoader(dataset, batch_size=32, collate_fn=collate_fn)
+    <span class="token comment"># Create a DataLoader instance</span>
+    data_loader <span class="token operator">=</span> DataLoader<span class="token punctuation">(</span>dataset<span class="token punctuation">,</span> batch_size<span class="token operator">=</span><span class="token number">32</span><span class="token punctuation">,</span> collate_fn<span class="token operator">=</span>collate_fn<span class="token punctuation">)</span>
 
-# Use the DataLoader object like an iterator
-for data in data_loader:
-    # Get the data
-    inputs, labels = data
+    <span class="token comment"># Use the DataLoader object like an iterator</span>
+    <span class="token keyword">for</span> data <span class="token keyword">in</span> data_loader<span class="token punctuation">:</span>
+        <span class="token comment"># Get the data</span>
+        inputs<span class="token punctuation">,</span> labels <span class="token operator">=</span> data
 
-# Use the data to train your model
-    train(model, inputs, labels)
-</code></pre>
-<p><strong>Flowchat: How does DataLoader process data?</strong></p>
+    <span class="token comment"># Use the data to train your model</span>
+        train<span class="token punctuation">(</span>model<span class="token punctuation">,</span> inputs<span class="token punctuation">,</span> labels<span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>Flowchat: How does DataLoader process data?</strong></p>
 <figure><img src="https://cdn-images-1.medium.com/max/3600/0*KGB2LDb3-ppXVajd" alt="by Sue" tabindex="0" loading="lazy"><figcaption>by Sue</figcaption></figure>
 <pre><code>num_dataset = 160
 batch_size = 16
@@ -494,131 +550,6 @@ inputs, labels = data
 <p>Thank you for reading this post. If you enjoyed it, please consider following me on Medium and <a href="https://twitter.com/Sue_sk79" target="_blank" rel="noopener noreferrer">twitter</a> for more content about productivity tools and AI! 🔥</p>
 ]]></content:encoded>
       <enclosure url="https://cdn-images-1.medium.com/max/3600/0*KGB2LDb3-ppXVajd" type="image/"/>
-    </item>
-    <item>
-      <title>All you should know about translation equivariance/invariance in CNN</title>
-      <link>https://suegk.github.io/posts/2023-03-25.html</link>
-      <guid>https://suegk.github.io/posts/2023-03-25.html</guid>
-      <source url="https://suegk.github.io/rss.xml">All you should know about translation equivariance/invariance in CNN</source>
-      <description>All you should know about translation equivariance/invariance in CNN First published on Medium Translation invariance and translation equivariance are two important concepts in convolutional neural networks (CNNs) related to the network’s ability to recognise objects regardless of their position within an image.</description>
-      <category>CV</category>
-      <pubDate>Sat, 25 Mar 2023 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2> All you should know about translation equivariance/invariance in CNN</h2>
-<p>First published on <a href="https://medium.com/@sue.sk.guo/all-you-should-know-about-translation-equivariance-invariance-in-cnn-cbf2a2ad33cd" target="_blank" rel="noopener noreferrer">Medium</a></p>
-<p>Translation invariance and translation equivariance are two important concepts in convolutional neural networks (CNNs) related to the network’s ability to recognise objects regardless of their position within an image.</p>
-<figure><img src="https://cdn-images-1.medium.com/max/2394/1*hF9FN5Ruac76-s5zcfZ0tQ.png" alt="05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube" tabindex="0" loading="lazy"><figcaption>05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</figcaption></figure>
-<h2> Translation invariance</h2>
-<figure><img src="https://cdn-images-1.medium.com/max/2092/0*yddB6NGhDosJmw-q" alt="05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube" tabindex="0" loading="lazy"><figcaption>05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</figcaption></figure>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*uZ8kByev1Lc5oiDh2jxr7Q.gif" alt="05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube" tabindex="0" loading="lazy"><figcaption>05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</figcaption></figure>
-<p><strong>Translation invariance</strong> means that a CNN is able to recognise an object in an image regardless of its location or translation within the image. In other words, the network’s output should remain the same even if the image is shifted or translated in any direction. This property is desirable because it allows the network to generalize well to different images of the same object with different translations.</p>
-<p><strong>Summary:</strong></p>
-<ul>
-<li>Pooling layers help build shift invariance in convolutional networks.</li>
-<li>Shift invariance means that the same maximum value will be found under the pooling kernel even if the image is shifted slightly.</li>
-<li>However, this shift invariance is only locally true and may not hold if the image is shifted too much.</li>
-<li>Pooling is not completely bulletproof with regards to shift invariance, but it can still identify the same features in an image regardless of their position.</li>
-</ul>
-<h2> Translation equivariance</h2>
-<figure><img src="https://cdn-images-1.medium.com/max/2128/0*emgASPn__BRxHofS" alt="05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube" tabindex="0" loading="lazy"><figcaption>05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</figcaption></figure>
-<p>Translation equivariance, on the other hand, means that the network’s output is related to the location of the object within the image. More specifically, if the input image is shifted or translated, the output of the network will also be shifted or translated accordingly. This property is useful for tasks such as object detection, where the location of the object within the image is important.</p>
-<p>In CNNs, translation invariance is achieved through the use of pooling layers, which aggregate <strong>feature maps</strong> into a more compact representation while preserving the most important features. Meanwhile, translation equivariance is achieved through the use of convolutional layers, which apply a filter or kernel to the input image to <strong>extract local features</strong> that are then combined to form a larger, more complex feature map. By using a combination of convolutional and pooling layers, CNNs are able to achieve both translation invariance and equivariance, making them highly effective for image recognition tasks.</p>
-<h2> Max Pooling breaks shift equivariance? — Try antialiaing</h2>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/0*Wyy2QtclkDCkUXbA.gif" alt="Making Convolutional Networks Shift-Invariant Again" tabindex="0" loading="lazy"><figcaption>Making Convolutional Networks Shift-Invariant Again</figcaption></figure>
-<p>Convolutional neural networks (CNNs) are approximately shift equivalent through their convolutional layers. However, the use of Max Pooling layers can break shift equivariance (also known as translation equivariance). To address this issue, one solution is to use anti-aliasing techniques in Computer Vision, such as blurring the image and then down-sampling it. This technique can help preserve important features in the image while reducing the effect of minor shifts or translations, which in turn can improve the shift equivariance of the CNN.</p>
-<p>You can check more in the <a href="https://richzhang.github.io/antialiased-cnns/" target="_blank" rel="noopener noreferrer">paper</a></p>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*unim0oPZtXDmRnWSXz4cyQ.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>There is another research about <a href="http://visual.cs.ucl.ac.uk/pubs/harmonicNets/index.html" target="_blank" rel="noopener noreferrer">Harmonic Networks: Deep Translation and Rotation Equivariance</a></p>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/1*wIjQ3UY25Tk6BqHiI_1jZg.gif" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> CNN and Poorly shift invariant</h2>
-<p><a href="https://arxiv.org/abs/1805.12177" target="_blank" rel="noopener noreferrer">Why do deep convolutional networks generalize so poorly to small image transformations?</a></p>
-<blockquote>
-<p>Convolutional Neural Networks (CNNs) are commonly assumed to be invariant to small image transformations: either because of the convolutional architecture or because they were trained using data augmentation. Recently, several authors have shown that this is not the case: small translations or rescalings of the input image can drastically change the network’s prediction.
-In this paper, we quantify this phenomena and ask why neither the convolutional architecture nor data augmentation are sufficient to achieve the desired invariance. Specifically, we show that</p>
-<ul>
-<li>the convolutional architecture does not give invariance since architectures ignore the classical sampling theorem,</li>
-<li>and data augmentation does not give invariance because the CNNs learn to be invariant to transformations only for images that are very similar to typical images from the training set.
-We discuss two possible solutions to this problem:
-(1) antialiasing the intermediate representations and
-(2) increasing data augmentation and show that they provide only a partial solution at best.
-Taken together, our results indicate that the problem of insuring invariance to small image transformations in neural networks while preserving high accuracy remains unsolved.</li>
-</ul>
-</blockquote>
-<p>There are also some interesting opinions from (Chinese Platform)</p>
-<p><a href="https://www.zhihu.com/question/301522740/answer/531606623" target="_blank" rel="noopener noreferrer">Since CNN has translation invariance to images, will it be effective to use image translation (shift) for data augmentation to train CNN?</a></p>
-<ul>
-<li>It is precisely because pooling itself has weak translation invariance and will lose some information that in tasks that require translation equivariance (such as detection and segmentation), convolutional layers with a stride of 2 are often used instead of pooling layers.</li>
-<li>In many classification tasks, global pooling or pyramid pooling is often used at the end of the network to learn global features.</li>
-<li>The translation invariance that can be used for classification mainly comes from the parameters. Because of the translation equivalence of convolutional layers, this kind of translation invariance is mainly learned by the final fully connected layer, and it is more difficult for networks without fully connected layers to have this property.</li>
-<li>To summarize, the translation invariance of CNN mainly comes from data learning, and the structure can only bring very weak translation invariance, while learning relies on data augmentation.</li>
-</ul>
-<h3> Reference</h3>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=a4Quhf9NhMY&amp;t=944s" target="_blank" rel="noopener noreferrer">05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</a></li>
-<li><a href="https://chriswolfvision.medium.com/what-is-translation-equivariance-and-why-do-we-use-convolutions-to-get-it-6f18139d4c59" target="_blank" rel="noopener noreferrer">What is translation equivariance, and why do we use convolutions to get it? | by Christian Wolf | Medium</a></li>
-<li><a href="https://richzhang.github.io/antialiased-cnns/" target="_blank" rel="noopener noreferrer">Making Convolutional Networks Shift-Invariant Again</a></li>
-<li><a href="http://visual.cs.ucl.ac.uk/pubs/harmonicNets/index.html" target="_blank" rel="noopener noreferrer">Harmonic Networks: Deep Translation and Rotation Equivariance</a></li>
-<li><a href="https://www.zhihu.com/question/301522740/answer/531606623" target="_blank" rel="noopener noreferrer">Since CNN has translation invariance to images, will it be effective to use image translation (shift) for data augmentation to train CNN?</a></li>
-</ul>
-]]></content:encoded>
-      <enclosure url="https://cdn-images-1.medium.com/max/2394/1*hF9FN5Ruac76-s5zcfZ0tQ.png" type="image/png"/>
-    </item>
-    <item>
-      <title>Tools</title>
-      <link>https://suegk.github.io/Algorithm/Conference-Workshop.html</link>
-      <guid>https://suegk.github.io/Algorithm/Conference-Workshop.html</guid>
-      <source url="https://suegk.github.io/rss.xml">Tools</source>
-      <description>Tools AMiner 🌟 AMiner (aminer.org) aims to provide comprehensive search and mining services for researcher social networks. In this system, we focus on: (1) creating a semantic-based profile for each researcher by extracting information from the distributed Web; (2) integrating academic data (e.g., the bibliographic data and the researcher profiles) from multiple sources; (3) accurately searching the heterogeneous network; (4) analyzing and discovering interesting patterns from the built researcher social network. The main search and analysis functions in AMiner include:</description>
-      <pubDate>Mon, 27 Mar 2023 00:43:32 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Tools</h1>
-<h2> <a href="https://www.aminer.cn/introduction" target="_blank" rel="noopener noreferrer">AMiner</a> 🌟</h2>
-<blockquote>
-<p><a href="http://aminer.org/" target="_blank" rel="noopener noreferrer">AMiner  </a>(<a href="http://aminer.org" target="_blank" rel="noopener noreferrer">aminer.org</a>) aims to provide comprehensive search and mining services for researcher social networks. In this system, we focus on:</p>
-<p>(1) creating a semantic-based profile for each researcher by extracting information from the distributed Web;</p>
-<p>(2) integrating academic data (e.g., the bibliographic data and the researcher profiles) from multiple sources;</p>
-<p>(3) accurately searching the heterogeneous network;</p>
-<p>(4) analyzing and discovering interesting patterns from the built researcher social network. The main search and analysis functions in AMiner include:</p>
-</blockquote>
-<ul>
-<li><a href="http://aminer.org/" target="_blank" rel="noopener noreferrer">Profile search</a>: input a researcher name (e.g.,<a href="http://aminer.org/profile/jie-tang/53f46a3edabfaee43ed05f08" target="_blank" rel="noopener noreferrer">Jie Tang</a>), the system will return the semantic-based profile created for the researcher using information extraction techniques. In the profile page, the extracted and integrated information include: contact information, photo, citation statistics, academic achievement evaluation, (temporal) research interest, educational history, personal social graph, research funding (currently only US and CN), and publication records (including citation information, and the papers are automatically assigned to several different domains).</li>
-<li><a href="http://aminer.org/" target="_blank" rel="noopener noreferrer">Expert finding</a>: input a query (e.g., data mining), the system will return experts on this topic. In addition, the system will suggest the top conference and the top ranked papers on this topic. There are two ranking algorithms, VSM and ACT. The former is similar to the conventional language model and the latter is based on our Author-Conference-Topic (ACT) model. Users can also provide feedbacks to the search results.</li>
-<li><a href="https://cn.aminer.org/ranks/conf" target="_blank" rel="noopener noreferrer">Conference analysis</a>: input a conference name (e.g., KDD), the system returns who are the most active researchers on this conference, and the top-ranked papers.</li>
-<li><a href="https://www.aminer.cn/#" target="_blank" rel="noopener noreferrer">Course search</a>: input a query (e.g., data mining), the system will tell you who are teaching courses relevant to the query.</li>
-<li><a href="https://www.aminer.cn/#" target="_blank" rel="noopener noreferrer">Sub-graph search</a>: input a query (e.g., data mining), the system first tells you what topics are relevant to the query (e.g., five topics "Data mining", "XML Data", "Data Mining / Query Processing", "Web Data / Database design", "Web Mining" are relevant), and then display the most important sub-graph discovered on each relevant topic, augmented with a summary for the sub-graph.</li>
-<li><a href="https://www.aminer.cn/#" target="_blank" rel="noopener noreferrer">Topic browser</a>: based on our Author-Conference-Topic (ACT) model, we automatically discover 200 hot topics from the publications. For each topic, we automatically assign a label to represent its meanings. Furthermore, the browser presents the most active researchers, the most relevant conferences/papers, and the evolution trend of the topic is discovered.</li>
-<li><a href="https://cn.aminer.org/academicstatistics" target="_blank" rel="noopener noreferrer">Academic ranks</a>: we define 8  <a href="http://aminer.org/AcademicStatistics" target="_blank" rel="noopener noreferrer">measures  </a>to evaluate the researcher's achievement. The  <a href="http://aminer.org/AcademicStatistics" target="_blank" rel="noopener noreferrer">measures  </a>include "h -index", "Citation", "Uptrend, "Activity", "Longevity", "Diversity, "Sociability", "New Star". For each measure, we output a ranking list in different domains. For example, one can search who have the highest citation number in the "data mining" domain.</li>
-<li><a href="https://www.aminer.cn/#" target="_blank" rel="noopener noreferrer">User management</a>: one can register as a user to: (1) modify the extracted profile information; (2) provide feedback on the search results; (3) follow researchers in AMiner; (4) create an AMiner page (which can be used to advertise confs/workshops, or recruit students).</li>
-</ul>
-<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/X64Hh3.png" alt="X64Hh3" tabindex="0" loading="lazy"><figcaption>X64Hh3</figcaption></figure>
-<figure><img src="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/HXLtQX.png" alt="HXLtQX" tabindex="0" loading="lazy"><figcaption>HXLtQX</figcaption></figure>
-<p>Keep you updated with state-of-the-art technology is really important in the Machine learning and deep learning field.</p>
-<p>There are some tips from Andre NG on how to read research papers. <a href="https://www.youtube.com/watch?v=733m6qBH-jI" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=733m6qBH-jI</a></p>
-<p>So, where can we find the popular papers?</p>
-<h2> Paperswithcode — <a href="https://paperswithcode.com/sota" target="_blank" rel="noopener noreferrer">Browse State-of-the-Art</a></h2>
-<p>The papers are well categorized so you can follow what Andre said, choose an area of interest like semantic segmentation, and read 15–20 papers to get a good understanding of this field. More importantly, you can find the paper’s code.</p>
-<p><img src="https://miro.medium.com/max/1368/1*tGqJ4kOcwBtYH8qZf5oowQ.png" alt="" loading="lazy"><img src="https://miro.medium.com/max/1048/1*GFD5JPhEEXzp7vwMmKfpjw.png" alt="" loading="lazy"></p>
-<h2> <a href="https://nn.labml.ai/index.html" target="_blank" rel="noopener noreferrer">labml.ai Deep Learning Paper Implementations</a></h2>
-<p>59 Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, …), optimizers (adam, adabelief, …), gans(cyclegan, stylegan2, …), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, … 🧠</p>
-<p>This is a collection of simple PyTorch implementations of neural networks and related algorithms. These implementations are documented with explanations. So you are able to read the paper while understanding how to implement it by Pytorch.</p>
-<figure><img src="https://miro.medium.com/max/1400/1*QI_S19lNihupZgpJj7eMfg.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> <a href="http://labml.ai" target="_blank" rel="noopener noreferrer">labml.ai</a> — <a href="https://papers.labml.ai/" target="_blank" rel="noopener noreferrer">Trending Research Papers</a></h2>
-<p>The most popular research papers on social media like Twitter. You can easily find links to download papers, paper summaries, explanation videos, and discussions.</p>
-<p><img src="https://miro.medium.com/max/1400/1*7pr_Bk_Sh38aNgmzOPgb1A.png" alt="" loading="lazy"><img src="https://miro.medium.com/max/1400/1*XJkaJCU4qvndNY1pUV5VZw.png" alt="" loading="lazy"><img src="https://miro.medium.com/max/1400/1*MxxeMhbirfw3CcN9Vs4eRg.png" alt="" loading="lazy"></p>
-<p>The chrome extension is really helpful as well.</p>
-<div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>This extension shows you the following details about research papers:
-✨ 2-line summary
-✨ Availability source code, videos, and discussions
-✨ Popularity on Twitter
-✨ Conferences
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> <a href="https://aman.ai/papers/#noise-contrastive-estimation-a-new-estimation-principle-for-unnormalized-statistical-models" target="_blank" rel="noopener noreferrer">Paper lists made by Aman</a></h2>
-<p>A summary of key papers in Computer Vision, NLP, and Speech recognition.</p>
-<figure><img src="https://miro.medium.com/max/1400/1*BdkxFnegXS0g0sHUNW-Akw.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> <a href="https://deeplearn.org/" target="_blank" rel="noopener noreferrer">Deep Learning Monitor</a></h2>
-<p>Another website where you can find the hot papers on social media.</p>
-<p>The great feature is that you can create some monitors with the keywords related to the topic of interest and check new updates every one or two weeks. Once you find a good paper and you log in Mendeley on this website, you can directly send it to your Mendeley account.</p>
-<p><img src="https://miro.medium.com/max/1400/1*3HtQpm1hSI6ApIAIOl3YvQ.png" alt="" loading="lazy"><img src="https://miro.medium.com/max/1400/1*cz1BAvWn42uztuayw0dm-w.png" alt="" loading="lazy"></p>
-]]></content:encoded>
-      <enclosure url="https://testksj.oss-cn-beijing.aliyuncs.com/uPic/X64Hh3.png" type="image/png"/>
     </item>
   </channel>
 </rss>

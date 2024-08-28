@@ -1,9 +1,11 @@
-
 ---
 title: Git学习
 icon: code
 article: false
+
 ---
+git
+
 ```console
 $ git add -h
 usage: git add [<options>] [--] <pathspec>...
@@ -733,7 +735,7 @@ Let's look at each one of these flags.
 
 Using the sample repo above with `HEAD` pointing to `master` on commit `9ec05ca`, running `git reset --mixed HEAD^` will take the changes made in commit `9ec05ca` and move them to the working directory.
 
-![The Terminal application showing the result of resetting with the --mixed</code> flag. The changes are unstaged.](https://video.udacity-data.com/topher/2017/February/58a4e242_ud123-l6-git-revert-mixed/ud123-l6-git-revert-mixed.png)
+![The Terminal application showing the result of resetting with the --mixed</code></code> flag. The changes are unstaged.](https://video.udacity-data.com/topher/2017/February/58a4e242_ud123-l6-git-revert-mixed/ud123-l6-git-revert-mixed.png)
 
 _The Terminal application showing the result of resetting with the `--mixed` flag. The changes are unstaged._
 
@@ -761,7 +763,7 @@ Let's use the same few commits and look at how the `--soft` flag works:
 
 Running `git reset --soft HEAD^` will take the changes made in commit `9ec05ca` and move them directly to the Staging Index.
 
-![The Terminal application showing the result of resetting with the --soft</code> flag. The changes are moved to the Staging Index.](https://video.udacity-data.com/topher/2017/February/58a4e29a_ud123-l6-git-revert-soft/ud123-l6-git-revert-soft.png)
+![The Terminal application showing the result of resetting with the --soft</code></code> flag. The changes are moved to the Staging Index.](https://video.udacity-data.com/topher/2017/February/58a4e29a_ud123-l6-git-revert-soft/ud123-l6-git-revert-soft.png)
 
 _The Terminal application showing the result of resetting with the `--soft` flag. The changes are moved to the Staging Index._
 
@@ -777,7 +779,7 @@ Last but not least, let's look at the `--hard` flag:
 
 Running `git reset --hard HEAD^` will take the changes made in commit `9ec05ca` and erases them.
 
-![The Terminal application showing the result of resetting with the --hard</code> flag. The changes are moved erased.](https://video.udacity-data.com/topher/2017/February/58a4e2c2_ud123-l6-git-revert-hard/ud123-l6-git-revert-hard.png)
+![The Terminal application showing the result of resetting with the --hard</code></code> flag. The changes are moved erased.](https://video.udacity-data.com/topher/2017/February/58a4e2c2_ud123-l6-git-revert-hard/ud123-l6-git-revert-hard.png)
 
 _The Terminal application showing the result of resetting with the `--hard` flag. The changes are moved erased._
 

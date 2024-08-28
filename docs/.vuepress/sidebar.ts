@@ -42,7 +42,7 @@ export default sidebar([
   },
   
   {
-    text: "👩‍💻 Code",
+    text: "Code",
     icon: "",
     prefix: "/Code/",
     link: "",

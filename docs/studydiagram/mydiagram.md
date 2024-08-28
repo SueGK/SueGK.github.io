@@ -1,3 +1,10 @@
+---
+article: true
+title: 自制的流程图 
+icon: fa6-solid:object-ungroup
+order: 1
+---
+
 # 🖼️ 自制的流程图
 
 ## 1. ReAct Prompt

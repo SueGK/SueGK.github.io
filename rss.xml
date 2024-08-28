@@ -6,12 +6,149 @@
     <link>https://suegk.github.io/</link>
     <description>Artificial Intelligence | Deep Learning | Productivity Software | Note-Taking</description>
     <language>en-US</language>
-    <pubDate>Wed, 28 Aug 2024 03:41:50 GMT</pubDate>
-    <lastBuildDate>Wed, 28 Aug 2024 03:41:50 GMT</lastBuildDate>
+    <pubDate>Wed, 28 Aug 2024 03:52:02 GMT</pubDate>
+    <lastBuildDate>Wed, 28 Aug 2024 03:52:02 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Pytorch</category>
     <category>CV</category>
-    <category>使用指南</category>
+    <item>
+      <title>All you should know about translation equivariance/invariance in CNN</title>
+      <link>https://suegk.github.io/posts/2022-12-06.html</link>
+      <guid>https://suegk.github.io/posts/2022-12-06.html</guid>
+      <source url="https://suegk.github.io/rss.xml">All you should know about translation equivariance/invariance in CNN</source>
+      <description>by Sue Create a custom dataset To create a customized dataset in PyTorch, you should create a subclass of the torch.utils.data.Dataset class and implement the following methods:</description>
+      <category>Pytorch</category>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<figure><img src="https://cdn-images-1.medium.com/max/3600/0*KGB2LDb3-ppXVajd" alt="by Sue" tabindex="0" loading="lazy"><figcaption>by Sue</figcaption></figure>
+<h2> <strong>Create a custom dataset</strong></h2>
+<p>To create a customized dataset in PyTorch, you should create a subclass of the torch.utils.data.Dataset class and implement the following methods:</p>
+<ul>
+<li><strong>init</strong>(): This method should initialize the dataset and any instance variables that you need. It should accept any arguments necessary to create the dataset.</li>
+<li><strong>len</strong>(): This method should return the length of the dataset (i.e. the number of samples in the dataset).</li>
+<li><strong>getitem</strong>(idx): This method should return the data for the sample with the specified index. The returned data should be a tuple containing the data and the corresponding label for the sample.</li>
+</ul>
+<p>Here is an example of how your custom dataset class might look:</p>
+<pre><code>import torch
+from torch.utils.data import Dataset
+
+class CustomDataset(Dataset):
+    def__init__(self, data, labels):
+        self.data = data
+        self.labels = labels
+
+def__len__(self):
+        return len(self.labels)
+
+def__getitem__(self, idx):
+        return self.data[idx], self.labels[idx]
+</code></pre>
+<p>To use your custom dataset, you can create an instance of the class and then pass it to a PyTorch DataLoader object. The DataLoader can then be used to iterate over the dataset and retrieve the samples.</p>
+<pre><code># Create an instance of the CustomDataset class
+dataset = CustomDataset(data, labels)
+
+# Create a DataLoader for the dataset
+dataloader = torch.utils.data.DataLoader(dataset, batch_size=32, shuffle=True)
+
+# Loop over the dataloader to retrieve the samples
+for data, labels in dataloader:
+    # Do something with the data and labels
+</code></pre>
+<p>You can learn more about creating custom datasets in PyTorch in the official PyTorch documentation: <a href="https://pytorch.org/docs/stable/data.html#creating-custom-datasets" target="_blank" rel="noopener noreferrer">https://pytorch.org/docs/stable/data.html#creating-custom-datasets</a></p>
+<h2> <strong>what does dataloader do?</strong></h2>
+<p>A PyTorch DataLoader is an object that provides a number of benefits when working with large datasets. It is typically used in conjunction with a Dataset object that provides the data that the DataLoader will iterate over.</p>
+<p>The main purpose of the DataLoader is to batch the data from the Dataset and provide it to the model during training. It allows you to specify the batch size and whether or not the data should be shuffled each epoch. This can be useful for training models on large datasets that don't fit in memory, as it allows the data to be processed in smaller batches.</p>
+<p>In addition to batching the data, the DataLoader can also be used to perform data augmentation and preprocessing on the fly. This can be useful for tasks like image classification, where you may want to apply random transformations to the images in each batch to improve the model's generalization ability.</p>
+<p>Overall, the DataLoader is an important part of the PyTorch data processing pipeline, and is typically used when training deep learning models on large datasets. It provides an iterator over a dataset, allowing you to train your model on a large dataset by loading only a small portion of the data into memory at a time.</p>
+<p>The DataLoader class takes a dataset and a batch size as input and returns an iterator over the dataset that yields mini-batches of data. You can use the DataLoader class to shuffle the data and define the number of workers that will be used to load the data in parallel.</p>
+<p>One way to use the DataLoader class is with the for loop. Here is an example:</p>
+<pre><code># Import the DataLoader class
+from torch.utils.data import DataLoader
+
+# Create a dataset
+dataset = SomeDataset()
+
+# Create a DataLoader instance
+data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
+
+# Use the DataLoader object like an iterator
+for data in data_loader:
+    # Get the data
+    inputs, labels = data
+
+# Use the data to train your model
+    train(model, inputs, labels)
+</code></pre>
+<p>The DataLoader class also has a <strong>iter</strong> method that returns an iterator over the dataset, allowing you to use the DataLoader instance in a for loop.</p>
+<pre><code># Create a DataLoader instance
+data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
+
+# Get an iterator over the dataset
+data_iterator = iter(data_loader)
+
+# Use the iterator in a for loop
+for data in data_iterator:
+    # Get the data
+    inputs, labels = data
+
+# Use the data to train your model
+    train(model, inputs, labels)
+</code></pre>
+<h2> <strong>collate_fn in DataLoader</strong></h2>
+<p>The DataLoader class also provides a way to customize the way data is loaded by defining a collate_fn function. The collate_fn function defines how the data will be combined into a mini-batch. This is useful when your dataset contains data of different sizes, such as images of different sizes.</p>
+<p>Here is an example of using a collate_fn function:</p>
+<pre><code># Import the DataLoader class
+from torch.utils.data import DataLoader
+
+# Create a dataset
+dataset = SomeDataset()
+
+# Define a collate function
+def collate_fn(data):
+    # Sort the data in descending order of length
+    data.sort(key=lambda x: len(x[0]), reverse=True)
+
+# Unpack the data
+    inputs, labels = zip(*data)
+
+# Pad the inputs
+    inputs = pad_sequence(inputs, batch_first=True)
+
+return inputs, labels
+
+# Create a DataLoader instance
+data_loader = DataLoader(dataset, batch_size=32, collate_fn=collate_fn)
+
+# Use the DataLoader object like an iterator
+for data in data_loader:
+    # Get the data
+    inputs, labels = data
+
+# Use the data to train your model
+    train(model, inputs, labels)
+</code></pre>
+<p><strong>Flowchat: How does DataLoader process data?</strong></p>
+<figure><img src="https://cdn-images-1.medium.com/max/3600/0*KGB2LDb3-ppXVajd" alt="by Sue" tabindex="0" loading="lazy"><figcaption>by Sue</figcaption></figure>
+<pre><code>num_dataset = 160
+batch_size = 16
+iteration = num_dataset / batch_size = 10 for i, data in enumerate(train_loader):
+inputs, labels = data
+</code></pre>
+<p>When using a DataLoader instance in PyTorch, you can iterate over it in a for loop to retrieve the data in mini-batches.</p>
+<p>In this example, the DataLoader instance will use a DataLoaderIter instance to load the data. The DataLoaderIter instance will call the Sampler to generate a list of indices that specify which elements from the dataset should be included in the mini-batch. The DataLoaderIter will then use a DatasetFetcher instance to retrieve the data from the dataset using the generated indices.</p>
+<p>The DatasetFetcher instance will call the <strong>getitem</strong> method of the Dataset to retrieve the data for each index in the list of indices. This will return a list of data samples, where each sample is a tuple containing the input data and the corresponding label.</p>
+<p>Finally, the DataLoaderIter will use the collate_fn function to combine the data samples into a mini-batch. The collate_fn function can be customized to define how the data will be combined into a mini-batch. The output of the collate_fn function is a mini-batch of data that is ready to be used by your model for training or evaluation.</p>
+<p>In summary, when using a DataLoader instance in PyTorch,</p>
+<ul>
+<li>The resulting mini-batch of data is then yielded by the DataLoader instance in a for loop, and then decide whether to use a single or multi-process DataLoaderIter depending on whether multi-processing is used.</li>
+<li>the data is loaded in mini-batches using a Sampler to generate indices</li>
+<li>a DatasetFetcher to retrieve the data from the dataset based on the indices. In the DatasetFetcher, the <strong>getitem</strong>() method of the Dataset is called to get the real data. The data obtained here is a list, where each element is a tuple of (img, label)</li>
+<li>a collate_fn function to combine the data into a mini-batch. So the data here is a list containing two elements, the tenser of img and label respectively.</li>
+</ul>
+<p>Thank you for reading this post. If you enjoyed it, please consider following me on Medium and <a href="https://twitter.com/Sue_sk79" target="_blank" rel="noopener noreferrer">twitter</a> for more content about productivity tools and AI! 🔥</p>
+]]></content:encoded>
+      <enclosure url="https://cdn-images-1.medium.com/max/3600/0*KGB2LDb3-ppXVajd" type="image/"/>
+    </item>
     <item>
       <title>All you should know about translation equivariance/invariance in CNN</title>
       <link>https://suegk.github.io/posts/2023-03-25.html</link>
@@ -23,32 +160,24 @@
       <content:encoded><![CDATA[<h2> All you should know about translation equivariance/invariance in CNN</h2>
 <p>First published on <a href="https://medium.com/@sue.sk.guo/all-you-should-know-about-translation-equivariance-invariance-in-cnn-cbf2a2ad33cd" target="_blank" rel="noopener noreferrer">Medium</a></p>
 <p>Translation invariance and translation equivariance are two important concepts in convolutional neural networks (CNNs) related to the network’s ability to recognise objects regardless of their position within an image.</p>
-<figure><img src="https://cdn-images-1.medium.com/max/2394/1*hF9FN5Ruac76-s5zcfZ0tQ.png" alt="05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube" tabindex="0" loading="lazy"><figcaption><a href="https://www.youtube.com/watch?v=a4Quhf9NhMY&amp;t=944s" target="_blank" rel="noopener noreferrer">05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</a></figcaption></figure>
+<figure><img src="https://cdn-images-1.medium.com/max/2394/1*hF9FN5Ruac76-s5zcfZ0tQ.png" alt="05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube" tabindex="0" loading="lazy"><figcaption>05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</figcaption></figure>
 <h2> Translation invariance</h2>
 <figure><img src="https://cdn-images-1.medium.com/max/2092/0*yddB6NGhDosJmw-q" alt="05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube" tabindex="0" loading="lazy"><figcaption>05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</figcaption></figure>
 <figure><img src="https://cdn-images-1.medium.com/max/2000/1*uZ8kByev1Lc5oiDh2jxr7Q.gif" alt="05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube" tabindex="0" loading="lazy"><figcaption>05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</figcaption></figure>
 <p><strong>Translation invariance</strong> means that a CNN is able to recognise an object in an image regardless of its location or translation within the image. In other words, the network’s output should remain the same even if the image is shifted or translated in any direction. This property is desirable because it allows the network to generalize well to different images of the same object with different translations.</p>
 <p><strong>Summary:</strong></p>
 <ul>
-<li>
-<p>Pooling layers help build shift invariance in convolutional networks.</p>
-</li>
-<li>
-<p>Shift invariance means that the same maximum value will be found under the pooling kernel even if the image is shifted slightly.</p>
-</li>
-<li>
-<p>However, this shift invariance is only locally true and may not hold if the image is shifted too much.</p>
-</li>
-<li>
-<p>Pooling is not completely bulletproof with regards to shift invariance, but it can still identify the same features in an image regardless of their position.</p>
-</li>
+<li>Pooling layers help build shift invariance in convolutional networks.</li>
+<li>Shift invariance means that the same maximum value will be found under the pooling kernel even if the image is shifted slightly.</li>
+<li>However, this shift invariance is only locally true and may not hold if the image is shifted too much.</li>
+<li>Pooling is not completely bulletproof with regards to shift invariance, but it can still identify the same features in an image regardless of their position.</li>
 </ul>
 <h2> Translation equivariance</h2>
 <figure><img src="https://cdn-images-1.medium.com/max/2128/0*emgASPn__BRxHofS" alt="05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube" tabindex="0" loading="lazy"><figcaption>05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</figcaption></figure>
 <p>Translation equivariance, on the other hand, means that the network’s output is related to the location of the object within the image. More specifically, if the input image is shifted or translated, the output of the network will also be shifted or translated accordingly. This property is useful for tasks such as object detection, where the location of the object within the image is important.</p>
 <p>In CNNs, translation invariance is achieved through the use of pooling layers, which aggregate <strong>feature maps</strong> into a more compact representation while preserving the most important features. Meanwhile, translation equivariance is achieved through the use of convolutional layers, which apply a filter or kernel to the input image to <strong>extract local features</strong> that are then combined to form a larger, more complex feature map. By using a combination of convolutional and pooling layers, CNNs are able to achieve both translation invariance and equivariance, making them highly effective for image recognition tasks.</p>
 <h2> Max Pooling breaks shift equivariance? — Try antialiaing</h2>
-<figure><img src="https://cdn-images-1.medium.com/max/2000/0*Wyy2QtclkDCkUXbA.gif" alt="Making Convolutional Networks Shift-Invariant Again" tabindex="0" loading="lazy"><figcaption><a href="https://richzhang.github.io/antialiased-cnns/" target="_blank" rel="noopener noreferrer">Making Convolutional Networks Shift-Invariant Again</a></figcaption></figure>
+<figure><img src="https://cdn-images-1.medium.com/max/2000/0*Wyy2QtclkDCkUXbA.gif" alt="Making Convolutional Networks Shift-Invariant Again" tabindex="0" loading="lazy"><figcaption>Making Convolutional Networks Shift-Invariant Again</figcaption></figure>
 <p>Convolutional neural networks (CNNs) are approximately shift equivalent through their convolutional layers. However, the use of Max Pooling layers can break shift equivariance (also known as translation equivariance). To address this issue, one solution is to use anti-aliasing techniques in Computer Vision, such as blurring the image and then down-sampling it. This technique can help preserve important features in the image while reducing the effect of minor shifts or translations, which in turn can improve the shift equivariance of the CNN.</p>
 <p>You can check more in the <a href="https://richzhang.github.io/antialiased-cnns/" target="_blank" rel="noopener noreferrer">paper</a></p>
 <figure><img src="https://cdn-images-1.medium.com/max/2000/1*unim0oPZtXDmRnWSXz4cyQ.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -71,50 +200,21 @@ Taken together, our results indicate that the problem of insuring invariance to 
 <p>There are also some interesting opinions from (Chinese Platform)</p>
 <p><a href="https://www.zhihu.com/question/301522740/answer/531606623" target="_blank" rel="noopener noreferrer">Since CNN has translation invariance to images, will it be effective to use image translation (shift) for data augmentation to train CNN?</a></p>
 <ul>
-<li>
-<p>It is precisely because pooling itself has weak translation invariance and will lose some information that in tasks that require translation equivariance (such as detection and segmentation), convolutional layers with a stride of 2 are often used instead of pooling layers.</p>
-</li>
-<li>
-<p>In many classification tasks, global pooling or pyramid pooling is often used at the end of the network to learn global features.</p>
-</li>
-<li>
-<p>The translation invariance that can be used for classification mainly comes from the parameters. Because of the translation equivalence of convolutional layers, this kind of translation invariance is mainly learned by the final fully connected layer, and it is more difficult for networks without fully connected layers to have this property.</p>
-</li>
-<li>
-<p>To summarize, the translation invariance of CNN mainly comes from data learning, and the structure can only bring very weak translation invariance, while learning relies on data augmentation.</p>
-</li>
+<li>It is precisely because pooling itself has weak translation invariance and will lose some information that in tasks that require translation equivariance (such as detection and segmentation), convolutional layers with a stride of 2 are often used instead of pooling layers.</li>
+<li>In many classification tasks, global pooling or pyramid pooling is often used at the end of the network to learn global features.</li>
+<li>The translation invariance that can be used for classification mainly comes from the parameters. Because of the translation equivalence of convolutional layers, this kind of translation invariance is mainly learned by the final fully connected layer, and it is more difficult for networks without fully connected layers to have this property.</li>
+<li>To summarize, the translation invariance of CNN mainly comes from data learning, and the structure can only bring very weak translation invariance, while learning relies on data augmentation.</li>
 </ul>
 <h3> Reference</h3>
 <ul>
-<li>
-<p><a href="https://www.youtube.com/watch?v=a4Quhf9NhMY&amp;t=944s" target="_blank" rel="noopener noreferrer">05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</a></p>
-</li>
-<li>
-<p><a href="https://chriswolfvision.medium.com/what-is-translation-equivariance-and-why-do-we-use-convolutions-to-get-it-6f18139d4c59" target="_blank" rel="noopener noreferrer">What is translation equivariance, and why do we use convolutions to get it? | by Christian Wolf | Medium</a></p>
-</li>
-<li>
-<p><a href="https://richzhang.github.io/antialiased-cnns/" target="_blank" rel="noopener noreferrer">Making Convolutional Networks Shift-Invariant Again</a></p>
-</li>
-<li>
-<p><a href="http://visual.cs.ucl.ac.uk/pubs/harmonicNets/index.html" target="_blank" rel="noopener noreferrer">Harmonic Networks: Deep Translation and Rotation Equivariance</a></p>
-</li>
-<li>
-<p><a href="https://www.zhihu.com/question/301522740/answer/531606623" target="_blank" rel="noopener noreferrer">Since CNN has translation invariance to images, will it be effective to use image translation (shift) for data augmentation to train CNN?</a></p>
-</li>
+<li><a href="https://www.youtube.com/watch?v=a4Quhf9NhMY&amp;t=944s" target="_blank" rel="noopener noreferrer">05 Imperial’s Deep learning course: Equivariance and Invariance — YouTube</a></li>
+<li><a href="https://chriswolfvision.medium.com/what-is-translation-equivariance-and-why-do-we-use-convolutions-to-get-it-6f18139d4c59" target="_blank" rel="noopener noreferrer">What is translation equivariance, and why do we use convolutions to get it? | by Christian Wolf | Medium</a></li>
+<li><a href="https://richzhang.github.io/antialiased-cnns/" target="_blank" rel="noopener noreferrer">Making Convolutional Networks Shift-Invariant Again</a></li>
+<li><a href="http://visual.cs.ucl.ac.uk/pubs/harmonicNets/index.html" target="_blank" rel="noopener noreferrer">Harmonic Networks: Deep Translation and Rotation Equivariance</a></li>
+<li><a href="https://www.zhihu.com/question/301522740/answer/531606623" target="_blank" rel="noopener noreferrer">Since CNN has translation invariance to images, will it be effective to use image translation (shift) for data augmentation to train CNN?</a></li>
 </ul>
 ]]></content:encoded>
-      <enclosure url="https://www.youtube.com/watch?v=a4Quhf9NhMY&t=944s" type="image/"/>
-    </item>
-    <item>
-      <title>博客文章样例</title>
-      <link>https://suegk.github.io/posts/test.html</link>
-      <guid>https://suegk.github.io/posts/test.html</guid>
-      <source url="https://suegk.github.io/rss.xml">博客文章样例</source>
-      <description>博客文章内容，支持 Markdown 和 HTML 语言。</description>
-      <category>使用指南</category>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>博客文章内容，支持 Markdown 和 HTML 语言。</p>
-]]></content:encoded>
+      <enclosure url="https://cdn-images-1.medium.com/max/2394/1*hF9FN5Ruac76-s5zcfZ0tQ.png" type="image/png"/>
     </item>
     <item>
       <title>Tools</title>
